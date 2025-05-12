@@ -1,0 +1,144 @@
+============================= NETWORK ESSENTIALS - SHEET 1 =============================
+
+======= OSI & TCP/IP MODELS =======
+OSI (7 layers):                  │ TCP/IP (4 layers):
+7. Application                   │ 4. Application (HTTP, FTP, SMTP, DNS)
+6. Presentation                  │ 3. Transport (TCP, UDP)
+5. Session                       │ 2. Internet (IP, ICMP, ARP)
+4. Transport                     │ 1. Network Access (Ethernet, PPP)
+3. Network                       │
+2. Data Link                     │ DATA ENCAPSULATION:
+1. Physical                      │ Data→Segments→Packets→Frames→Bits
+
+======= NETWORK CLASSIFICATIONS =======
+Scope: PAN→LAN→MAN→WAN           │ Architecture: Client-Server, P2P
+Topology: Bus, Star, Ring, Mesh  │ Media: Wired (UTP/STP/Fiber), Wireless (WiFi)
+
+======= NETWORKING DEVICES =======
+│ Device   │ Layer │ Domain     │ Function                                         │
+│ Hub      │ 1     │ Coll.      │ Repeats signals to all ports                     │
+│ Switch   │ 2     │ Coll.      │ Forwards frames using MAC addresses              │
+│ Router   │ 3     │ Broad.+Coll│ Routes packets between networks                  │
+│ Gateway  │ 3-7   │ All        │ Connects dissimilar networks/protocols           │
+
+======= ETHERNET (802.3) =======
+CSMA/CD: Carrier Sense Multiple Access/Collision Detection
+MAC Address: 48-bit (6-byte) physical address (OUI:3bytes + NIC:3bytes)
+
+Ethernet Frame:
+┌─────────┬─────────┬─────────┬─────────┬─────────┬───────────┬─────────┐
+│Preamble │Dest MAC │Src MAC  │Type/Len │Data     │Pad        │FCS/CRC  │
+│8 bytes  │6 bytes  │6 bytes  │2 bytes  │46-1500B │0-46 bytes │4 bytes  │
+└─────────┴─────────┴─────────┴─────────┴─────────┴───────────┴─────────┘
+
+======= VLAN =======
+• Virtual LAN: Logical segmentation of a LAN
+• Benefits: Security, Broadcast control, Flexibility, Performance
+• VLAN Tagging: 802.1Q standard (4-byte tag inserted in Ethernet frame)
+• Port types: Access port (untagged), Trunk port (tagged)
+• Native VLAN: Untagged VLAN on trunk (default VLAN 1)
+
+======= IPv4 ADDRESSING =======
+Format: 32 bits, dotted decimal (x.x.x.x)
+Classes:
+• A: 1-126 (0.0.0.0/8 - 127.0.0.0/8) [Default Mask: 255.0.0.0]
+• B: 128-191 (128.0.0.0/16 - 191.255.0.0/16) [Default Mask: 255.255.0.0]
+• C: 192-223 (192.0.0.0/24 - 223.255.255.0/24) [Default Mask: 255.255.255.0]
+• D: 224-239 (Multicast)
+• E: 240-255 (Experimental)
+
+Special Addresses:
+• Network ID: All host bits = 0
+• Broadcast: All host bits = 1
+• Loopback: 127.0.0.0/8 (typically 127.0.0.1)
+• Private: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16
+• APIPA: 169.254.0.0/16
+
+Subnetting Steps:
+1. Identify network class and default mask
+2. Determine subnet mask based on requirements
+3. Calculate: # of subnets = 2^n (n = borrowed bits)
+4. Calculate: # of hosts = 2^m - 2 (m = remaining host bits)
+5. Calculate network, broadcast, and host range
+
+CIDR Notation: /prefix (# of network bits)
+VLSM: Variable Length Subnet Masks for efficient allocation
+
+======= ARP & RARP =======
+ARP (Address Resolution Protocol):
+• Maps IP addresses to MAC addresses
+• ARP Request (broadcast) → ARP Reply (unicast)
+• ARP Table/Cache: IP-to-MAC mappings
+
+RARP (Reverse ARP): Maps MAC addresses to IP addresses (obsolete)
+
+======= IP PROTOCOL =======
+IPv4 Header:
+┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┐
+│Ver │IHL │ToS │Total Length │ID  │Flg │Frag Offset│TTL │Prot│Checksum │
+├────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┼────┬────┤
+│                  Source IP Address                        │    │    │
+├────────────────────────────────────────────────────────────┤    │    │
+│                 Destination IP Address                    │Opt │Pad │
+└────────────────────────────────────────────────────────────┴────┴────┘
+
+ICMP (Internet Control Message Protocol):
+• Error reporting and diagnostic functions
+• Types: Echo Request/Reply (ping), Destination Unreachable, Time Exceeded
+• Header: Type (8 bits), Code (8 bits), Checksum (16 bits), Data
+
+======= ROUTING BASICS =======
+Packet Delivery:
+• Direct: Destination on same network (ARP → MAC address → delivery)
+• Indirect: Destination on different network (ARP for default gateway → routing)
+
+Routing Table:
+• Network/Subnet, Next Hop, Interface, Metric
+
+Routing Methods:
+• Static: Manually configured routes
+• Dynamic: Routes discovered through routing protocols
+
+Routing Protocols:
+• Distance Vector: RIP (hop count), EIGRP (composite metric)
+  - Periodic updates, slow convergence
+• Link State: OSPF, IS-IS (bandwidth, delay)
+  - Event-triggered updates, fast convergence
+• Path Vector: BGP (policy-based)
+
+======= TRANSPORT LAYER PROTOCOLS =======
+│ Feature     │ TCP                     │ UDP                      │
+│─────────────┼─────────────────────────┼──────────────────────────│
+│ Connection  │ Connection-oriented     │ Connectionless           │
+│ Reliability │ Reliable, ACKs          │ Unreliable, No ACKs      │
+│ Ordering    │ Ordered delivery        │ No order guarantee       │
+│ Speed       │ Slower                  │ Faster                   │
+│ Header Size │ 20-60 bytes             │ 8 bytes                  │
+│ Usage       │ HTTP, FTP, SMTP         │ DNS, DHCP, Streaming     │
+
+TCP Header:
+┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┐
+│Source Port │Dest Port  │         Sequence Number        │          │
+├────┬────┬──┴─┬────┬────┴────┬────┬────┬────┬────┬────┬──┴─┬────┬────┤
+│Ack Number  │Data│Reserved   │U│A│P│R│S│F│  Window     │          │
+│            │Offs│           │R│C│S│S│Y│I│             │Checksum  │
+│            │    │           │G│K│H│T│N│N│             │          │
+├────┬────┬──┴─┬──┴─┬────┬────┴──┴─┴──┴─┴──┴─┴────┬────┴────┬────┬────┤
+│ Urgent Ptr │        Options (if Data Offset > 5)         │Padding│
+└────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┘
+
+TCP 3-Way Handshake:
+1. SYN (Client → Server)
+2. SYN-ACK (Server → Client)
+3. ACK (Client → Server)
+
+UDP Header:
+┌────────────┬────────────┬────────────┬────────────┐
+│ Source Port│ Dest Port  │ Length     │ Checksum   │
+└────────────┴────────────┴────────────┴────────────┘
+
+Socket: IP Address + Port Number
+
+Common Ports:
+• TCP: HTTP(80), HTTPS(443), FTP(20,21), SSH(22), Telnet(23), SMTP(25), POP3(110), IMAP(143)
+• UDP: DNS(53), DHCP(67,68), TFTP(69), SNMP(161,162)

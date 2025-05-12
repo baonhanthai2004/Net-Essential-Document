@@ -1,0 +1,77 @@
+============================= NETWORK ESSENTIALS - SHEET 3 =============================
+
+======= SUBNET CALCULATION EXAMPLES =======
+
+Example 1: Subnet 192.168.10.0/24 into 4 equal subnets
+- Need 4 subnets = 2², so borrow 2 bits from host portion
+- New mask: /26 (255.255.255.192)
+- Subnets:
+  • 192.168.10.0/26 (0-63): Usable 192.168.10.1-62, BC: 192.168.10.63
+  • 192.168.10.64/26 (64-127): Usable 192.168.10.65-126, BC: 192.168.10.127
+  • 192.168.10.128/26 (128-191): Usable 192.168.10.129-190, BC: 192.168.10.191
+  • 192.168.10.192/26 (192-255): Usable 192.168.10.193-254, BC: 192.168.10.255
+
+Example 2: VLSM for different department needs
+Network: 172.16.0.0/16
+- Sales (100 hosts): 172.16.0.0/25 (126 usable)
+- Marketing (50 hosts): 172.16.0.128/26 (62 usable)
+- Engineering (25 hosts): 172.16.0.192/27 (30 usable)
+- Management (10 hosts): 172.16.0.224/28 (14 usable)
+
+======= SUBNET MASK REFERENCE =======
+│ /Notation │ Dotted Decimal    │ Hosts  │ # of Subnets (Class C) │
+│───────────┼───────────────────┼────────┼────────────────────────│
+│ /24       │ 255.255.255.0     │ 254    │ 1                      │
+│ /25       │ 255.255.255.128   │ 126    │ 2                      │
+│ /26       │ 255.255.255.192   │ 62     │ 4                      │
+│ /27       │ 255.255.255.224   │ 30     │ 8                      │
+│ /28       │ 255.255.255.240   │ 14     │ 16                     │
+│ /29       │ 255.255.255.248   │ 6      │ 32                     │
+│ /30       │ 255.255.255.252   │ 2      │ 64                     │
+
+======= IPv6 ADDRESSING =======
+- 128-bit address (vs 32-bit for IPv4)
+- Format: Eight 16-bit hexadecimal blocks separated by colons
+  Example: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+Simplification Rules:
+1. Leading zeros within a block can be omitted: 0000 → 0
+2. One consecutive set of all-zero blocks can be replaced with ::
+
+Address Types:
+- Global Unicast: 2000::/3 (public, routable)
+- Link-Local: FE80::/10 (non-routable, auto-config)
+- Unique Local: FC00::/7 (private use, like IPv4 private)
+- Multicast: FF00::/8 (one-to-many)
+- Loopback: ::1/128 (like 127.0.0.1 in IPv4)
+
+======= SWITCHING CONCEPTS =======
+
+STP (Spanning Tree Protocol):
+- Purpose: Prevents layer 2 loops
+- IEEE 802.1D (original), 802.1w (Rapid STP), 802.1s (Multiple STP)
+- Port States:
+  • Blocking → Listening → Learning → Forwarding (802.1D)
+  • Discarding → Learning → Forwarding (802.1w)
+- Bridge Protocol Data Units (BPDUs)
+- Root Bridge Election (lowest Bridge ID)
+- Port Roles: Root, Designated, Blocked/Alternate/Backup
+
+CAM Table (Content Addressable Memory):
+- Maps MAC addresses to switch ports
+- Aging time (default: 300 seconds)
+- Commands: show mac address-table
+
+Switching Methods:
+- Store-and-Forward: Receives entire frame, checks CRC, then forwards
+- Cut-Through: Starts forwarding after reading destination MAC
+- Fragment-Free: Compromise, waits for first 64 bytes
+
+======= VLAN IMPLEMENTATION =======
+
+VLAN Trunking Protocol (VTP):
+- Propagates VLAN information across switches
+- Modes: Server, Client, Transparent
+- Domains and Passwords
+
+802.1Q Trunk Configuration:

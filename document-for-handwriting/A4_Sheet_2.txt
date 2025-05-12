@@ -1,0 +1,208 @@
+============================= NETWORK ESSENTIALS - SHEET 2 =============================
+
+======= APPLICATION PROTOCOLS =======
+
+--- DHCP (Dynamic Host Configuration Protocol) ---
+Purpose: Automatically assign IP addresses and network configuration
+Process:
+1. DISCOVER (client broadcast)
+2. OFFER (server to client)
+3. REQUEST (client to server)
+4. ACK (server confirms)
+
+DHCP Message Format:
+┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┐
+│Op  │HType│HLen │Hops │Transaction ID  │Secs │Flags│Client IP      │
+├────┴────┴────┴────┴────┴────┴────┴────┴────┴────┼────┬────┬────┬────┤
+│Your IP                                           │    │    │    │    │
+├────┬────┬────┬────┬────┬────┬────┬────┬────┬────┤Server IP        │
+├────┴────┴────┴────┴────┴────┴────┴────┴────┴────┼────┬────┬────┬────┤
+│Gateway IP                                        │    │    │    │    │
+├────┬────┬────┬────┬────┬────┬────┬────┬────┬────┤Client Hardware  │
+│Address                                           │    │    │    │    │
+├────┴────┴────┴────┴────┴────┴────┴────┴────┴────┼────┬────┬────┬────┤
+│Server Name (64 bytes)                            │    │    │    │    │
+├────┬────┬────┬────┬────┬────┬────┬────┬────┬────┤Boot Filename    │
+│(128 bytes)                                       │    │    │    │    │
+├────┴────┴────┴────┴────┴────┴────┴────┴────┴────┼────┬────┬────┬────┤
+│Options (variable)                                │    │    │    │    │
+└────────────────────────────────────────────────────────────────────┘
+
+--- HTTP (Hypertext Transfer Protocol) ---
+Request Format:
+[METHOD] [URL] HTTP/[VERSION]
+[Headers]
+[Body]
+
+Common Methods: GET, POST, PUT, DELETE, HEAD
+
+Response Format:
+HTTP/[VERSION] [STATUS_CODE] [REASON]
+[Headers]
+[Body]
+
+Status Codes:
+• 1xx: Informational
+• 2xx: Success (200 OK)
+• 3xx: Redirection (301 Moved, 304 Not Modified)
+• 4xx: Client Error (404 Not Found, 403 Forbidden)
+• 5xx: Server Error (500 Internal Server Error)
+
+URL Format: protocol://host[:port]/path[?query][#fragment]
+
+--- FTP (File Transfer Protocol) ---
+• Control Connection: Port 21
+• Data Connection: Port 20 (active) or ephemeral (passive)
+• Modes: Active, Passive
+• Common Commands: USER, PASS, CWD, STOR, RETR, PASV, PORT, QUIT
+
+--- Mail Protocols ---
+SMTP (Simple Mail Transfer Protocol):
+• Port 25 (unencrypted) or 587 (encrypted)
+• From mail client to mail server or between mail servers
+• Commands: HELO, MAIL FROM, RCPT TO, DATA, QUIT
+
+POP3 (Post Office Protocol):
+• Port 110
+• Downloads mail from server to client
+• Commands: USER, PASS, STAT, LIST, RETR, DELE, QUIT
+
+IMAP (Internet Message Access Protocol):
+• Port 143
+• Maintains mail on server, allows folder management
+• More complex than POP3, better for multiple devices
+
+--- DNS (Domain Name System) ---
+• Hierarchy: Root → TLD (.com, .org) → Domain (example.com) → Subdomain
+• Record Types: A (IPv4), AAAA (IPv6), MX (Mail), CNAME (Alias), NS (Name Server)
+• Queries: Recursive (client to local DNS), Iterative (DNS to DNS)
+
+DNS Resolution Process:
+1. Check local cache
+2. Query local DNS server
+3. Query root server (if needed)
+4. Query TLD server (if needed)
+5. Query authoritative server (if needed)
+6. Return result to client
+
+======= NETWORK OPERATING SYSTEMS =======
+
+--- Windows ---
+Users & Groups Management:
+• Local Users and Groups (lusrmgr.msc)
+• Active Directory Users and Computers (domain)
+
+NTFS Permissions:
+• R: Read
+• W: Write
+• X: Execute
+• D: Delete
+• P: Change Permissions
+• O: Take Ownership
+Inheritance: Permissions flow down from parent folders
+
+Share Permissions:
+• Read
+• Change
+• Full Control
+Effective Permission = Most restrictive of NTFS + Share permissions
+
+Commands:
+• net user [username] [password] /add
+• net group [groupname] /add
+• net user [username] /active:yes|no
+• icacls [path] /grant [user]:(permissions)
+
+--- Linux ---
+File System Hierarchy:
+• / (root)
+• /bin, /sbin (binaries)
+• /etc (configuration)
+• /home (user homes)
+• /var (variable data)
+• /usr (user programs)
+
+User Management:
+• /etc/passwd: User accounts
+• /etc/shadow: Password hashes
+• /etc/group: Group definitions
+
+Commands:
+• useradd, usermod, userdel
+• groupadd, groupmod, groupdel
+• passwd (change password)
+• sudo (run as root)
+• su (switch user)
+
+File Permissions:
+│ Permission │ File                  │ Directory              │
+│────────────┼───────────────────────┼─────────────────────────│
+│ r (4)      │ read content          │ list contents          │
+│ w (2)      │ modify content        │ create/delete files    │
+│ x (1)      │ execute as program    │ access/traverse        │
+
+Chmod Syntax: chmod [ugoa][+-=][rwx] file or chmod ### file
+Chown Syntax: chown user:group file
+
+======= NETWORK SECURITY =======
+
+--- Security Goals ---
+• Confidentiality: Prevent unauthorized access
+• Integrity: Prevent unauthorized modification
+• Availability: Ensure systems are accessible
+• Authentication: Verify identity
+• Non-repudiation: Prevent denial of actions
+
+--- Types of Attacks ---
+• Passive: Eavesdropping, traffic analysis
+• Active: Modification, DoS, masquerading
+• DDoS: Distributed Denial of Service
+• MitM: Man-in-the-Middle
+• Social Engineering: Phishing, pretexting
+
+--- Encryption Types ---
+Symmetric Key:
+• Same key for encryption and decryption
+• Fast, efficient for large data
+• Examples: AES, DES, 3DES, Blowfish
+• Challenge: Key distribution
+
+Asymmetric Key:
+• Public/private key pairs
+• Slower than symmetric
+• Examples: RSA, ECC, DSA
+• Uses: Digital signatures, key exchange
+
+Hash Functions:
+• One-way functions producing fixed-length output
+• Examples: MD5, SHA-1, SHA-256
+• Uses: Data integrity, password storage
+
+--- Security Protocols ---
+│ Layer      │ Protocol  │ Purpose                                   │
+│────────────┼───────────┼───────────────────────────────────────────│
+│ Network    │ IPsec     │ Authentication, encryption at IP level    │
+│            │ AH        │ Authentication only                       │
+│            │ ESP       │ Encryption and authentication             │
+│ Transport  │ SSL/TLS   │ Secure communications, HTTPS              │
+│ Application│ PGP       │ Email encryption                          │
+│            │ S/MIME    │ Secure email                              │
+
+--- VPN Types ---
+• Site-to-Site: Connect two networks
+• Remote Access: Connect users to network
+• Technologies: IPsec, SSL/TLS, PPTP, L2TP
+
+--- Firewall Types ---
+• Packet Filtering: Rules based on headers
+• Stateful Inspection: Tracks connection state
+• Application Layer: Analyzes application data
+• Next-Gen: IPS, content filtering, DPI
+
+--- Defense in Depth ---
+• Physical security
+• Network security (firewalls, IDS/IPS)
+• Host security (anti-malware, patches)
+• Application security (secure coding)
+• Data security (encryption)
+• User education

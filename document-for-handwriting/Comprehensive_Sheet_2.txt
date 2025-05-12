@@ -1,0 +1,597 @@
+================================ NETWORKING ESSENTIALS - COMPREHENSIVE SHEET 2 ================================
+
+====== APPLICATION LAYER PROTOCOLS ======
+
+--- DHCP PROTOCOL ---
+
+DHCP (Dynamic Host Configuration Protocol):
+• Automatic IP address assignment
+• Also provides subnet mask, gateway, DNS, etc.
+• UDP ports 67 (server) and 68 (client)
+
+DHCP Process (DORA):
+1. DISCOVER (client → broadcast): "Who is the DHCP server?"
+2. OFFER (server → client): "I can give you this IP"
+3. REQUEST (client → server): "I accept that IP"
+4. ACK (server → client): "IP is yours for lease duration"
+
+DHCP Packet Structure:
+• op: Message type (1=request, 2=reply)
+• htype: Hardware address type (1=Ethernet)
+• hlen: Hardware address length (6 for MAC)
+• xid: Transaction ID
+• ciaddr: Client IP address (if known)
+• yiaddr: Your (client) IP address
+• siaddr: Server IP address
+• giaddr: Gateway IP address (for relays)
+• chaddr: Client hardware address
+• Options: Additional parameters
+
+DHCP Lease Process:
+• Initial lease: Full DORA process
+• Renewal (T1, 50% of lease): REQUEST directly to leasing server
+• Rebinding (T2, 87.5% of lease): REQUEST broadcast
+• Expiration: Release IP, restart DORA
+
+DHCP Relay Agent:
+• Forwards DHCP messages between subnets
+• Configured on router or layer 3 switch
+• Eliminates need for DHCP server on every subnet
+
+--- DNS PROTOCOL ---
+
+DNS (Domain Name System):
+• Resolves domain names to IP addresses
+• Hierarchical, distributed database
+• UDP/TCP port 53 (TCP for zone transfers)
+
+DNS Hierarchy:
+• Root (.)
+• Top-Level Domains (TLDs): .com, .org, .net, etc.
+• Second-Level Domains: example.com
+• Subdomains: sub.example.com
+
+DNS Record Types:
+• A: IPv4 address (hostname → IPv4)
+• AAAA: IPv6 address (hostname → IPv6)
+• CNAME: Canonical name/alias
+• MX: Mail exchanger (priority + mail server)
+• NS: Authoritative name servers
+• PTR: Pointer record (reverse DNS)
+• SOA: Start of Authority (zone info)
+• TXT: Text information (often for SPF, DKIM)
+• SRV: Service locator
+
+DNS Query Types:
+• Recursive: Client asks resolver to get complete answer
+• Iterative: Server refers client to next server
+
+DNS Resolution Process:
+1. Client queries local resolver
+2. If not in cache, resolver queries root servers
+3. Root server refers to appropriate TLD server
+4. TLD server refers to authoritative server
+5. Authoritative server returns answer
+6. Resolver caches result and returns to client
+
+DNS Components:
+• DNS Client (resolver): Requests name resolution
+• DNS Server: Responds to queries
+• Zone: Portion of domain namespace
+• Zone File: Contains resource records
+• Root Servers: 13 root server clusters worldwide
+
+--- HTTP PROTOCOL ---
+
+HTTP (Hypertext Transfer Protocol):
+• Application layer protocol for web
+• TCP port 80 (HTTP) or 443 (HTTPS)
+• Request-response model
+• Stateless protocol
+
+HTTP Request Format:
+[METHOD] [URI] HTTP/[VERSION]
+[Headers]
+[Empty line]
+[Body]
+
+HTTP Methods:
+• GET: Retrieve resource
+• POST: Submit data
+• PUT: Update resource
+• DELETE: Remove resource
+• HEAD: Get headers only
+• OPTIONS: Get supported methods
+• PATCH: Partial update
+
+HTTP Response Format:
+HTTP/[VERSION] [STATUS_CODE] [REASON]
+[Headers]
+[Empty line]
+[Body]
+
+Status Code Categories:
+• 1xx: Informational
+• 2xx: Success (200 OK)
+• 3xx: Redirection (301 Moved, 304 Not Modified)
+• 4xx: Client Error (404 Not Found, 403 Forbidden)
+• 5xx: Server Error (500 Internal Server Error)
+
+Common Headers:
+• Request: Host, User-Agent, Accept, Cookie
+• Response: Content-Type, Content-Length, Set-Cookie
+• Both: Connection, Cache-Control
+
+URL Format:
+scheme://host[:port]/path[?query][#fragment]
+Example: https://www.example.com:443/page?id=123#section
+
+HTTPS (HTTP Secure):
+• HTTP over TLS/SSL
+• Encrypts HTTP communications
+• Uses certificates for authentication
+• Protects against eavesdropping and MITM attacks
+
+--- FTP PROTOCOL ---
+
+FTP (File Transfer Protocol):
+• File transfer between client and server
+• TCP port 21 (control) and 20 (data)
+• Authenticated access (username/password)
+
+FTP Connection Types:
+• Control connection: Commands and responses
+• Data connection: Actual file transfer
+
+FTP Modes:
+• Active: Server initiates data connection to client
+• Passive: Client initiates data connection to server
+
+Common FTP Commands:
+• USER/PASS: Authentication
+• PWD/CWD: Print/change working directory
+• LIST: List files
+• RETR/STOR: Retrieve/store file
+• PASV: Enter passive mode
+• QUIT: End session
+
+FTP Response Codes:
+• 1xx: Positive preliminary reply
+• 2xx: Positive completion reply
+• 3xx: Positive intermediate reply
+• 4xx: Transient negative reply
+• 5xx: Permanent negative reply
+
+--- EMAIL PROTOCOLS ---
+
+SMTP (Simple Mail Transfer Protocol):
+• Sends mail between servers or from client to server
+• TCP port 25 (unencrypted) or 587 (encrypted)
+• Command-response protocol
+
+SMTP Process:
+1. Establish TCP connection
+2. HELO/EHLO: Identify client
+3. MAIL FROM: Sender address
+4. RCPT TO: Recipient address
+5. DATA: Begin message content
+6. . (single dot): End message
+7. QUIT: End session
+
+POP3 (Post Office Protocol v3):
+• Retrieves mail from server to client
+• TCP port 110 (unencrypted) or 995 (encrypted)
+• Downloads messages to client (usually deletes from server)
+
+POP3 Commands:
+• USER/PASS: Authentication
+• STAT: Mailbox status
+• LIST: Message list
+• RETR: Retrieve message
+• DELE: Delete message
+• QUIT: End session
+
+IMAP (Internet Message Access Protocol):
+• Advanced mail retrieval protocol
+• TCP port 143 (unencrypted) or 993 (encrypted)
+• Keeps messages on server, allows folder management
+• Supports partial message retrieval
+• Better for multiple devices
+
+====== NETWORK OPERATING SYSTEMS ======
+
+--- WINDOWS NETWORKING ---
+
+Windows User & Group Management:
+• Local Users and Groups (lusrmgr.msc)
+• Active Directory Users and Computers (domain environments)
+• Built-in accounts: Administrator, Guest
+• Built-in groups: Administrators, Users, Backup Operators
+
+NTFS Permissions:
+• Read (R): View files and attributes
+• Write (W): Modify files and attributes
+• Execute (X): Run programs, traverse directories
+• Delete (D): Remove files/folders
+• Change Permissions (P): Modify access control
+• Take Ownership (O): Become owner
+
+Permission Inheritance:
+• Permissions flow down from parent folders
+• Can be blocked at any level
+• Explicit permissions override inherited
+
+Share Permissions:
+• Read: View files and execute programs
+• Change: Read + modify files
+• Full Control: Change + change permissions
+
+Effective Permission = Most restrictive of:
+• NTFS permissions
+• Share permissions (if accessed via network)
+
+Windows Network Commands:
+• ipconfig: Display IP configuration
+• ping: Test connectivity
+• tracert: Trace route to host
+• netstat: Network connections
+• net use: Map network drives
+• net user/group: User/group management
+• netsh: Network shell (firewall, interface config)
+• nslookup: DNS queries
+
+PowerShell Network Commands:
+• Get-NetAdapter: List network adapters
+• Get-NetIPAddress: IP address information
+• Get-NetRoute: Routing table
+• Test-NetConnection: Advanced connectivity test
+• New-NetFirewallRule: Create firewall rule
+
+--- LINUX NETWORKING ---
+
+Linux File System Hierarchy:
+• / (root): Top of filesystem
+• /bin, /sbin: Essential binaries
+• /etc: Configuration files
+• /home: User home directories
+• /var: Variable data (logs, mail, etc.)
+• /usr: User programs, documentation
+• /proc, /sys: Virtual filesystems (kernel info)
+
+Linux User Management:
+• /etc/passwd: User account info
+• /etc/shadow: Password hashes
+• /etc/group: Group definitions
+• useradd/userdel/usermod: User management
+• groupadd/groupdel/groupmod: Group management
+• passwd: Change passwords
+• su: Switch user
+• sudo: Execute as another user (usually root)
+
+Linux File Permissions:
+• Three permission sets: Owner (u), Group (g), Others (o)
+• Three permission types: Read (r=4), Write (w=2), Execute (x=1)
+
+Permission Representation:
+• Symbolic: rwxr-xr-- (Owner: rwx, Group: r-x, Others: r--)
+• Numeric: 754 (Owner: 7=rwx, Group: 5=r-x, Others: 4=r--)
+
+Permission Commands:
+• chmod: Change permissions
+  - Symbolic: chmod u+x file (add execute to owner)
+  - Numeric: chmod 755 file (rwx for owner, r-x for group/others)
+• chown: Change owner
+  - chown user:group file
+• chgrp: Change group
+  - chgrp group file
+
+Linux Network Commands:
+• ifconfig/ip: Configure interfaces
+• route/ip route: Manage routing table
+• ping: Test connectivity
+• traceroute: Trace route to host
+• netstat/ss: Network connections
+• dig/nslookup: DNS queries
+• host: DNS lookup
+• iptables/nftables: Firewall management
+• tcpdump: Capture and analyze packets
+
+Network Configuration Files:
+• /etc/network/interfaces (Debian/Ubuntu)
+• /etc/sysconfig/network-scripts/* (RHEL/CentOS)
+• /etc/resolv.conf: DNS resolver
+• /etc/hosts: Static host mappings
+• /etc/nsswitch.conf: Name service switch
+
+====== NETWORK SECURITY ======
+
+--- SECURITY FUNDAMENTALS ---
+
+Security Goals (CIA Triad):
+• Confidentiality: Prevent unauthorized access
+• Integrity: Prevent unauthorized modification
+• Availability: Ensure systems remain accessible
+• Additional: Authentication, Non-repudiation, Accounting
+
+Security Threats:
+• Passive: Eavesdropping, traffic analysis
+• Active: Modification, DoS, spoofing
+• Malware: Viruses, worms, trojans, ransomware
+• Social Engineering: Phishing, pretexting
+• Application attacks: SQL injection, XSS
+• Physical attacks: Theft, damage
+
+Attack Vectors:
+• Network: Sniffing, port scanning, DoS
+• Host: Exploitation, privilege escalation
+• Application: Input validation, authentication bypass
+• Human: Social engineering
+• Physical: Unauthorized access
+
+--- ENCRYPTION TYPES ---
+
+Symmetric Encryption:
+• Same key for encryption and decryption
+• Fast, efficient for bulk data
+• Key distribution problem
+• Examples: AES, DES, 3DES, Blowfish
+
+Asymmetric Encryption:
+• Public/private key pairs
+• Slower than symmetric
+• Solves key distribution
+• Examples: RSA, ECC, DSA
+• Uses: Digital signatures, key exchange
+
+Hash Functions:
+• One-way functions
+• Fixed-length output regardless of input
+• Used for integrity, password storage
+• Examples: MD5 (broken), SHA-1 (weak), SHA-256/384/512
+
+Encryption Uses:
+• Data confidentiality
+• Authentication
+• Integrity verification
+• Non-repudiation
+• Key exchange
+
+--- NETWORK SECURITY PROTOCOLS ---
+
+IPsec (IP Security):
+• Network layer security (Layer 3)
+• Two main protocols:
+  - AH (Authentication Header): Integrity, authentication
+  - ESP (Encapsulating Security Payload): Encryption + authentication
+• Two modes:
+  - Transport mode: Payload encryption
+  - Tunnel mode: Entire packet encryption (VPN)
+
+SSL/TLS (Secure Sockets Layer/Transport Layer Security):
+• Transport layer security (Layer 4)
+• Secures HTTP, SMTP, FTP, etc.
+• Process:
+  1. Handshake (cipher negotiation, authentication)
+  2. Key exchange (asymmetric encryption)
+  3. Data transfer (symmetric encryption)
+• TLS versions: 1.0, 1.1, 1.2, 1.3 (each more secure)
+
+SSH (Secure Shell):
+• Secure remote access protocol
+• Replaces telnet, rlogin, rsh
+• Provides:
+  - Encrypted terminal sessions
+  - Tunneling
+  - File transfers (SCP, SFTP)
+  - Port forwarding
+
+--- NETWORK SECURITY DEVICES ---
+
+Firewalls:
+• Types:
+  - Packet filtering: Basic header inspection
+  - Stateful inspection: Tracks connection state
+  - Application layer: Analyzes application data
+  - Next-gen: IPS, content filtering, DPI
+• Placement:
+  - Perimeter (edge)
+  - Internal segmentation
+  - Host-based
+
+IDS/IPS (Intrusion Detection/Prevention System):
+• IDS: Monitors and alerts (passive)
+• IPS: Detects and blocks (active)
+• Detection methods:
+  - Signature-based: Known patterns
+  - Anomaly-based: Deviation from normal
+  - Heuristic: Behavior analysis
+• Types:
+  - Network-based (NIDS/NIPS)
+  - Host-based (HIDS/HIPS)
+
+VPN (Virtual Private Network):
+• Types:
+  - Site-to-site: Connect networks
+  - Remote access: Connect users to network
+• Technologies:
+  - IPsec
+  - SSL/TLS
+  - OpenVPN
+  - WireGuard
+
+====== PRACTICAL NETWORKING ======
+
+--- IP ADDRESSING EXERCISES ---
+
+Example 1: Basic Subnetting
+• Given network: 192.168.10.0/24
+• Requirement: 4 equal subnets
+• Solution:
+  - Need 4 = 2² subnets, borrow 2 bits
+  - New mask: /26 (255.255.255.192)
+  - Subnets:
+    * 192.168.10.0/26: Hosts 192.168.10.1-62, BC 192.168.10.63
+    * 192.168.10.64/26: Hosts 192.168.10.65-126, BC 192.168.10.127
+    * 192.168.10.128/26: Hosts 192.168.10.129-190, BC 192.168.10.191
+    * 192.168.10.192/26: Hosts 192.168.10.193-254, BC 192.168.10.255
+
+Example 2: VLSM
+• Given network: 172.16.0.0/16
+• Requirements:
+  - Dept A: 100 hosts
+  - Dept B: 50 hosts
+  - Dept C: 25 hosts
+  - Dept D: 10 hosts
+• Solution:
+  - Dept A: 172.16.0.0/25 (126 hosts)
+  - Dept B: 172.16.0.128/26 (62 hosts)
+  - Dept C: 172.16.0.192/27 (30 hosts)
+  - Dept D: 172.16.0.224/28 (14 hosts)
+
+Quick Subnet Calculation:
+• Hosts = 2^(32-prefix) - 2
+• Subnets = 2^(borrowed bits)
+• Subnet size = 2^(32-prefix)
+
+--- TROUBLESHOOTING METHODOLOGY ---
+
+Systematic Approach:
+1. Define problem: Scope, symptoms, timing
+2. Gather information: Logs, configs, user reports
+3. Analyze data: Identify potential causes
+4. Create action plan: Test solutions
+5. Implement solution: Make changes
+6. Verify resolution: Test functionality
+7. Document: Record solution and causes
+
+Divide and Conquer Method:
+• Start at middle of OSI model (typically Network layer)
+• Test connectivity at that layer
+• Move up or down based on results
+• Isolate problem to specific layer
+
+OSI Model Troubleshooting:
+• Layer 1 (Physical): Cables, interfaces, power, LEDs
+  - Check: Cable connections, interface status, hardware
+  - Tools: Cable tester, LED status, interface statistics
+• Layer 2 (Data Link): MAC address, switching, VLANs
+  - Check: MAC table, STP, VLAN config
+  - Tools: show mac-address-table, show spanning-tree
+• Layer 3 (Network): IP addressing, routing
+  - Check: IP config, routing table, ACLs
+  - Tools: ping, traceroute, show ip route
+• Layer 4 (Transport): Ports, connection state
+  - Check: Port availability, connection state
+  - Tools: netstat, telnet [host] [port], port scanner
+• Layer 5-7 (Session/Presentation/Application): Application config
+  - Check: Application logs, service status
+  - Tools: Service manager, log files, application diagnostics
+
+--- NETWORK COMMANDS & TOOLS ---
+
+Windows Networking Commands:
+• ipconfig /all: Display network configuration
+• ipconfig /release: Release DHCP lease
+• ipconfig /renew: Renew DHCP lease
+• ipconfig /flushdns: Clear DNS cache
+• ping [-t] host: Test connectivity (continuous)
+• tracert host: Trace route
+• netstat -an: List all connections
+• nslookup name: DNS lookup
+• route print: Display routing table
+• arp -a: Display ARP cache
+• net view \\server: List shared resources
+• net use z: \\server\share: Map network drive
+
+Linux Networking Commands:
+• ifconfig / ip addr: Display network configuration
+• ping -c count host: Test connectivity
+• traceroute host: Trace route
+• netstat -tuln / ss -tuln: List listening ports
+• dig / nslookup: DNS query
+• route / ip route: Display routing table
+• arp / ip neigh: Display ARP cache
+• tcpdump: Capture packets
+• iptables -L: List firewall rules
+• nmap: Port scanner
+
+Basic Cisco Router Commands:
+• show running-config: Current configuration
+• show interfaces: Interface status
+• show ip route: Routing table
+• show ip interface brief: Interface summary
+• show ip protocols: Routing protocols
+• configure terminal: Enter config mode
+• interface type slot/port: Configure interface
+• ip address address mask: Set IP address
+• no shutdown: Enable interface
+• ip route network mask next-hop: Add static route
+
+--- PROTOCOL ANALYSIS ---
+
+TCP Handshake Wireshark Filter:
+tcp.flags.syn==1 or tcp.flags.reset==1 or (tcp.flags.syn==1 and tcp.flags.ack==1)
+
+Common Wireshark Filters:
+• ip.addr == 192.168.1.1: Packets to/from IP
+• tcp.port == 80: HTTP traffic
+• http: All HTTP traffic
+• dns: All DNS traffic
+• icmp: All ICMP traffic
+• (ip.src == 192.168.1.1 and ip.dst == 192.168.1.2): Specific flow
+
+HTTP Analysis:
+• Examine request/response headers
+• Look for status codes
+• Follow TCP stream for full conversation
+
+TCP Window Analysis:
+• Zero window: Receiver buffer full
+• Large window: High bandwidth connection
+• Small window: Throttling or congestion
+
+====== KEY PROTOCOLS & PORTS SUMMARY ======
+
+│ Protocol     │ Port(s)      │ Transport │ Purpose                       │
+│──────────────┼──────────────┼───────────┼───────────────────────────────│
+│ FTP          │ 20, 21       │ TCP       │ File transfer                 │
+│ SSH          │ 22           │ TCP       │ Secure remote access          │
+│ Telnet       │ 23           │ TCP       │ Remote access (insecure)      │
+│ SMTP         │ 25, 587      │ TCP       │ Email sending                 │
+│ DNS          │ 53           │ TCP/UDP   │ Name resolution               │
+│ DHCP         │ 67, 68       │ UDP       │ IP address assignment         │
+│ TFTP         │ 69           │ UDP       │ Simple file transfer          │
+│ HTTP         │ 80           │ TCP       │ Web browsing                  │
+│ POP3         │ 110          │ TCP       │ Email retrieval               │
+│ IMAP         │ 143          │ TCP       │ Email retrieval (advanced)    │
+│ SNMP         │ 161, 162     │ UDP       │ Network management            │
+│ LDAP         │ 389          │ TCP       │ Directory services            │
+│ HTTPS        │ 443          │ TCP       │ Secure web browsing           │
+│ SMB/CIFS     │ 445          │ TCP       │ File/printer sharing          │
+│ SMTP TLS     │ 465          │ TCP       │ Secure email sending          │
+│ IMAP TLS     │ 993          │ TCP       │ Secure IMAP                   │
+│ POP3 TLS     │ 995          │ TCP       │ Secure POP3                   │
+│ RDP          │ 3389         │ TCP       │ Remote desktop                │
+
+====== QUICK CONVERSION REFERENCE ======
+
+Decimal to Binary:
+128  64  32  16   8   4   2   1
+2⁷   2⁶  2⁵  2⁴  2³  2²  2¹  2⁰
+
+Subnet Mask Quick Reference:
+│ CIDR │ Binary                           │ Decimal           │ # Hosts │
+│──────┼──────────────────────────────────┼───────────────────┼─────────│
+│ /24  │ 11111111.11111111.11111111.00000000 │ 255.255.255.0     │ 254     │
+│ /25  │ 11111111.11111111.11111111.10000000 │ 255.255.255.128   │ 126     │
+│ /26  │ 11111111.11111111.11111111.11000000 │ 255.255.255.192   │ 62      │
+│ /27  │ 11111111.11111111.11111111.11100000 │ 255.255.255.224   │ 30      │
+│ /28  │ 11111111.11111111.11111111.11110000 │ 255.255.255.240   │ 14      │
+│ /29  │ 11111111.11111111.11111111.11111000 │ 255.255.255.248   │ 6       │
+│ /30  │ 11111111.11111111.11111111.11111100 │ 255.255.255.252   │ 2       │
+
+Powers of 2:
+2¹=2, 2²=4, 2³=8, 2⁴=16, 2⁵=32, 2⁶=64, 2⁷=128, 2⁸=256, 2⁹=512, 2¹⁰=1024
+
+Hex to Decimal:
+0=0, 1=1, 2=2, 3=3, 4=4, 5=5, 6=6, 7=7, 8=8, 9=9, A=10, B=11, C=12, D=13, E=14, F=15

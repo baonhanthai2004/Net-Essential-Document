@@ -1,0 +1,398 @@
+================================ NETWORKING ESSENTIALS - COMPREHENSIVE SHEET 1 ================================
+
+====== NETWORKING FUNDAMENTALS ======
+
+--- MODELS & ENCAPSULATION ---
+
+OSI Model (7 layers):                │ TCP/IP Model (4 layers):           │ PDU at Each Layer:
+7. Application: User interface       │ 4. Application: HTTP,FTP,SMTP,DNS  │ 7-5: Data
+6. Presentation: Format, encrypt     │    (OSI layers 5-7)                │ 4: Segments/Datagrams
+5. Session: Session management       │ 3. Transport: TCP, UDP             │ 3: Packets
+4. Transport: End-to-end delivery    │ 2. Internet: IP, ICMP, ARP         │ 2: Frames
+3. Network: Logical addressing       │ 1. Network Access: Ethernet, PPP   │ 1: Bits
+2. Data Link: Physical addressing    │    (OSI layers 1-2)                │
+1. Physical: Media, signals, bits    │                                    │
+
+Encapsulation Process: Data → Segments → Packets → Frames → Bits
+Decapsulation Process: Bits → Frames → Packets → Segments → Data
+
+--- NETWORK CLASSIFICATIONS ---
+
+By Scope:
+• PAN (Personal Area Network): Bluetooth, short-range
+• LAN (Local Area Network): Single location, high-speed
+• MAN (Metropolitan Area Network): City-wide
+• WAN (Wide Area Network): Geographically dispersed
+
+By Architecture:
+• Client-Server: Centralized resources
+• Peer-to-Peer: Distributed resources
+• Hybrid: Combination of both
+
+By Topology:
+• Bus: Single cable, all devices connect to it
+• Star: Central hub/switch, all devices connect to central point
+• Ring: Devices connect in closed loop
+• Mesh: Multiple paths between devices (partial or full)
+• Tree/Hierarchical: Combination of multiple star topologies
+
+--- NETWORKING DEVICES ---
+
+│ Device      │ OSI Layer │ Function                                     │ Domain Handling                  │
+│─────────────┼───────────┼──────────────────────────────────────────────┼─────────────────────────────────│
+│ Repeater    │ 1         │ Regenerates signal                           │ Extends collision domain        │
+│ Hub         │ 1         │ Multi-port repeater, broadcasts to all ports │ Shares collision domain         │
+│ Bridge      │ 2         │ Connects similar networks, uses MAC filtering│ Separates collision domains     │
+│ Switch      │ 2         │ Intelligent bridging, MAC address table      │ Separates collision domains     │
+│ Router      │ 3         │ Routes between networks, uses IP addresses   │ Separates broadcast domains     │
+│ Layer 3 Sw. │ 2-3       │ Switch with routing capabilities             │ Separates both domains          │
+│ Firewall    │ 3-7       │ Security device, filters traffic             │ N/A (security boundaries)       │
+│ Gateway     │ 4-7       │ Translates between dissimilar networks       │ N/A (protocol translation)      │
+
+Collision Domain: Network segment where collisions can occur (devices share media)
+Broadcast Domain: Network segment where broadcast frames are propagated
+
+====== LINK LAYER & ETHERNET ======
+
+--- MAC ADDRESSING ---
+
+MAC Address: 48-bit (6-byte) hardware address
+• First 3 bytes: OUI (Organizationally Unique Identifier)
+• Last 3 bytes: NIC-specific identifier
+• Format: MM:MM:MM:SS:SS:SS (hexadecimal)
+• Types: Unicast, Multicast (01:xx:xx:xx:xx:xx), Broadcast (FF:FF:FF:FF:FF:FF)
+
+--- ETHERNET (IEEE 802.3) ---
+
+CSMA/CD (Carrier Sense Multiple Access/Collision Detection):
+1. Listen for carrier (traffic)
+2. If line is clear, transmit
+3. If collision occurs, send jam signal
+4. Both senders use backoff algorithm, retry later
+
+Ethernet Frame Format:
+┌─────────┬─────────┬─────────┬─────────┬─────────┬───────────┬─────────┐
+│Preamble │Dest MAC │Src MAC  │Type/Len │Data     │Pad        │FCS/CRC  │
+│8 bytes  │6 bytes  │6 bytes  │2 bytes  │46-1500B │0-46 bytes │4 bytes  │
+└─────────┴─────────┴─────────┴─────────┴─────────┴───────────┴─────────┘
+
+• Preamble: Synchronization (10101010... + 10101011)
+• Type/Length: Protocol type or frame length
+• Data: Payload (46-1500 bytes)
+• Pad: Added if data is less than 46 bytes
+• FCS: Frame Check Sequence (CRC-32)
+
+Ethernet Standards:
+• 10BASE-T: 10 Mbps, Cat3+ cable, 100m
+• 100BASE-TX (Fast Ethernet): 100 Mbps, Cat5+ cable, 100m
+• 1000BASE-T (Gigabit Ethernet): 1 Gbps, Cat5e+ cable, 100m
+• 10GBASE-T: 10 Gbps, Cat6a/7 cable, 100m
+
+--- SWITCHING CONCEPTS ---
+
+Switch Operation:
+1. Learning: Records source MAC addresses in MAC table
+2. Flooding: Sends frame to all ports if destination unknown
+3. Forwarding: Sends frame only to port with matching MAC
+4. Filtering: Discards frames not destined for other ports
+5. Aging: Removes MAC entries after timeout (300s default)
+
+STP (Spanning Tree Protocol):
+• Purpose: Prevents layer 2 loops, creates loop-free topology
+• Bridge Protocol Data Units (BPDUs): Config info exchange
+• Root Bridge Election: Lowest Bridge ID (priority + MAC)
+• Port States: Blocking → Listening → Learning → Forwarding
+• Port Roles: Root, Designated, Blocked/Alternate
+
+--- VLAN OPERATIONS ---
+
+VLAN (Virtual LAN): Logical segmentation of LAN
+Benefits:
+• Security: Isolate sensitive traffic
+• Reduce broadcast traffic
+• Flexibility: Group by function, not location
+• Performance: Smaller broadcast domains
+• Simplified management
+
+802.1Q VLAN Tagging:
+• 4-byte tag inserted into Ethernet frame header
+• Tag components: TPID (2B), TCI (2B: PCP + DEI + VID)
+• VID: VLAN ID (12 bits, 4094 usable VLANs)
+
+Port Types:
+• Access port: Belongs to one VLAN, untagged
+• Trunk port: Carries multiple VLANs, tagged
+• Native VLAN: Untagged VLAN on trunk (default VLAN 1)
+
+Terms:
+• Ingress: Traffic entering the switch
+• Egress: Traffic leaving the switch
+• Tagged frame: Contains 802.1Q header
+• Untagged frame: No 802.1Q header
+
+====== NETWORK LAYER & IP PROTOCOL ======
+
+--- IPv4 ADDRESSING ---
+
+Structure: 32-bit address, dotted decimal notation (x.x.x.x)
+
+Address Classes:
+• Class A: 0.0.0.0 to 127.255.255.255 (0xxx) - Default mask: 255.0.0.0 (/8)
+• Class B: 128.0.0.0 to 191.255.255.255 (10xx) - Default mask: 255.255.0.0 (/16)
+• Class C: 192.0.0.0 to 223.255.255.255 (110x) - Default mask: 255.255.255.0 (/24)
+• Class D: 224.0.0.0 to 239.255.255.255 (1110) - Multicast
+• Class E: 240.0.0.0 to 255.255.255.255 (1111) - Reserved/Experimental
+
+Special Addresses:
+• Network address: All host bits = 0
+• Broadcast address: All host bits = 1
+• Loopback: 127.0.0.0/8 (typically 127.0.0.1)
+• Link-local (APIPA): 169.254.0.0/16
+• Private ranges:
+  - 10.0.0.0/8 (Class A)
+  - 172.16.0.0/12 (Class B)
+  - 192.168.0.0/16 (Class C)
+
+Subnet Mask:
+• Identifies network vs. host portions
+• Contiguous 1s followed by contiguous 0s
+• CIDR notation: /prefix (number of network bits)
+
+--- SUBNETTING TECHNIQUES ---
+
+Subnetting Steps:
+1. Determine address class and default mask
+2. Calculate borrowed bits (n) based on subnet requirement: 2^n ≥ # of required subnets
+3. Calculate new subnet mask (default + borrowed bits)
+4. Calculate: # of subnets = 2^n (n = borrowed bits)
+5. Calculate: # of hosts per subnet = 2^m - 2 (m = remaining host bits)
+6. Calculate subnets: add the subnet increment to network address until done
+
+Quick Subnet Reference:
+│ CIDR │ Subnet Mask    │ # of Hosts │ Increment │
+│──────┼────────────────┼────────────┼───────────│
+│ /24  │ 255.255.255.0  │ 254        │ 1 in 3rd  │
+│ /25  │ 255.255.255.128│ 126        │ 128 in 4th│
+│ /26  │ 255.255.255.192│ 62         │ 64 in 4th │
+│ /27  │ 255.255.255.224│ 30         │ 32 in 4th │
+│ /28  │ 255.255.255.240│ 14         │ 16 in 4th │
+│ /29  │ 255.255.255.248│ 6          │ 8 in 4th  │
+│ /30  │ 255.255.255.252│ 2          │ 4 in 4th  │
+
+VLSM (Variable Length Subnet Mask):
+• Different subnet sizes within same network
+• Assign according to need (larger subnets for more hosts)
+• Efficient IP address utilization
+
+Subnetting Example:
+Subnet 192.168.1.0/24 into 4 equal subnets
+• Need 4 subnets = 2^2, borrow 2 bits
+• New mask: /26 (255.255.255.192)
+• Subnets:
+  - 192.168.1.0/26 (0-63): Range 192.168.1.1-62, Broadcast 192.168.1.63
+  - 192.168.1.64/26 (64-127): Range 192.168.1.65-126, Broadcast 192.168.1.127
+  - 192.168.1.128/26 (128-191): Range 192.168.1.129-190, Broadcast 192.168.1.191
+  - 192.168.1.192/26 (192-255): Range 192.168.1.193-254, Broadcast 192.168.1.255
+
+--- IPv4 PACKET STRUCTURE ---
+
+IPv4 Header:
+┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┐
+│Ver │IHL │ToS │Total Length │ID  │Flg │Frag Offset│TTL │Prot│Checksum │
+├────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┼────┬────┤
+│                  Source IP Address                        │    │    │
+├────────────────────────────────────────────────────────────┤    │    │
+│                 Destination IP Address                    │Opt │Pad │
+└────────────────────────────────────────────────────────────┴────┴────┘
+
+Key Fields:
+• Version: IPv4 = 4
+• IHL: IP Header Length (5-15 words)
+• ToS: Type of Service (QoS)
+• Total Length: Entire packet size
+• ID, Flags, Fragment Offset: Used for fragmentation
+• TTL: Time to Live (hop count)
+• Protocol: Upper layer protocol (TCP=6, UDP=17, ICMP=1)
+• Checksum: Error detection
+• Source/Destination: 32-bit IP addresses
+• Options: Rarely used
+
+--- ARP PROTOCOL ---
+
+ARP (Address Resolution Protocol):
+• Maps IP addresses to MAC addresses
+• Cache stores recent mappings
+• Used for same-network communication
+
+ARP Process:
+1. Check ARP cache for IP-to-MAC mapping
+2. If not found, broadcast ARP request
+3. Target responds with ARP reply (unicast)
+4. Requester updates ARP cache
+5. Communication proceeds using MAC
+
+ARP Packet Format:
+• Hardware type: Network type (1 for Ethernet)
+• Protocol type: 0x0800 for IPv4
+• Hardware/Protocol length: 6/4 bytes
+• Operation: 1=request, 2=reply
+• Sender MAC/IP: Requester address
+• Target MAC/IP: FF:FF:FF:FF:FF:FF for requests
+
+RARP, Proxy ARP, Gratuitous ARP:
+• RARP: Reverse ARP (MAC to IP), obsolete
+• Proxy ARP: Router responds for hosts in other networks
+• Gratuitous ARP: Unsolicited, announces presence
+
+--- ICMP PROTOCOL ---
+
+ICMP (Internet Control Message Protocol):
+• Error reporting and diagnostics
+• Network layer protocol (runs over IP)
+
+Common ICMP Messages:
+• Echo Request/Reply (Type 8/0): Ping
+• Destination Unreachable (Type 3): Various codes
+  - Code 0: Network unreachable
+  - Code 1: Host unreachable
+  - Code 3: Port unreachable
+• Time Exceeded (Type 11): TTL expired, used by traceroute
+• Redirect (Type 5): Better route available
+
+ICMP Header:
+• Type (8 bits): Message type
+• Code (8 bits): Message subtype
+• Checksum (16 bits): Error detection
+• Rest of Header: Varies by type
+• Data: Original packet header + 8 bytes
+
+--- IP ROUTING BASICS ---
+
+Packet Delivery:
+• Direct: Destination on same network
+  - Check if dest IP is on same subnet
+  - Use ARP to get MAC address
+  - Deliver directly to destination
+• Indirect: Destination on different network
+  - Check routing table for matching route
+  - If none, use default gateway
+  - Use ARP for default gateway's MAC
+  - Forward packet to default gateway
+
+Routing Table Components:
+• Network/Subnet: Destination network
+• Subnet Mask/Prefix: Network boundary
+• Next Hop: Router address for forwarding
+• Interface: Outgoing network interface
+• Metric: Route preference value
+
+Routing Methods:
+• Static: Manually configured
+• Dynamic: Automatically learned via routing protocols
+• Default: Used when no specific route exists
+
+Static vs Dynamic Routing:
+│ Aspect       │ Static Routing          │ Dynamic Routing         │
+│──────────────┼─────────────────────────┼─────────────────────────│
+│ Configuration│ Manual                  │ Automatic               │
+│ Scalability  │ Poor for large networks │ Good for large networks │
+│ Maintenance  │ High                    │ Low                     │
+│ Adaptability │ None                    │ Automatic rerouting     │
+│ Overhead     │ None                    │ Protocol traffic        │
+│ Security     │ Higher                  │ Lower                   │
+
+====== TRANSPORT LAYER PROTOCOLS ======
+
+--- PORT ADDRESSING ---
+
+Transport Layer Addressing:
+• 16-bit port numbers (0-65535)
+• Well-known ports: 0-1023
+• Registered ports: 1024-49151
+• Dynamic/private ports: 49152-65535
+
+Socket: IP:Port combination (complete address)
+
+Common Port Numbers:
+│ Port  │ Protocol │ Service          │ Port  │ Protocol │ Service        │
+│───────┼──────────┼──────────────────┼───────┼──────────┼────────────────│
+│ 20,21 │ TCP      │ FTP              │ 110   │ TCP      │ POP3           │
+│ 22    │ TCP      │ SSH              │ 143   │ TCP      │ IMAP           │
+│ 23    │ TCP      │ Telnet           │ 161   │ UDP      │ SNMP           │
+│ 25    │ TCP      │ SMTP             │ 389   │ TCP      │ LDAP           │
+│ 53    │ TCP/UDP  │ DNS              │ 443   │ TCP      │ HTTPS          │
+│ 67,68 │ UDP      │ DHCP             │ 445   │ TCP      │ SMB            │
+│ 69    │ UDP      │ TFTP             │ 3389  │ TCP      │ RDP            │
+│ 80    │ TCP      │ HTTP             │ 5060  │ TCP/UDP  │ SIP            │
+
+--- TCP vs UDP COMPARISON ---
+
+│ Feature        │ TCP                     │ UDP                     │
+│────────────────┼─────────────────────────┼─────────────────────────│
+│ Connection     │ Connection-oriented     │ Connectionless          │
+│ Reliability    │ Reliable                │ Unreliable              │
+│ Ordering       │ Ordered delivery        │ No guaranteed order     │
+│ Error checking │ Extensive               │ Basic checksum only     │
+│ Flow control   │ Yes (sliding window)    │ No                      │
+│ Congestion ctrl│ Yes                     │ No                      │
+│ Overhead       │ Higher                  │ Lower                   │
+│ Speed          │ Slower                  │ Faster                  │
+│ Header size    │ 20-60 bytes             │ 8 bytes                 │
+│ Usage          │ Web, email, file transfer│ Streaming, DNS, VoIP   │
+
+--- TCP PROTOCOL DETAILS ---
+
+TCP Header:
+┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┐
+│Source Port │Dest Port  │         Sequence Number        │          │
+├────┬────┬──┴─┬────┬────┴────┬────┬────┬────┬────┬────┬──┴─┬────┬────┤
+│Ack Number  │Data│Reserved   │U│A│P│R│S│F│  Window     │          │
+│            │Offs│           │R│C│S│S│Y│I│             │Checksum  │
+│            │    │           │G│K│H│T│N│N│             │          │
+├────┬────┬──┴─┬──┴─┬────┬────┴──┴─┴──┴─┴──┴─┴────┬────┴────┬────┬────┤
+│ Urgent Ptr │        Options (if Data Offset > 5)         │Padding│
+└────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┘
+
+TCP Flags:
+• URG: Urgent pointer valid
+• ACK: Acknowledgment field valid
+• PSH: Push function
+• RST: Reset connection
+• SYN: Synchronize sequence numbers
+• FIN: No more data from sender
+
+TCP 3-Way Handshake:
+1. SYN: Client → Server (SEQ=X, CTL=SYN)
+2. SYN-ACK: Server → Client (SEQ=Y, ACK=X+1, CTL=SYN,ACK)
+3. ACK: Client → Server (SEQ=X+1, ACK=Y+1, CTL=ACK)
+
+TCP Connection Termination (4-Way):
+1. FIN: Client → Server (FIN=1, SEQ=X)
+2. ACK: Server → Client (ACK=X+1)
+3. FIN: Server → Client (FIN=1, SEQ=Y)
+4. ACK: Client → Server (ACK=Y+1)
+
+Flow Control: Sliding window mechanism
+• Receiver advertises window size
+• Sender limits data to window size
+• Prevents buffer overflow
+
+Congestion Control:
+• Slow start: Exponential increase
+• Congestion avoidance: Linear increase
+• Fast retransmit/recovery: Quick response to loss
+
+--- UDP PROTOCOL DETAILS ---
+
+UDP Header:
+┌────────────┬────────────┬────────────┬────────────┐
+│ Source Port│ Dest Port  │ Length     │ Checksum   │
+└────────────┴────────────┴────────────┴────────────┘
+
+UDP Characteristics:
+• Stateless: No connection state
+• No handshaking, sequencing, acknowledgments
+• No flow/congestion control
+• Faster than TCP, less reliable
+• Applications handle reliability if needed
+• Suitable for time-sensitive applications
