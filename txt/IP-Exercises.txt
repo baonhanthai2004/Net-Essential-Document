@@ -1,0 +1,174 @@
+Exercises
+1. The maximum number of workstations for Class A, Class B, Class C IP network?
+2. Convert to dotted decimal notation:
+a. 00001111 11110000 01100111 01111101
+b. 10101111 11000000 11110000 00011101
+c. 11011111 10110000 00011111 01011101
+d. 11101111 11110111 11000111 00011101
+3. Which class type are the following IPs?
+a. 208.34.54.12
+b. 238.34.2.1
+c. 114.34.2.8
+d. 129.14.6.8
+e. 241.34.2.8
+4. Which class type are the following IPs?
+a. 11110111 11110000 01100111 01111101
+b. 10101111 11000000 11110000 00011101
+c. 11011111 10110000 00011111 01011101
+d. 11101111 11110111 11000111 00011101
+5. The maximum subnets of class A ip network with the following subnet masks?
+a. 255.255.192.0
+b. 255.255.0.0
+c. 255.255.224.0
+d. 255.255.255.0
+6. The maximum subnets of class B ip network with the following subnet masks?
+a. 255.255.192.0
+b. 255.255.0.0
+c. 255.255.224.0
+d. 255.255.255.0
+7. The maximum subnets of a class C ip network with the following subnet masks?
+a. 255.255.255.192
+b. 255.255.255.224
+c. 255.255.255.240
+d. 255.255.255.0
+8. Determine the network address of the following IPs?
+a. 125.34.12.56/16
+b. 120.14.22.16/255.255.128.0
+
+c. 140.11.36.22/255.255.255.0
+d. 142.181.14.16/255.255.224.0
+e. 200.34.22.136/255.255.255.240
+9. How many IPs can be assigned within a Class C network?
+a. 255
+b. 256
+c. 254
+d. 253
+10. An IP network with subnet mask 255.255.255.240 can allocated address up to ___ PCs
+a. 240
+b. 24
+c. 16
+d. 14
+11. An IP network with subnet mask 255.255.255.224 can allocated address up to ___ PCs
+a. 24
+b. 30
+c. 32
+d. 254
+12. An IP network with subnet mask 255.255.255.192 can allocated address up to ___ PCs:
+a. 192
+b. 124
+c. 64
+d. 62
+13. An IP network with subnet mask 255.255.255.128 can allocated address up to ___ PCs:
+a. 128
+b. 126
+c. 256
+d. None
+14. An IP network with subnet mask 255.255.255.248 can allocated address up to ___ PCs:
+a. 8
+b. 6
+c. 248
+d. None
+15. An IP network with subnet mask 255.255.255.252 can allocated address up to ___ PCs:
+a. 4
+b. 2
+
+c. 252
+d. None
+16. An IP network with subnet mask 255.255.255.254 can allocated up to address up to
+___PCs
+a. 4
+b. 2
+c. None
+d. 254
+17. What is the Broadcast address of 192.168.10.48/28
+a. 192.168.10.255
+b. 192.168.10.240
+c. 192.168.10.62
+d. 192.168.10.63
+18. What is the network address of 203.162.39.49/28
+a. 203.162.39.0
+b. 203.162.39.4
+c. 203.162.39.28
+d. 203.162.39.48
+19. What is the network address of 203.162.119.52/28
+a. 203.162.119.58
+b. 203.162.119.20
+c. 203.162.119.28
+d. 203.162.119.48
+20. What is the network address of 203.162.39.60/28:
+a. 205.182.39.58
+b. 205.182.39.20
+c. 205.182.39.28
+d. 205.182.39.48
+21. What is the network address of 192.203.70.123/28:
+a. 192.203.70.28
+b. 192.203.70.112
+c. 192.203.70.128
+d. 192.203.70.0
+22. What is the network address of 192.168.10.122/27
+a. 192.168.10.96
+b. 192.168.10.112
+
+c. 192.168.10.128
+d. 192.168.10.0
+23. What is the network address of 192.168.10.122/27:
+a. 192.168.10.96
+b. 192.168.10.112
+c. 192.168.10.128
+d. 192.168.10.0
+24. What is the Broadcast address of 192.168.10.64/28:
+a. 192.168.10.255
+b. 192.168.10.240
+c. 192.168.10.79
+d. 192.168.10.80
+25. What is the Broadcast address of 203.168.100.80/28:
+a. 203.168.100.95
+b. 203.168.100.240
+c. 203.168.100.79
+d. 203.168.100.80
+26. What is the Broadcast address of 213.167.63.96/28:
+a. 213.167.63.95
+b. 213.167.63.111
+c. 213.167.63.79
+d. 213.167.63.28
+27. What is the Broadcast address of 213.167.63.112/28
+a. 213.167.63.0
+b. 213.167.63.112
+c. 213.167.63.127
+d. 213.167.63.255
+28. A subnet with network address 200.160.29.48/28 can allocate address up to ___ PCs :
+a. 48
+b. 24
+c. 16
+d. 14
+29. A subnet with network address 198.168.30.96/27 can allocate address up to ___ PCs :
+a. 96
+b. 32
+c. 30
+
+d. 29 máy
+30. A subnet with network address 199.178.52.192/26 can allocate address up to ___ PCs
+a. 192 máy
+b. 26 máy
+c. 64 máy
+d. 62 máy
+31. A class C IP network operates with 25-bit subnet mask. Into how many subnets this
+network can be divided?
+a. 1
+b. 2
+c. 3
+d. 4
+32. A class C IP network operates with subnet mask 255.255.255.248. How many IPs that
+each subnet could be allocated?
+a. 4
+b. 6
+c. 8
+d. 14
+33. A class B IP network operates with subnet mask 255.255.255.192. How many IPs that
+each subnet could be allocated?
+a. 30
+b. 62
+c. 126
+d. 254
+
+

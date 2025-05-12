@@ -1,0 +1,417 @@
+﻿Chapter 04: 
+TCP/IP Protocol suite
+http://www.tcpipguide.com
+
+
+
+TCP/IP Protocol suite
+
+
+
+TCP/IP protocol suite & RFC
+
+RFC Protocol Description
+Link layer
+1055 SLIP Serial Line IP
+
+1661 PPP Peer to peer protocol
+Internet layer
+826 ARP (Address Resolution Get IP address from MAC
+
+Protocol)
+903 RARP (Reverse ARP) Get MAC address from IP
+791, IP Internet Protocol
+
+950, 
+
+919, 992
+792 ICMP Internet Control Message Protocol
+
+
+
+Họ giao thức TCP/IP
+RFC
+
+Transport layer
+793 TCP Transmission Control Protocol
+
+768 UDP User Datagram Protocol
+
+Application layer
+1034,1035 DNS Domain Name Service
+
+959 FTP File Transfer Protocol
+
+2131 DHCP Dynamic Host Configuration Protocol
+
+821 SMTP Simple Mail Transfer Protocol
+
+1157 SNMP Simple Network Management Protocol
+
+1939 POP-3 Post Office Protocol, version 3.
+
+1945, 2068 HTTP Web
+
+
+
+Main protocols at lower layers
+
+• ARP
+• RARP
+• IP
+• ICMP
+• TCP
+• UDP
+
+
+
+
+
+
+ARP
+
+• ARP is a relatively simple request/reply protocol. 
+• The source device broadcasts an ARP Request 
+
+looking for a particular device based on its IP 
+address. 
+
+• That device responds with its hardware address 
+in an ARP Reply message.
+
+
+
+ARP Operation
+
+
+
+RARP
+
+• The Reverse Address Resolution Protocol (RARP) is 
+the earliest and simplest protocol designed to allow 
+a device to obtain an IP address for use on a TCP/IP 
+network. 
+
+• It is based directly on ARP and works in basically 
+the same way, but in reverse: a device sends a 
+request containing its hardware address and a 
+device set up as an RARP server responds back with 
+the device’s assigned IP address.
+
+
+
+RARP Operation
+
+
+
+Limitation of RARP
+• Low-Level Hardware Orientation: RARP works using 
+
+hardware broadcasts. This means an RARP server is needed 
+on every network segment. 
+
+• Manual Assignment: RARP allows hosts to configure 
+themselves automatically, but the RARP server must still be 
+set up with a manual table of bindings between hardware and 
+IP addresses. These must be maintained for each server, 
+which is again a lot of work on an administrator.
+
+• Limited Information: RARP only provides a host with its 
+IP address. It cannot provide other needed information such 
+as, for example, a subnet mask or default gateway.
+
+
+
+While the Internet Protocol has many functions and 
+characteristics, it can be focused one primary purpose: the 
+delivery of datagrams across an internetwork of connected 
+networks
+
+
+
+Delivery of datagrams
+
+
+
+IP Key Characteristics
+
+Deliver 
+Connectionlessly
+
+Underlyling Protocol 
+Deliver Unreliably
+
+Independent
+
+Universally- Key Deliver without 
+Addressed Characteristics Acknowledgement
+
+
+
+IP Functions
+
+• Addressing
+• Data Encapsulation and Formatting/Packaging
+• Fragmentation and Reassembly
+• Routing / Indirect Delivery
+
+
+
+IP versions & IP related Protocols
+
+• IP Version : IPv4 (RFC 791) , IPv6
+• Related protocols:
+
+▫ IP NAT (NAT)
+▫ IP Security (IPSec)
+▫ Mobile IP
+
+
+
+Even though the name seems to imply that it's the fourth 
+iteration of the key Internet Protocol, version 4 of IP was the 
+first that was widely used in modern TCP/IP.
+
+
+
+IP Address Overview & Fundamentals
+Facilitates the delivery of datagrams across an Internetwork
+
+Functions:
+
+• Network Interface Identification: the IP address 
+
+provides unique identification of the interface between a 
+
+device and the network. 
+
+• Routing: When the source and destination of an IP datagram 
+
+are not on the same network, the datagram must be delivered 
+
+“indirectly” using intermediate systems, a process called 
+
+routing. 
+
+
+
+Questions
+• Number of IP Addresses Per Device ? 
+• Which devices require an IP address ?
+
+
+
+IP Address fundamentals
+
+• Address Uniqueness
+
+• Network-Specificity of IP Addresses
+
+• Contrasting IP Addresses and Data Link Layer Addresses
+
+• Private and Public IP Network Addresses
+
+• IP Address Configuration 
+
+
+
+Representation
+
+Structure
+
+Subnet mask
+
+Categories
+
+Special IP Addresses
+
+
+
+IP Address Representations
+
+• 32 bits long = 4,294,967,296 addresses
+• Representations:
+
+
+
+IP Address Structure
+• Network Identifier (Network ID): A certain number of bits,
+
+starting from the left-most bit, is used to identify the network where
+the host or other network interface is located.
+
+• Host Identifier (Host ID): The remainder of the bits are used to
+identify the host on the network.
+
+The dividing point of the 32-bit address is not fixed, but rather,
+depends on a number of factors, and can occur in a variety of places,
+including in the middle of a dotted-decimal octet.
+
+
+
+NetID & HostID examples
+
+
+
+Subnet mask
+• A 32-bits long value which is used to identify the 
+
+network id of an IP address.
+
+
+
+Subnet mask notation
+
+• Dotted Decimal: 
+▫ 10.5.6.7/255.0.0.0, 
+▫ 172.16.32.1/255.255.0.0, 
+▫ 192.168.10.5/255.255.255.0
+
+• Slash notation:
+▫ 10.5.6.7/8, 
+▫ 172.16.32.1/16, 
+▫ 192.168.10.5/24
+
+
+
+IP Address Categories
+
+• Classful Addressing
+
+
+
+IP Address Categories
+
+• Classless Addressing
+
+
+
+IP Class and Host Capablilities
+
+
+
+Special IP Addresses
+
+• Loopback : 127.0.0.0 to 127.255.255.255
+• All Zeroes (0.0.0.x, 192.168.10.0), 
+• All Ones (196.254.255.255)
+
+
+
+Subnetting
+
+• A “classful” network is subnetted by dividing its host ID 
+portion, leaving some of the bits for the host ID while 
+allocating others to a new subnet ID.
+
+• These bits are then used to identify individual subnets 
+within the network, into which hosts are assigned.
+
+
+
+Determining the Subnet Mask of a 
+Subnetted Network
+
+
+
+Subnetting Design Trade-Off
+
+
+
+Variable Length Subnet Masking
+
+Problem: a company with class C network 
+201.11.55.0/24 has 6 subnetworks in which:
+• The first 4 subnets (S1, S2, S3, S4): 10 hosts 
+
+each,
+• The fifth subnet (S5): 50 hosts,
+• The last subnet (S6): 100 hosts
+
+
+
+Conventional subnetting
+
+
+
+VLSM
+
+
+
+
+
+
+IP Address Management & Authorities
+
+• The Need for Centralized Registration
+
+• The Original IP Address Authority: IANA
+
+• In the late 1990s, a new organization called the 
+Internet Corporation for Assigned Names and 
+Numbers (ICANN) was created
+
+
+
+Modern IP Address Registration & 
+Authorities
+
+NIR ISP End user
+RIR
+
+LIR ISP End-user
+IANA
+
+NIR ISP End-user
+RIR
+
+LIR ISP End-user
+
+
+
+The IPv4 datagram is conceptually divided into two pieces: the header
+and the payload. The header contains addressing and control fields, 
+while the payload carries the actual data to be sent over the 
+internetwork. Unlike some message formats, IP datagrams do not have 
+a footer following the payload.
+
+
+
+IP Datagram Encapsulation
+
+
+
+IP Datagram
+
+
+
+IP Datagram size, MTU
+
+• Datagram size = IP Header + TCP Header + 
+Upper layer Header + Data 
+
+• MTU: The size of the largest IP datagram that 
+can be transmitted over a physical network
+
+
+
+
+
+
+ICMP Message classes
+
+• Error Messages:
+▫ that are used to report problem conditions
+
+• Informational messages
+▫ that are used for diagnostics, testing and other 
+
+purposes
+
+
+
+ICMP Common Message Format
+
+
+
+ICMP Echo & Echo Reply Message

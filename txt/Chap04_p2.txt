@@ -1,0 +1,456 @@
+﻿Chapter 04: TCP/IP Protocol suite
+Delivery and Forwarding of IP Packets
+
+http://www.tcpipguide.com
+
+
+
+Objectives
+• To discuss the delivery of packets in the network layer and 
+
+distinguish between direct and indirect delivery. 
+• To discuss the forwarding of packets in the network layer and 
+
+distinguish between destination-address–based forwarding and 
+label-based forwarding.
+
+• To discuss different forwarding techniques, including next-hop, 
+network-specific, host-specific, and default. 
+
+• To discuss the contents of routing tables in classful and classless 
+addressing and some algorithms used to search the tables.
+
+
+
+Direct and Indirect 
+
+
+
+Direct Delivery
+
+• Occurs when the source and destination of the packet are located on 
+the same physical network or if the delivery is between the last 
+router and the destination host.
+
+• The sender uses the destination IP address to find the destination 
+physical address (with ARP) to create link layer frame for actual 
+delivery.
+
+
+
+Indirect Delivery
+
+• Indirect delivery occurs when the source and destination of the 
+packet are not on the same physical network. The packet goes from 
+router to router until it reaches the one connected to the same 
+physical network as its final destination.
+
+• In an indirect delivery, the sender uses the destination IP address 
+and a routing table to find the IP address of the next router to which 
+the packet should be delivered. The sender then uses ARP to find the 
+physical address of the next router delivered. The last delivery is 
+always a direct delivery.
+
+
+
+Indirect Delivery
+
+
+
+Forwarding means to place the packet in its route to its destination. Since 
+the Internet today is made of a combination of links (networks), 
+forwarding means to deliver the packet to the next hop (which can be the 
+final destination or the intermediate connecting device)
+Because IP is a connectionless protocol, forwarding is based on the 
+destination address of the IP datagram; when the IP is used as a 
+connection-oriented protocol, forwarding is based on the label attached to 
+an IP datagram.
+
+
+
+Forwarding Based on Destination Address 
+
+• This is a traditional approach, forwarding requires a host or a router to have 
+a routing table. When a host has a packet to send or when a router has 
+received a packet to be forwarded, it looks at this table to find the route to 
+the final destination. 
+
+• However, this solution is inefficient in an internetwork such as the Internet 
+because the number of entries needed in the routing table would make table 
+lookups inefficient.
+
+
+
+Forwarding Techniques
+Next-Hop: 
+The routing table holds only the address of the next hop instead of information 
+about the complete route. The entries of a routing table must be consistent with 
+each other.
+
+
+
+Forwarding Techniques
+Network-specific: 
+instead of having an entry for every destination host connected to the same 
+physical network, we have only one entry that defines the address of the 
+destination network itself. In other words, all hosts connected to the same 
+network are treated as one single entity.
+
+
+
+Forwarding Techniques
+Host-specific: 
+the destination host address is given in the routing table. Here efficiency is 
+sacrificed for other advantages: Although it is not efficient to put the host 
+address in the routing table, there are occasions in which the administrator 
+wants to have more control over routing
+
+
+
+Forwarding Techniques
+Default:  
+Host A is connected to a network with two routers. Router R1 routes the packets 
+to hosts connected to network N2. However, for the rest of the Internet, router 
+R2 is used. So instead of listing all networks in the entire Internet, host A can 
+just have one entry called the default (normally defined as network address 
+0.0.0.0)
+
+
+
+Forwarding with Classful Addressing
+Forward without subnetting:  
+Subnetting happens inside the organization, most of the routers in the global 
+Internet are not involved in subnetting.
+• The forwarding module has 3 routing tables, one for each class A,B or C.
+• Each routing table has a minimum of 3 columns:
+
+1. The network address of the destination network indicates where the destination 
+host is located (network-specific forwarding)
+
+2. The next-hop address indicates to which router the packet must be delivered for an 
+indirect delivery. This column is empty for a direct delivery. 
+
+3. The interface number defines the outgoing port from which the packet is sent out. 
+A router is normally connected to several networks. Each connection has a 
+different numbered port or interface. (m0, m1, m2, …)
+
+
+
+Forwarding module in 
+Classful Address without Subnetting
+
+
+
+Forwarding with Classful Addressing
+
+In its simplest form, the forwarding module follows these steps: 
+1. The destination address of the packet is extracted. 
+2. A copy of the destination address is used to find the class of the address. This is done 
+
+by shifting the copy of the address 28 bits to the right. The result is a 4-bit number 
+between 0 and 15.  If the result is: 0 to 7, the class is A; 8 to 11, the class is B; 12 or 13, 
+the class is C; 14, the class is D; 15, the class is E. 
+
+3. Masking off the rightmost 8, 16, or 24 bits based on the class of the result from  Step 2 
+to extract the network address. 
+
+4. The class determines which table is used for searching the network address. If a match 
+is found, the next-hop address and the interface number of the output port are 
+extracted from the table. If no mat.ch is found, the default is used
+
+
+
+Example
+
+Find the routing tables for router R1 in the figure:
+Default: 111.30.31.18,  m0
+
+
+
+Example
+
+
+
+Example
+How the packet is forwarded in these 2 cases:
+1. Router R1 receives a packet with destination address 192.16.7.14.
+2. Router R1 receives a packet with destination address 167.24.160.5
+
+Default: 111.30.31.18,  m0
+
+
+
+Forwarding with Classful Addressing
+
+• Forward with subnetting:  Subnetting happens inside the organization, 
+most of the routers in the global Internet are not involved in subnetting.
+
+• If the organization is using variable-length subnetting, we need several 
+tables; otherwise, we need only one table.
+
+
+
+Example
+
+
+
+Forwarding with Classless Addressing
+• The routing table in classful addressing has 3 columns, 
+
+for classless, we have one additional Mask (/n) column.
+
+
+
+Example
+• Create the routing table for router R1 in figure?
+
+
+
+Show the forwarding process if a packet arrives at R1 with the 
+destination address 180.70.65.140
+
+
+
+Routing metrics, Static vs Dynamic Routing, Routing protocol, 
+Autonomous System, Convergences, Routing algorithms
+
+
+
+Routing metric/cost
+• Path Length
+• Reliability
+• Routing Delay
+• Bandwidth
+• Load
+
+
+
+Static vs Dynamic Routing Table 
+A routing table can be either static or dynamic. 
+▫ A static table is one with manual entries. 
+▫ A dynamic table is one that is updated automatically when 
+
+there is a change somewhere on the internet. 
+An internet needs dynamic routing tables. The tables need 
+to be updated as soon as there is a change on the internet. 
+For instance, they need to be updated when a link is down, 
+and they need to be updated whenever a better route has 
+been found. 
+
+
+
+Routing Protocols
+
+• Routing protocols have been created in response to the 
+demand for dynamic routing tables. 
+
+• A routing protocol is a combination of rules and 
+procedures that lets routers on the internet inform each 
+other of changes. It allows routers to share whatever they 
+know about the internet or their neighborhood.
+
+• Routing protocols can be either an interior protocol 
+(intradomain) or an exterior protocol (interdomain). 
+
+
+
+Autonomous System (AS)
+• An autonomous system (AS) is a 
+
+group of networks and routers under the 
+authority of a single administration. 
+
+• Routing inside an autonomous system is 
+referred to as intra-domain routing. 
+Routing between autonomous systems is 
+referred to as inter-domain routing 
+
+
+
+Interior and Exterior Gateway Protocols
+• Routing protocols used within an autonomous 
+
+system are called interior gateway protocols or 
+intradomain protocols
+
+• Routing protocols that route between 
+autonomous systems are called exterior gateway 
+protocols or interdomain protocols.
+
+
+
+Interior & Exterior Routing Protocols
+
+Internal Internal 
+Routers Routers
+
+External 
+Routers
+
+
+
+Convergence
+• How much time a router takes to react to 
+
+network topology changes.
+• The convergence time varies depending on the 
+
+routing algorithm. Fast convergence minimizes 
+the chance of lost packets caused by inaccurate 
+routing information.
+
+
+
+Routing Algorithms
+• Routing algorithms determine how a router 
+
+gathers and reports reachability information, 
+how it deals with topology changes, and how it 
+determines the optimal route to a destination.
+
+• Can be classified as:
+▫ Static or Dynamic
+▫ Interior or Exterior 
+
+
+
+Static Routes & Dynamic Routing Protocols
+
+• Static routes are route tables that are manually 
+configured, these routes do not change unless 
+being reconfigured.
+
+• Most routing protocols today use dynamic 
+routing algorithms, which adjust to changing 
+network circumstances by analyzing incoming 
+routing update messages
+
+
+
+Distance Vector Protocols
+• Distance vector algorithms define routes by distance (# 
+
+of hops to the destination) and direction (for the next-
+hop router).
+
+• Distance vector protocols use distance vector algorithms 
+(Bellman-Ford algorithms): each router send all or some 
+portion of its routing table to its neighbors. These routes 
+are then broadcast to the directly connected neighbor 
+routers. Each router uses these updates to verify and 
+update the routing tables.
+
+
+
+Distance Vector Routing Protocols
+There are four distance vector IPv4 IGPs:
+• RIPv1: First generation legacy protocol
+• RIPv2: Simple distance vector routing protocol
+• IGRP: First generation Cisco proprietary protocol 
+
+(obsolete and replaced by EIGRP)
+• EIGRP: Advanced version of distance vector routing
+
+
+
+Link-State Protocols
+• The link-state protocols, also known as shortest 
+
+path first (SPF), share information with 
+neighboring routers. 
+
+• Each router builds a link-state advertisement 
+(LSA), which contains information about each 
+link and directly connected neighbor router.
+
+
+
+Link-State Protocols
+The link-state database stored in each router 
+consists of parameters:
+▫ Router id
+▫ Neighor id
+▫ Link cost
+▫ Sequence # of the LSA
+▫ Age of LSA entry
+
+
+
+Link-State Routing Protocols
+Link-state protocols work best in situations where:
+• The network design is hierarchical, usually occurring in large 
+
+networks.
+• Fast convergence of the network is crucial
+• The administrators have good knowledge of the implemented link-
+
+state routing protocol
+There are two link-state IPv4 IGPs:
+• OSPF: Popular standards-based routing protocol
+• IS-IS: Popular in provider networks
+
+
+
+Classifying routing protocols
+By
+• Purpose: IGPs, EGPs
+• Operation: Distance vector, 
+
+Link-State, Path-vector
+• Behavior: Classful, classless
+For example:
+• RIPv1 (legacy): IGP, 
+
+distance vector, classful 
+protocol
+
+• OSPF: IGP, link-state, 
+classless protocol
+
+
+
+Routing Protocols Characteristics
+• Speed of convergence: how quickly the routers in the 
+
+network topology share routing information and reach a 
+state of consistent knowledge. The faster the 
+convergence, the more preferable the protocol. 
+
+• Scalability: how large a network can become, based on 
+the routing protocol that is deployed. The larger the 
+network is, the more scalable the routing protocol needs 
+to be.
+
+• Classful or classless
+
+
+
+Routing Protocols Characteristics
+• Resource usage: the requirements of a routing 
+
+protocol such as memory space (RAM), CPU utilization, 
+and link bandwidth utilization. Higher resource 
+requirements necessitate more powerful hardware to 
+support the routing protocol operation, in addition to the 
+packet forwarding processes.
+
+• Implementation and maintenance: the level of 
+knowledge that is required for a network administrator 
+to implement and maintain the network based on the 
+routing protocol deployed.
+
+
+
+
+
+
+Configuration
+router# configure terminal
+router(config)# ip route <dest net> <mask> <gw>
+router# show ip route
+Example:
+• ip route 192.168.15.0 255.255.255.0 203.162.39.1
+
+
+
+Example

@@ -1,0 +1,113 @@
+1
+
+Bài thực hành Linux cơ bản
+
+Các thao tác cơ bản
+Trong các bài tập ở phần sau, lưu ý sử dụng lệnh man hoặc info để xem thêm các tùy chọn và hướng
+dẫn đầy đủ cách sử dụng lệnh.
+Hệ thống tập tin
+1. Sử dụng lệnh ls, ls -l , quan sát nội dung thư mục /root, /bin, /sbin, /etc, /home… (lưu ý kết hợp với
+| more để xem nội dung thư mục từng trang).
+2. Sử dụng lệnh cd để chuyển đến một vài thư mục đã xem bằng lệnh ls. Sử dụng lệnh pwd trong một
+thư mục để xem kết quả.
+3. Muốn chuyển về thư mục chủ (home) thì sử dụng lệnh gì ? Chuyển thư mục bằng lệnh cd hoặc cd ~
+rồi sử dụng lệnh pwd để xem đường dẫn thư mục.
+4. Sử dụng lệnh mkdir để tạo một cây thư mục tùy ý trong thư mục /home của mình. Sử dụng lệnh mv
+để di chuyển, đổi tên thư mục.
+5. Sử dụng lệnh rmdir để xoá cây thư mục đã tạo ở câu 4
+6. Tạo một vài thư mục trong thư mục của bạn bằng lệnh mkdir, tạo một vài tập tin trong các thư mục
+này bằng lệnh cat, sau đó sử dụng lệnh cat để xem lại nội dung các tập tin vừa tạo.
+7. Sử dụng lệnh more hoặc less để xem nội dung của tập tin /etc/passwd. Lưu ý sử dụng các phím điều
+khiển khi xem như sau:
+Xem trang kế tiếp
+Xem trang trước
+
+Spacebar, k
+B, b
+
+Cuộn dòng kế tiếp
+Kết thúc
+
+Enter
+Q, q
+
+8. Sử dụng lệnh view để xem nội dung tập tin passwd, shadow trong thư mục /etc. Kết thúc xem bằng
+cách bấm phím ESC (sẽ thấy xuất hiện ký tự “:” ở dòng cuối màn hình) rồi bấm phím q, Enter.
+9. Sử dụng lệnh head, tail để xem nội dung một số tập tin trong thư mục /etc.
+10. Tự thực tập các lệnh cp (sao chép), rm (xoá), mv (di chuyển, đổi tên).
+11. Thử sử dụng lệnh whereis để tìm kiếm tập tin.
+12. Xem hướng dẫn sử dụng lệnh grep (man grep), kết hợp grep với các lệnh tim kiếm để tim kiếm một
+vài tập tin theo nội dung.
+13. Xem hướng dẫn lệnh tar (man tar) để nén và xả nén một số tập tin hoặc thư mục.
+14. Sử dụng tiện ích vi để soạn một tập tin văn bản với nội dung tùy ý. Các lệnh thao tác cơ bản được
+tóm tắt như sau:
+Các lệnh soạn thảo
+Chèn
+i:
+Chèn ký tự trước con trỏ chèn
+a
+Thêm ký tự vào sau con trỏ
+chèn
+I
+Chèn ký tự tại đầu dòng
+A
+Thêm chữ vào cuối dòng
+Xóa
+dd
+Xóa dòng hiện tại
+
+Bài thực hành Linux cơ bản
+
+(n)dd
+(n)dw
+D
+x
+(n)x
+
+2
+
+Xóa (n) dòng
+Xóa (n) từ
+Xóa từ con trỏ đến cuối dòng
+Xóa ký tự tại con trỏ
+Xóa (n) ký tự
+
+Các lệnh thao tác tập tin (Sau khi bấm phím ESC)
+:w (file)
+Ghi lên tập tin (file)
+:wq
+Ghi tập tin đang làm việc rồi thoát
+:w! (file) Ghi (file)
+:q
+Thoát
+:q!
+Thoát, không ghi
+:f (name) Đổi tên tập tin hiện tại thành (name)
+15. Sử dụng lệnh du, df để xem thông tin về dung lượng dĩa và dung lượng một số thư mục như /etc,
+/home, /usr, /bin…
+Các lệnh lọc (filter) và đường ống lệnh (pipeline)
+16. Sử dụng lệnh ls kết hơp grep để đếm số tập tin, thư mục trong /etc
+17. Tạo một tập tin tùy ý bằng lệnh cat, đếm số từ, số dòng trong tập tin,
+18. Xem các dòng có từ root trong tập tin /etc/passwd
+19. Xem các dòng bắt đầu bằng ký tự u trong tập tin /etc/passwd
+20. Chỉ muốn xem phần tên trong kết quả của lệnh ls
+21. Chỉ muốn xem những dòng có ký tự cuối là f trong kết quả của lệnh ls
+Quản lý user
+22. Sử dụng lệnh more để xem nội dung tập tin /etc/passwd, /etc/shadow, /etc/group. Đây là các tập tin
+chứa thông tin về user, password của user trên máy, thông tin về các nhóm trên máy. Lưu ý cấu trúc
+của các tập tin này.
+23. Tạo các user mới với tên n1, n2, n3 bằng lệnh adduser, sử dụng lệnh passwd để đặt mật khẩu của
+các user này cho trùng với tên của mỗi user (ví dụ user n1 có mật khẩu n1, user n2 có mật khẩu n2,
+user n3 có mật khẩu n3). Xem lại nội dung các tập tin /etc/passwd, /etc/shadow, /etc/group và cho
+biết các user vừa tạo thuộc về nhóm nào
+24. Login với tên user n1 và n2. Khi login với tên n1(n2) có xem được thư mục home của user n2(n1)
+không . Tại sao ?
+25. Login với tài khoản n1, tạo một tập tin file.txt có nội dung tùy ý. Ra lệnh để user n2 có thể xem và
+sao chép các tập tin trong thư mục home của n1. Sau khi sao chép về thư mục của mình thì quyền của
+n2 trên tập tin đã sao chép như thế nào.
+26. Login với tài khoản root. Tạo một thư mục /share và cấp toàn quyền (rwx) trên thư mục này cho các
+user n1, n2. Sau đó lần lượt login với tài khoản n1, n2 để thử kết quả.
+27. Login với tài khoản root. Tạo một common, thực hiện lệnh để chỉ có user n1, n2 có quyền đọc ghi
+trên thư mục. Sau đó login với tài khoản n1, n2, n3 để xem kết quả.
+
+

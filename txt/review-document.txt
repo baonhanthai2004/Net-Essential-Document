@@ -1,0 +1,869 @@
+﻿lOMoARcPSD|39944441
+
+[123doc] - de-cuong-on-tap-mon-mang-may-tinh
+
+Mạng máy tính căn bản (Trường Đại học Sư phạm Kỹ Thuật Thành phố Hồ Chí Minh)
+
+Scan to open on Studocu
+
+Studocu is not sponsored or endorsed by any college or university
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+Đ/C MẠNG MÁY TÍNH
+A
+
+1. An toàn mạng theo nghĩa là bảo vệ và đảm bảo an toàn: Tài nguyên của mạng.
+
+2. ATM có tốc độ thông tin từ: 155Mbps đến 622 Mbps.
+
+B
+3. Bảo mật là kĩ thuật che dấu thông tin không cho phép các thực thể: Không được 
+quyền truy xuất.
+
+4.Bảo vệ các tài nguyên thông tin trên mạng là cần thiết và cấp bách vì: Nhiều người 
+sử dụng và phân tán về mặt vật lý.
+
+5. Biểu diễn số 125 từ cơ số  decimal (10) sang cơ số binary (2): 01111101
+
+C
+6. Các cặp tín hiệu dùng để truyền và nhận dữ liệu của Topology 100 Base-TX là: 1,3 
+và 2,6.
+
+7. Các chuẩn Jpeg, TIFF, ASCII, EBCDIC do tầng nào của mô hình OSI định nghĩa: 
+Aplication.
+
+8. CÁc giao thức ở tầng giao vận: Kiểm soát việc truyền tin giữa 2 tiến trình trên 
+mạng máy tính.
+
+9. Các giao thức ứng dụng hoạt động trên: Tầng ứng dụng.
+
+10. Các mạng máy tính được thiết kế và cài đặt theo quan điểm: Cấu trúc đa tầng.
+
+11. Các protocol TCP và UDP hoạt đông ở tầng nào: Application.
+
+12. Các quy tắc điều khoản về việc truyền thông máy tính được gọi là: Các giao 
+thức.
+
+13. Các thành phần tạo nên mạng là : Tất cả các đáp án.
+
+14. Các thiết bị mạng nào sau đây có khả năng định tuyến cho 1 gói tin (chuyển gói 
+tin sang 1 mạng kế khác nằm trên đường đến mạng đích)  bằng các dựa vào địa chỉ IP 
+của máy tính có trong gói tin…….. : Router.
+
+1
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+15. Các thiết bị mạng nào sau đây có khả năng duy trì thông tin và hiện trạng kết nối  
+của toàn bộ mạng xí nghiệp….: Router
+
+16. Các web client thường được gọi là: Browsers.
+
+17. Cáp UTP Cat5e sử dụng đầu nối RJ-45.
+
+18. Cấu trúc khung thông tin của Frame relay đơn giản hơn khung X25 vì: Sử dụng 1 
+phần các chức năng ở tầng 2 và không có Header của tầng mạng.
+
+19  Cấu  trúc  khuôn  dạng  của  địa  chỉ  IP  lớp  A     :  Bit  1:0,  bit  2-8:NetID,  9-
+32:HostID.
+
+20. Cấu trúc khuôn dạng của địa chỉ IP lớp B    : Bit 1:0, bit 2-16:NetID, 17-32:Host 
+ID.
+
+21. Checksum trong gói dữ liệu UDP có độ dài: 16.
+
+22. Cho biết các chức năng của Proxy: Là máy đại diện cho 1 nhóm máy đi thực 
+hiện 1 dịch vụ máy khác nào đó.
+
+23. Cho biết ứng dụng nào sau đây thuộc loại Cleint/server:  WWW (World wide 
+web).
+
+24. Chọn 2 chức năng của tầng Presentation: Mã hóa dữ liệu + Phân đoạn dữ liệu 
+(nén dữ liệu).
+
+25. Chọn định nghĩa đúng về địa chỉ MAC:  Được ghi sẵn trên card mạng (NIC).
+
+26. Chuẩn H.323 Là 1 tập các giao thức và thủ tục cung cấp các dịch vụ đa phương 
+tiện với thời gian thực qua mạng: Chuyển mạch gói.
+
+27 Chuẩn nào dưới đây đặc tả về chuẩn kiến trúc mạng cục bộ cho Ethernet, bao gồm 
+các chuẩn tầng vật lý và tầng con MAC: IEEE802.3
+
+28. Chuẩn WLAN 802.11b/g có tốc độ truyền dữ liệu tương ứng là: 11/545 Mbps.
+
+29. Chức năng chính của router: Kết nối LAN với LAN.
+
+30. Chức năng chính của router: KẾt nối network với network.
+
+31. Chức năng của tầng liên kết dữ liệu là: Tạo khung thông tim (frame).
+
+32. Chức năng của tầng mạng là: Thực hiện chọn đường đi.
+
+33. Chức năng của tầng trình bày là chuyển đổi: Ngôn ngữ người sử dụng về ngôn 
+ngữ chung của mạng.
+
+34. Chức năng của tầng vận chuyển là:  Vận chuyển thông tin giữa các máy chủ 
+(End to End)..
+
+35. Chức năng của tầng vật lý là: Đảm bảo các yêu cầu truyền/nhận các chuỗi bit 
+qua các phương tiện vật lý.
+
+2
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+36. Chuỗi số "00-08-ac-41-5d-9f" có thể là: Địa chỉ MAC.
+
+37. Chương trình Tracerrouter sử dụng các giao thức nào: TCP và ICMP.
+
+38. Chuyển mạch mềm có khả năng tích hợp các ứng dụng củ: Nhà cung cấp dịch 
+vụ khác nhau.
+
+39. Có bao nhiêu vùng đụng độ trong 1 mạng dùng 1 Repeater và Hub: 1
+
+40. Có bao nhiêu vùng va chạm trong mạng gồm 88 máy tính, 10 hub và 2 repeater:  
+12
+
+41. Công nghệ ADSL là công nghệ đường dây thuê bao số truy nhập: Đối xứng.
+
+42. Công nghệ DSL cho phép tận dụng miền tần số cao để truyền tín hiệu tốc độ cao 
+trên: Đôi dây cáp đồng thông thường.
+
+43.  Công  nghệ  Ethernet  sử  dụng  phương  pháp  truy  cập  môi  trường  truyền: 
+CSMA/CD.
+
+44. Công nghệ LAN nào sử dụng kỹ thuật CSMA/CD: Ethernet.
+
+45. Công nghệ mạng LAN sử dụng phổ biến hiện nay là: Token Ring.
+
+46. Công nghệ nào sau đây có độ dài của khung dữ liệu cố định: ATM.
+
+47. CSMA/CD là phương pháp truy nhập ngẫu nhiên sử dụng cho mạng có cấu hình: 
+Vòng (Ring).
+
+Đ- D
+48. Đặc điểm của mạng dạng bus:  Tất cả các kết nối trên cùng 1 đường truyền vật 
+lý.
+
+49. Đẳng thức nào sau đây mô tả chính xác nhất giao thức UDFP: UDP=TCP-(tính 
+tin cậy).
+
+50. Để cấp phát động địa chỉ IP, ta có thể sử dụng dịch vụ có giao thức:  DHCP
+
+51. Để hạn chế sự đụng độ của các gói tin trên mạng, người ta chia mạng …. Bằng 
+các thiết bị : Switch hoặc Bridge.
+
+52. Để hạn chế sự đụng độ của các gói tin trên mạng, người ta chia mạng …. Bằng 
+các thiết bị : Switch.
+
+53. Để kết nối 2 máy tính với nhau, có thể sử dụng: Tất cả đều đúng (Hub, Switch, 
+nối trực tiếp với nhau.
+
+54. Để phát hiện lỗi trong gói tin, người ta dùng kỹ thuật: Checksum.
+
+55. Để thiết kế 1 trang web như chúng ta vẫn thấy trên màn hình….. : HTML.
+
+3
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+56. Địa chỉ IP 172.200.25.55/255.255.0.0 : Là địa chỉ riêng.
+
+57. Địa chỉ IP 192.168.1.1 : thuộc lớp C và địa chỉ riêng.
+
+58. Địa chỉ IP nào sau đây cùng địa chỉ  mạng với địa chỉ IP 192.168.1.10/24  :  
+192.168.1.33/24.
+
+59. Địa chỉ IP nào sau đây không được dùng để kết nối trực tiếp trong mạng internet 
+(không tồn tại trong internet): 126.0.0.1
+
+60. Địa chỉ lớp nào cho phép mượn 15 bits để chia subnet: Lớp A.
+
+61. Địa chỉ nào được Switch sử dụng khi quyết định gửi data sang cổng port nào: 
+Destination MAC address.
+
+62.  Địa  chỉ  nào  sau  đây  là  địa  chỉ  Broadcast  của  mạng  lớp  B  là:   Tất  cả  sai 
+(149.255.255.255,149.6.6.255,149.6.255.255).
+
+63. Địa chỉ nào sau đây thuộc lớp A: 10.1.1.1
+
+64. Địa chỉ vật lý (MAC Address) nào sau đây là không đúng: 00-4G-43-26-0D
+
+65. Dịch vụ mạng nào sau đây phải dựa trên ICMP: Ping.
+
+66. Dịch vụ nào sau đây mà tầng liên kết dữ liệu nào cũng phải cung cấp đó là: Tất 
+cả đáp án (đặt gói tin tầng mạng vào các frame vật lý  + Tạo đường truyền tin 
+cậy + Mã hóa các bit thành tín hiệu
+
+67. Dịch vụ VoIP truyền thoại sử dụng giao thức: IP.
+
+68. Điều gì đúng đối với mạng ngang hàng: Được khuyến cáo sử dụng cho mạng có 
+từ 10 người dùng trở xuống.
+
+69. Điều gì xảy ra khi máy tính A gủi Broadcast (ARP request) đi tìm địa chỉ MAC 
+của máy tính B trên cùng 1 mạng: Tất cả các máy tính trong mạng đều nhận được 
+yêu cầu, nhưng chỉ có máy B mới trả lời A với địa chỉ MAC của mình.
+
+70. Điều gì xảy ra viwú dữ liệu khi  có va chạm: Dữ liệu se bị phá hỏng từng bit 
+một.
+
+71. Độ dài của khung dữ liệu ATM: 53 byte.
+
+72. Độ dài tối đa cho phép khi sử dụng dây cáp mạng UTP là bao nhiêu mét: 100
+
+73. Đơn vị cơ bản đo tốc độ truyền dữ liệu là: Bps( Bit per second).
+
+74. Đơn vị dữ liệu ở tầng Presentation là : Data.
+
+75. Dữ liệu trong mạng Frame Relay được tổ chức thành các khung có độ dai: Không 
+cố định.
+
+4
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+E
+76. Ethernet sử dụng giới hạn nào sau đây để có thể phát hiện xung đột: B và C đúng 
+(Kích thước tối đa của frame là 46 byte + Kích thước tối đa của cáp bị giới hạn.
+
+F
+77. Fast Ethernet còn được gọi là: 100 BaseT.
+
+78. Firewall là 1 hệ thống kiểm soát, ngăn chặn:  Đột nhập bất hợp pháp từ bên 
+ngoài vào hệ thống.
+
+79. Frame là dữ liệu ở tầng: Data link
+
+80.FTP là viết tắt của: File Transfer Protocol.
+
+G
+81.Giả sử có 1 hệ thống 2 LAN segment được nối với nhau qua 1 router  là máy tính. 
+Máy tính đóng vai trò router có bao nhiêu card mạng: 2
+
+82. Giả sử người ta sẽ bổ sung 1 bit kiểm tra vào cuối của dòng dữ liệu gửi đi sao 
+cho  tổng  số  bit  1  trong  chuỗi  mới  là  1  số  lẻ.  Bên  nhận  nhận  được  chuỗi 
+1000101010001: Không xác định lỗi trong chuỗi nhận được.
+
+83. Giả sử trường Length của 1 gói dữ liệu UDP có giá trị 150. Dữ liệu thực sự có 
+bao nhiêu byte: 142 byte.
+
+84. Giá trị của 11101101 ở cơ số 2 trong cơ số 16 là: ED.
+
+85. Giá trị của cổng (Port) giao thức truyền mail SMTP có giá trị là: 25.
+
+86. Giải pháp nào sau đây có thể giải quyết tình trạng khan hiếm địa chỉ IP: Cả 3 đáp 
+án (IPv6 + Subnet mask  + Network address Tranlation).
+
+87. Giao thức được sử dụng để 2 bên truyền file là: FTP.
+
+88. Giao thức được sử dụng để truyền thư giữa các máy chủ phục vụ thư (mail 
+sever)là: SMTP.
+
+89. Giao thức giao vận chạy phía trên IP mà không cần thiết lập kết nối trước khi 
+truyền là: UDP.
+
+5
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+90. Giao thức IP có những chức năng nào sau đây: Tất cả đúng (Định tuyến các gói 
+tin trên mạng + Kiểm soát  luồng dữ liệu và kiểm soát  lỗi  + Phân mảnh và 
+hợpnhất các gói dữ liệu).
+
+91.Giao thức IP là giao thức: Không liên kết.
+
+92. Giao thức MAC liên quan đến tình huống khi :  Tất cả ABC đều đúng (Nhiều 
+thiết bị kết nối vào kênh quảng bá dùng chung + Nhiều nút cùng muốn truyền 
+dữ liệu tại cùng thời điểm + Cần cơ chế xác định nút nào được quyền truyền.
+
+93. Giao thức nào cung cấp tính năng vận chuyển gói tin có độ tin cậy cao: TCP.
+
+94. Giao thức nào dùng để chuyển đổi từ địa chỉ IP sang địa chỉ vật lý MAC: ARP.
+
+95. Giao thức nào dùng để tìm địa chỉ MAC khi biết địa chỉ IP cho máy tính: ARP.
+
+96. Giao thức nào được router hay máy tính sử đụng để thông báo cho các máy tính 
+khác về tình trạng lỗi: ICMP.
+
+97. Giao thức nào dưới đây không đảm bảo dữ liệu gủi đi có tới máy nhận hoàn chỉnh 
+hay không: UDP..
+
+98. Giao thức nào phù hợp nhất cho việc giao vận giữ liệu quan trọng về mặt thời 
+gian: A,B,C đúng (ATM+Framrelay+IEEE 802.5).
+
+99. Giao thức nào sau đây dùng trong các giao thức sau dùng trong mô hình mạng 
+WAN: Tất cả (TCP/IP,NETBEUI, DLC)
+
+100. Giao thức nào sau đây thuộc tầng mạng trong mô hình TCP/IP: B,C đúng (IP + 
+ARP).
+
+101. Giao thức nào thuộc tầng Application: HTTP.
+
+102. Giao thức nào trong các giao thức sau dùng trong mô hình mạng Lan: Tất cả 
+(TCP/IP, IPX/SPX, NETBEUI)
+
+103. Giao thức nào trong số các giao thức sau thuộc tầng mạng : IP.
+
+104. Giao thức RIP được triển khai tại: Router.
+
+105. Giao thức TCP có thể xử lý:  Cả 3 đáp án (Gói tin bị mất + Các gói tin bị 
+trùng lặp + Các gói tin không theo thứ tự).
+
+106. Giao thức TCP làm việc ở tầng nào trong mô hình OSI: Transport.
+
+107. Giao thức UDP được sử dụng cho những ứng dụng: Không đòi hỏi độ tin cậy 
+cao.
+
+6
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+H
+108. Hai kiểu máy tính khác nhau có thể truyền thông nếu: Chúng tuân thủ mô hình 
+OSI.
+
+109. Hãy chọn khẳng định nào sau đây là đúng:
+
+110. Hình trạng mạng nào cho phép tất cả các cặp thiết bị đều có 1 đường nối vật lý 
+trực tiếp: Mesh (dạng lưới).
+
+111. Hoạt động trong tầng Datalink của Frame relay có: Giao thức LAP-F.
+
+112. Hoạt động trong tầng Datalink của X25 có: Giao thức LAP-B.
+
+113. HTTP là viết tắt của: Hype Text Transfer.
+
+114. HTTP là: Giao thức ứng dụng cho phép các máy tính giao tiếp với nhau qua 
+web và có khả năng liên kết các trang web với nhau.
+
+115. HTTP làm nhiệm vụ: Cung cấp 1 cơ chế để lấy dữ liệu từ sever đến client.
+
+I
+116. IEEE 802.5 quy định kích thước tối đa frame là: 1500 bit.
+
+117. IPv4 , mặc nhiên lớp B có số  NetIDs/HostIDs sử dụng tương ứng như sau: 
+214/216-2
+
+118. IPv4 có bao nhiêu địa chỉ IP: 232
+
+119. ISDN có 3 loại kênh cơ bản: Kênh D, kênh B, kênh H được phân biệt với nhau 
+về: Chức năng và tốc độ.
+
+K
+120. Kết nối các mạng LAN, MAN, WAN độc lập nhau bằng các thiết bị có chức 
+năng: Định tuyến.
+
+121. Kết nối nhiều mạng sử dụng các giao thức khác nhau bằng các: Bộ định tuyến.
+
+122. Kết quả nào sau đây không đúng: 111 chuyển sang nhị phân sẽ có giá trị là 
+01101111.
+
+123. Khẳng định nào sau đây là đúng khi nói về các mô hình kết nối ADSL: Tất cả 
+đúng (Mô hình PPPoA + Mô hình PPPoE RFC2516 + Mô hình IP over).
+
+7
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+124. Khẳng định nào sau đây là đúng khi nói về các phương pháp chống nhiễu trong 
+kĩ thuật DSL: Cả A,B đúng (chống xuyên nhiễu + Phương pháp triệt tiếng vọng).
+
+125. Khẳng định nào sau đây là đúng khi nói về các ưu điểm của truyền thoại qua 
+mạng chuyển mạch gói: Cả A,B đúng (tiết kiệm chi phí đầu tư hạ tầng mạng và 
+chi phí sử dụng dịch vụ + Hiệu quả sử dụng băng thông với chất lượng dịch vụ 
+QoS chấp nhận được).
+
+126. Khẳng định nào sau đây là đúng khi nói về cấu trúc vật lý của mạng: Cấu hình 
+mạng (topology)
+
+127. Khẳng định nào sau đây là đúng khi nói về chuẩn IEEE802 định nghĩa tiêu 
+chuẩn cho những tầng nào trong mô hình OSI: Tầng application và Presentation.
+
+128. Khẳng định nào sau đây là đúng khi nói về chức năng của Token Bus: Tất cả 
+đúng (Bổ sung định kỳ các trạm ngòai…+ Thêm 1 trạm không còn nhu cầu… + 
+Quản lí lỗi….).
+
+129. Khẳng định nào sau đây là đúng khi nói về cơ chế điều khiển lỗi: CRC.
+
+130. Khẳng định nào sau đây là đúng khi nói về đặc tính để phân biệt 1 tế bào và 1 
+gói tin: Các tế bào có độ dài cố định.
+
+131. Khẳng định nào sau đây là đúng khi nói về đặc trưng của mạng quảng bá: Tất cả 
+các node cùng truy nhập chung trên 1 đường truyền vật lý.
+
+132. Khẳng định nào sau đây là đúng khi nói về đặc trưng của SMDS: Dịch vụ 
+chuyển mạch gói không liên kết, có tính bảo mật cao.
+
+133. Khẳng định nào sau đây là đúng khi nói về đơn vị dữ liệu của tầng: Message.
+
+134. Khẳng định nào sau đây là đúng khi nói về giao diện IDSL:  Giao diện BRI, 
+giao diện PRI.
+
+135. Khẳng định nào sau đây là đúng khi nói về giao thức sử dụng trên cáp sợi quang: 
+A,B,C đúng (Frame Relay + FDDI + SONET).
+
+136. Khẳng định nào sau đây là đúng khi nói về hiệu quả của phương pháp truy nhập 
+đường truyền trong trường hợp tải nhẹ: CSMA/CD).
+
+137. Khẳng định nào sau đây là đúng khi nói về họ các công nghệ xDSL:  A,B,C 
+đúng (IDSL,HDSL + Frame relay + VDSL,ADSL).
+
+138. Khẳng định nào sau đây là đúng khi nói về kỹ thuật sử dụng băng thông hiệu 
+quả: Điều khiển luồng cửa sổ động.
+
+139. Khẳng định nào sau đây là đúng khi nói về mạng chuyển mạch gói: Gói tin lưu 
+chuyển trên các kết nối logic hướng đích và trên 1 đường có thể có nhiều gói tin 
+cùng lưu chuyển.
+
+8
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+140. Khẳng định nào sau đây là đúng khi nói về mạng chuyển mạch kênh: Thiết lập 
+liên kết vật lý, truyền dữ liệu và giải phóng liên kết giữa 2 thực thể.
+
+141. Khẳng định nào sau đây là đúng khi nói về mạng có cấu trúc điểm-điểm: Mạng 
+lưu và gửi tiếp.
+
+142. Khẳng định nào sau đây là đúng khi nói về ngôn ngữ đánh dấu siêu văn bản: Là 
+công cụ soạn thảo trang thông tin web.
+
+143. Khẳng định nào sau đây là đúng khi nói về nguyên nhân phá vỡ hệ thống trong 
+mạng Token ring:  A,C đúng (1 là mất thẻ bài + Thẻ bài bận lưu chuyển không 
+dừng trong vòng)
+
+144. Khẳng định nào sau đây là đúng khi nói về nhược điểm của mạng có cáu trúc 
+điểm-điểm: Độ trễ lớn, tốn nhiều thời gian để thiết lập đường truyền và xử lý tại 
+các node.
+
+145. Khẳng định nào sau đây là đúng khi nói về nhược điểm lớn nhất của các phương 
+pháp dùng thẻ bài: Có khả năng điều hòa lưu lượng trong mạng.
+
+146. Khẳng định nào sau đây là đúng khi nói về phương pháp truy nhập đường truyền 
+có cơ chế xác nhận ACK: Token Ring.
+
+147. Khẳng định nào sau đây là đúng khi nói về quá trình phân mảnh gói tin:  Ảnh 
+hưởng đến tốc độ trao đổi dữ liệu trong mạng
+
+148. Khẳng định nào sau đây là đúng khi nói về tên gọi loạimáy chủ cung cấp dịch vụ 
+thư điện tử: Mail sever.
+
+149. Khẳng định nào sau đây là đúng khi nói về tính năng điều khiển luồng: B và C 
+đúng (Hướng liên kết, không báo nhận + Hướng liên kết).
+
+150. Khẳng định nào sau đây là đúng khi nói về truyền dữ liệu theo phương thức 
+hướng liên kết: Có độ tin cậy cao, đảm bảo chất lượng dịch vụ và có xác nhận.
+
+151. Khẳng định nào sau đây là đúng khi nói về truyền dữ liệu theo phương thức 
+không liên kết: Loại bỏ các gói tin trùng nhau khi nhận.
+
+152. Khi dùng repeater để mở rộng các đoạn mạng, ta có thể : A và B đúng (Dùng 
+tối đa 4 repeater + Có tối đa 5 đoạn mạng.)
+
+153. Khi kết nối máy tính từ nhà vào ISP thông qua đường dây điện thoại, tín hiệu 
+trên đường dây điện thoại sẽ thuộc về tầng: Vật lý (Physical).
+
+154. Khi nối mạng giữa 2 máy tính, chúng ta dùng loại cáp để nối trực tiếp: Cáp UTP 
+chéo.
+
+155. Khi quên mật khẩu của ADSL router, làm cách nào để khôi phục lại mật khẩu: 
+Cấp điện cho ADSL Router và ấn giữ reset trong 1 khoảng thời gian nhất định.
+
+9
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+156. Khi sử dụng mạng máy tính, ta sẽ được lợi ích: Tất cả đều đúng.
+
+157. Khi thực thể TCP gửi 1 gói SYNACK segment với trường Acknowledgement 
+number bằng 100, điều này có nghĩa: Nó hi vọng nhận được dữ liệu bắt đầu hàng 
+byte có số thứ tự là 100.
+
+158. Kích thước phần dữ liệu (User Data) trong khung Frame Relay tối đa:  2048 
+byte.
+
+159. Kích thước phần dữ liệu trong khung X25 chỉ có thể đạt tối đa là: 128 Byte.
+
+160. Kiểm soát lỗi và kiểm soát luồng dữ liệu được thực hiện bởi: Tầng liên kết dữ 
+liệu.
+
+161. Kiến trúc 1 mạng LAN có thể là: Có thể phối hợp a,b,c (Ring, Star, Bus).
+
+162.Kiểu mạng nào được hạn chế ở cấp tòa cao ốc hay 1 công sở: LAN.
+
+163. Kỹ thuật mạng LAN Fast Ethernet có tốc độ truyền dữ liệu cơ bản là: 100Mbps.
+
+L
+164. Lệnh nào dưới đây dùng để xác định đường truyền : Tracert.
+
+165. Lệnh Ping dùng để:  Kiểm tra các máy tính trong mạng có liên thông hay 
+không.
+
+166. Liên mạng có thể được liên kết bởi LAN to LAN, LAN to WAN và : WAN to 
+WAN.
+
+167. Loại cáp nào sau đây được sử dụng phổ biến nhất : Cáp UTP (CAT5).
+
+168.  Lớp  nào  (layer)  trong  mô  hình  OSI  chịu  trách  nhiệm  mã  hóa  dữ  liệu: 
+Presentation.
+
+169. Lớp nào trong mô hình OSI đóng gói dữ liệu kèm theo IP header: Network.
+
+M
+170. Mã 404 trong thông điệp trả lời từ Web sever cho web client có ý nghĩa:  Đối 
+tượng client yêu cầu không có.
+
+171. Mạng Frame Relay được gọi là mạng: Dùng chuyển mạch gói tốc độ cao.
+
+172. Mạng hội tụ là 1 mạng: Tích hợp cơ sở hạ tầng của các mạng truyền thông 
+hiện có.
+
+173. Mạng hội tụ sử dụng giao thức nào dưới đây để liên kết các mạng khác: IP.
+
+10
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+174. Mạng internet là: Mạng của  các máy tính toàn cầu kết nối  lại với nhau thông 
+qua giao thức TCP/IP.
+
+175. Mạng LAN hình sao khi có sự cố: Chỉ ảnh hưởng đến trạm có sự cố.
+
+176.  Mạng NGN hội tụ  những ưu điểm của công nghệ:  Chuyển mạch kênh và 
+chuyển mạch gói.
+
+177. Mạng X25 có các cơ chế kiểm soát lỗi, điều khiển luồng, cung cấp các dịch vụ 
+tin cậy, tốc độ trao đổi thông tin tối đa 64Kbps.
+
+178. Mật mã là quá trình chuyển đổi thông tin bản rõ sang: Dạng mã hóa
+
+179. Máy tính đóng vai trò router có bao nhiêu địa chỉ IP: 2.
+
+180. Mô hình 802 chia tầng ứng dụng của mô hình OSI thành 2 tầng con: LLC và 
+MAC.
+
+181. Mô hình OSI tổ chức các giao thức truyền thông thành bao nhiêu tầng: 7. 
+
+182. Mô tả nào sau đây là cho mạng hình sao:  Có 1 nút trung tâm và các nút mạng 
+khác kết nối đến.
+
+183.Mô tả nào thích hợp nhất cho mạng có topo mạng RING: Mọi máy tính đều có 
+quyền truy nhập ngang nhau.
+
+184. Moderm dùng để : Truyền dữ liệu đi xa.
+
+185.Môi trường truyền tin thông thường trong mạng máy tính là: Các loại cáp như 
+UTP, STP, cáp điện thoại.
+
+186.Một bảng định tuyến sẽ: Lưu trữ địa chỉ máy tính vào mạng.
+
+187. Một bộ lọc Packet (cài đặt trên firewall) có thể:  Chỉ có các  máy tính phía 
+trong mới có khả năng khởi tạo các kết nốiTCP ra các máy tính ở bên ngoài  
+mạng.
+
+188. MPLS có thể truyền: Dữ liệu hình ảnh.
+
+189. MPLS cung cấp dịch vụ thống nhất cho mạng chuyển mạch kênh dựa trên các 
+thiết bị: Chuyển mạch tốc độ cao.
+
+190. Muốn hệ thống mạng hoạt động hiệu quả, người ta thường (1 trong 2 cầu) Tăng 
+số lượng và giảm kích thước các Collision Domain
+
+N
+191. Nếu 4 PCs kết nối với nhau thông qua Hub thì cần bao nhiêu địa chỉ IP cho 5 
+thiết bị mạng này: 4.
+
+11
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+192. Nếu lấy 1 địa chỉ lớp B để chia subnet với subnetmask là 255.255.240.0 thì có 
+bao nhiêu subnet có thể dùng được: 16.
+
+193. Nguyên tắc cơ bản, dùng cáp UTP Cat5e nào sau đây để kết nối trực tiếp giữa 2 
+PC với nhau: Cáp chéo.
+
+194. Nhằm đảm bảo chất lượng dịch vụ VoPN, yêu cầu tỉ lệ mất gói là:  Nhỏ hơn 
+10%.
+
+195. Những địa chỉ nào thuộc lớp A: 01111010 10100101 11000011 11100011
+
+196. Những giao thức nào dưới đây được giao thức POP3 hỗ trợ: Tất cả đúng (Kiểm 
+chứng+Đọc 1 thư+Xóa 1 thư).
+
+197. Những giao thức nào sau đây thuộc tầng vận chuyển trong mô hình TCP/IP: A,C 
+đúng (UDP + TCP).
+
+198. Những thuật ngữ nào dùng để mô tả các đơn vị dữ liệu tại tầng mạng: A,C đúng 
+(Datagram + gói tin).
+
+199. Những thực thể nào dưới đây là giao thức của WAN: Cả A và B đúng (Frame 
+Relay + SLIP).
+
+200. Nhược điểm của mạng dạng hình sao là: Cần quá nhiều cáp để kết nối tới nút 
+mạng trung tâm.
+
+201. Nhược điểm nếu xây dựng dịch vụ trên miền (DNS) theo mô hình tập trung là: 
+Cả 3 đáp án (Nếu điểm tập trung bị hỏng, toàn bộ hệ thống bị tê liệt + Số lượng 
+yêu cầu phục vụ tại điểm tập trung duy nhất sẽ rất tốn + Chi phí bảo trì hệ 
+thống rất lớn).
+
+202. Phần nào trong địa chỉ IP được Router sử dụng khi tìm đường đi: Host address.
+
+203. Phát biểu nào sau đây đúng về giao thức HTTP:  Phiên bản giao thức luôn 
+được đặt  trong tất cả các thông điệp + Tất cả các tiêu đề đề dưới dạng text
+
+204. Phát biểu nào sau đây mô tả đúng nhất cho Switch: Sử dụng địa chỉ vật lý và 
+hoạt động tại tầng Data link của mô hình OSI.
+
+205. Phát biểu nào sau đây mô tả đúng nhất cho tầng  Application trong mô hình OSI: 
+Dịch vụ in mạng.
+
+206.Phát biểu nào sau đây mô tả đúng nhất cho tầng Application: Cung cấp những 
+dịch vụ mang cho những ứng dụng người dùng
+
+207.Phương pháp truy nhập mạng nào dưới đây lắng nghe lưu thông mạng trên cáp 
+(hoặc trên đường truyền) trước khi gửi dữ liệu: Đa truy nhập cảm tín hiệu mang có 
+dò xung đột (CSMA/CD).
+
+12
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+P
+208.Protocol là: A và B đúng (là các qui tắc … + Một trong những….)
+
+209.Protocol nào được sử dụng cho mạng Internet: Tất cả.
+
+Q
+210.Quá trình dữ liệu di chuyển từ hệ thống máy tính này sang hệ thống máy tính 
+khác , phải trải qua giai đoạn nào:  Đóng gói.
+
+R
+211.Router là 1 thiết bị dùng để: Định tuyến giữa các mạng.
+
+S
+212.SMDS là một: Dịch vụ tryền số liệu.
+
+213.Số nhị phân nào dưới đây có giá trị là 164: 10100100.
+
+214. Sợi cáp xoắn nối giữa card mạng với hub là  : Bấm thứ tự 2 đầu cáp giống 
+nhau.
+
+215.Switch là thiết bị hoạt động ở tầng: Liên kết dữ liệu.
+
+T
+216.Tần số hoạt động của chuẩn WLAN 802.11g là: 2,4 Ghz.
+
+217.Tầng con điều khiển truy nhập MAC là con của tầng nào trong mô hình OSI: 
+Data link.
+
+218.Tầng nào dưới đây thiết lập, duy trì, hủy bỏ "các giao dịch" giữa các thực thể đầu 
+cuối: Tầng phiên.
+
+219.Tầng nào trong mô hình OSI làm việc với các tín hiệu điện: Physical.
+
+220.Tầng nào xác định giao diện giữa người sử dụng với môi trường OSI: Tầng ứng 
+dụng.
+
+13
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+221.Tầng network (trong tầng IP) chịu trách nhiệm:  Dựa trên địa chỉ IP đích có 
+trong Packet mà quyết định chọn đường thích hợp cho  Packet.
+
+222.Tầng vận chuyển Host to Host hoạt động bởi các giao thức: TCP.
+
+223.TCP Port mặc định được sử dụng cho FTP sever có giá trị là: 20 và 21.
+
+224.Thiết bị Bridge cho phép: Kết nối 2 mạng LAN lại với nhau, đồng thời đóng 
+vai trò như 1 bộ lọc.
+
+225. Thiết bị hub cho phép:  Kết nối nhiều máy tính lại với nhau để tạo thành 1 
+nhánh LAN(Segment).
+
+226. Thiết bị nào hoạt động ở dải tần Physical: Hub và Repeater
+
+227. Thiết bị nào sau đây sử dụng tại trung tâm của mạng hình sau:  Switch
+
+228. Thiết bị Router cho phép: Liên kết nhiều mạng Lan lại với nhau, đồng thời 
+ngăn không cho các packet thuộc loại Broadcast đi qua nó...
+
+229. Thông điệp ICMP được đặt trong gói dữ liệu: IP.
+
+230.  Thứ tự các màu dây (1-Trắng Cam, 2-Xanh lá,  3-Trắng Xanh  Lá,  4-Xanh 
+dương, 5-Trắng Xanh dương,6-Cam, 7-Trắng nâu, 8-Nâu), khi bấm cáp theo đầu nối 
+RJ45 theo chuẩn EIA/TIA-568B (từ 1-8) là: 1,6,3,4,5,2,7,8.
+
+231.  Thứ  tự  các  tầng  (layer)  của  mô  hình  OSI  theo  thứ  tự  từ  trên  xuốn  là:  
+Application,Presentation, Session,  Transport, Network, Data link, Physical.
+
+232. Thuật toán chạy trên Gateway router là: Cả 2 đều đúng (Inter-routing + Intra-
+routing)
+
+233. Thực hiện cấu hình ADSL router để kết nối internet, nhưng thông số cơ bản cần 
+thiết lập là: VCI/VPI, LAN IP Address, tài khoản kết nối đến nhà cung cấp dịch 
+vụ (user, password).
+
+234. Tiện ích TCP/IP nào dùng để kiểm tra sự kết nối mạng: Ping.
+
+235. Tốc độ Fast Ethernet và Ethernet Gigabit nhanh hơn tốc độ của: ATM.
+
+236. Tốc độ truyền dữ liệu của Topology 100 Base-FX là: 1000Mbps.
+
+237. Trang thiết bị bào dưới đây làm giảm bớt sự va chạm: Switch.
+
+238. Trang thiết bị mạng nào dùng để nối các mạng và kiểm soát được broadcast: 
+Router.
+
+239. Trang thiết bị mạng trung tâm dùng để kết nối các máy tính trong mạng hình 
+sao: Switch/Hub.
+
+240. Trên internet, email được gửi từ máy tính nguồn bằng cách thiết lập 1 kết nối 
+TCP đến 1 cổng cụ thể trên máy đích, cổng đó là: 25.
+
+14
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+241. Trình điều khiển Driver là: Phần mềm.
+
+242. Trình tự đóng gói dữ liệu khi truyền từ máy này đến máy khác : Data, segment, 
+packet, frame, bit.
+
+243. Trong các cơ chế sau đây, cơ chế nào được sử dụng để cài đặt web cache:  Cả A 
+và B(Kiểm chứng và mã hóa kiểm chứng 401 Authorization + Trường tiêu đề 
+"Last Modified" và "If Modified Since"
+
+244. Trong các địa chỉ, chọn địa chỉ không nằm cùng đường mạng với các địa chỉ còn 
+lại:  203.29.103.113/255.255.255.240.
+
+245. Trong địa chỉ IP, có 5 lớp tất cả: A,B,C,D,E. Lớp C là lớp có dãy địa chỉ: 
+192.0.0.0 tới 223.255.255.255.
+
+246. Trong gói dữ liệu UDP (UDP segment), vùng dữ liệu thực sự bắt đầu từ byte 
+thứ: 9.
+
+247. Trong gói dữ liệu UDP (UDP segments), địa chỉ để xác định tiến trình nhận nằm 
+ở: Byte 1 và byte 2.
+
+248. Trong header của IP packet có chứa: Source and destination address.
+
+249. Trong kĩ thuật chuyển mạch kênh, trước khi trao đổi thông tin hệ thống sẽ thiết 
+lập kết nối giữa 2 thực thể bằng 1: Đường truyền vật lý.
+
+250. Trong kĩ thuật Token Ring, 1 thẻ bài lưu chuyển trên vòng vật lý để cấp phát: 
+Quyền truy nhập đường truyền cho các trạm.
+
+251. Trong mạng hình BUS, tất cả các trạm truy nhập ngẫu nhiên vào: Đường truyền 
+chung.
+
+252.  Trong mạng máy tính  dùng giao  thức TCP/IP và  đều dùng subnet  mask là 
+255.255.255.0  thì  cặp  máy  tính  nào  sau  đây  là  liên  thông:  192.168.15.1  và 
+192.168.15.154
+
+253.  Trong  mạng  máy  tính  dùng  giao  thức  TCP/IP  và  subnet  mask  là 
+255.255.255.224. Hãy xác định địa chỉ Broadcast của mạng nếu biết rằng 1 máy tính 
+trong mạng có địa chỉ mạng là 192.168.1.1 : 192.168.1.96
+
+254. Trong mô hình Internet chuẩn Unicode (cho việc mã hóa) các kí tự sẽ nằm ở 
+tầng: Ứng dụng (Application).
+
+255. Trong mô hình OSI, đâu là mối quan hệ của 1 tầng (N) đối với tầng bên trên nó 
+(N+1): Tầng N cung cấp các dịch vụ cho tầng N+1.
+
+256. Trong mô hình OSI, định dạng ảnh JPEG nằm ở tầng: Trình diễn
+
+257. Trong mô hình OSI, lớp nào thực hiện chọn đường và chuyển tiếp thông tin:  
+Network.
+
+15
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
+
+lOMoARcPSD|39944441
+
+258. Trong mô hình OSI, việc mở và đóng các cuộc hội thoại giữa các máy tính là 
+trách nhiệm của: Tầng phiên.
+
+259. Trong mô hình OSI, việc xác định địa chỉ vật lý từ địa chỉ logic là trách nhiệm 
+của: Tầng liên kết dữ liệu.
+
+260. Trong môi trường MS Window, dùng hệ thống file nào sau đây để bảo mật dữ 
+liệu người dùng: NTFS.
+
+261.  Trong  những  thông  điệp  HTTP trả  lời  dưới  đây,  thông  điệp  nào  là  đúng: 
+200"OK".
+
+U
+262. Ưu điểm của chuyển mạch gói so với chuyển  mạch kênh là: Độ trễ thấp hơn.
+
+V
+263. Vi phạm an toàn thông tin hiểu theo nghĩa: Nội dung và luồng thông tin thay 
+đổi.
+
+264. Vị trí dữ liệu thực sự trong gói dữ liệu TCP bắt đầu từ byte: Không xác định.
+
+265. Việt nam được trung tâm thông tin Châu Á Thái Bình Dương phân địa chỉ IP 
+thuộc lớp nào: Lớp C.
+
+266. Với kiểu kết nối mạng theo dạng hình sao, khi 1 trạm trong mạng ngưng hoạt 
+động thì các trạm còn lại: Hoạt động bình thường.
+
+W
+267. Web sever thường sử dụng phần mềm chạy trên: Cổng 80.
+
+X
+268. X25 là giao thức của công nghệ chuyển mạch gói, đặc tả giao tiếp giữa: DTE và 
+DCE.
+
+16
+Downloaded by nhan thai (thaibaonhan113@gmail.com)

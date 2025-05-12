@@ -1,0 +1,187 @@
+              Review Quiz
+              Networking Essentials Quiz Answers
+              Question 1: What is the maximum & minimum size of TCP header?
+                  Maximum size: 60 bytes (with options)
+
+                  Minimum size: 20 bytes (without options)
+
+
+              Question 2: In which of the following network links might you use SC connectors?
+              A fiber-optic connection between a server and router.
+
+
+              Question 3: What is the maximum cable length for Ethernet using unshielded twist
+              100 meters
+
+
+              Question 4: A folder with path D:\share\docs is being shared with default sharenam
+              \rosetta\docs
+
+
+              Question 5: When the majority of the Internet has moved to the IPv6 but some still
+              Dual stack
+
+
+              Question 6: To secure sending email, in term of confidentiality, application layer pr
+              S/MIME
+
+
+              Question 7: In __________ resolution, the server returns the IP address of the server
+              Iterative
+
+
+              Question 8: __________cryptography is often used for short messages
+              Symmetric key
+
+
+              Question 9: Which are the advantages of static routing?
+                  No routing or update mechanism are required
+
+                  Very secure because no advertisement are sent
+
+                  Easy to implement in a small network
+
+
+              Question 10: Match corresponding protocol with ports
+                  25: SMTP
+
+                  110: POP3
+
+                  53: DNS
+
+                  443: HTTPS
+
+
+              Question 11: What is the maximum data rate supported by Fast Ethernet?
+              100 Mbps
+
+
+
+
+Review Quiz                                                                                           1
+              Question 12: Coding and decoding are functions of ____________ layer
+              Presentation
+
+
+              Question 13: A _________ is a subtree of the domain name space.
+              Domain
+
+
+              Question 14: Encapsulating Security Payload (ESP) provides
+                   Privacy
+
+                   Data integrity
+
+                   Source authentication
+
+
+              Question 15: Routing inside an autonomous system is referred to as ________ routin
+              Intra-domain
+
+
+              Question 16: An IP datagram from the accounting program with encrypted header
+              byte length and embedded in IP header option field. This implies the first byte of IP
+              48
+
+
+              Question 17: User ub must issue 2 commands to enable ua to read myfile.txt (use s
+              Code
+              $ chmod o+x /home/ub
+              $ chmod o+r /home/ub/myfile.txt
+
+
+
+              Question 18: Given the network 192.168.1.0/24, subnet it into the following subnets
+                   Subnet A (30 hosts): 192.168.1.0/27, broadcast address 192.168.1.31
+
+                   Subnet B (12 hosts): 192.168.1.32/28, broadcast address 192.168.1.47
+
+                   Subnet C (6 hosts): 192.168.1.48/29, broadcast address 192.168.1.55
+
+
+              Question 19: What are the features of EIGRP in term of Purpose, Operation and Beh
+                   Purpose: Interior gateway protocol for routing within an autonomous system
+
+                   Operation: Uses DUAL algorithm to find loop-free paths
+
+                   Behavior: Hybrid protocol combining distance vector and link state characteristics
+
+
+              Question 20: What is the octal value for read and execute permissions
+              5
+
+
+              Question 21: In a _______ name space, each name is made of several parts.
+              Hierarchical
+
+
+              Question 22: What is the symbolic notation for setting read, write, and execute per
+              u+rwx
+
+
+              Question 23: The correct command to add the static route on PC1 would be:
+              Code
+              $ip route add 10.0.0.0/255.255.255.252 via 192.168.1.1
+
+
+
+
+Review Quiz                                                                                             2
+              Question 24: An IP datagram has arrived with the following information in the head
+                   Identification number: 3
+
+                   How many more routers: 32
+
+
+              Question 25: _____________ is the special packet that router sends back to the sende
+              ICMP
+
+
+              Question 26: A binary file of 6200 bytes is transmitted over a TCP/IP network. How
+              5
+
+
+              Question 27: Which of the following protocols do use 3-way handshake?
+                   HTTP
+
+                   POP3
+
+
+              Question 28: Which one is not the purpose of dynamic routing protocols?
+              Choosing the fastest path to destination networks
+
+
+              Question 29: A pointer query involves the _______ domain.
+              Reverse
+
+
+              Question 30: To restrict access permission for file priv.key to file's owner only. Wh
+              Code
+              $ chmod 600 priv.key
+
+
+
+              Question 31: __________means that the data must arrive at the receiver exactly as th
+              Message Integrity
+
+
+              Question 32: What is the command used to change linux file/directory permission
+              chmod
+
+
+              Question 33: LAN switching operates at the _______ layer of the OSI model
+              Data link (Layer 2)
+
+
+              Question 34: If an IPv6 address has digits of ________, we can abbreviate the addre
+              0s
+
+
+              Question 35: A client uses UDP to send data to a server. The data length is 16 bytes
+              0.36 or 36% (Data (16 bytes) / Total (16 + 8 UDP + 20 IP = 44 bytes) = 16/44 = 0.36)
+
+
+
+
+Review Quiz                                                                                           3
+

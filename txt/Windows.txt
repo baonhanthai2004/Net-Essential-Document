@@ -1,0 +1,204 @@
+Chương 7: Hệ điều hành
+Windows Server
+Nguyễn Đăng Quang
+Nội dung
+•   Quản lý lưu trữ và Hệ thống tập tin
+•   Quản lý User và Group
+•   Quyền truy xuất thư mục/tập tin
+•   Dịch vụ thư mục
+Basic Storage vs. Dynamic Storage
+FAT – FAT32 - NTFS
+FAT
+NTFS vs. FAT
+Disk Management
+User Account
+• Local user
+• Domain user
+• Built-in user account
+ ▫ Guest
+ ▫ Administrator
+Groups
+                     User-
+                    defined
+
+
+
+
+                   Groups
+
+          Built-              Built-
+           in                  in
+         System               Local
+Built-in Local
+   Nhóm                                   Ý nghĩa
+Administrators Có thể thực hiện tất cả các chức năng quản trị trên máy tính.
+               Mặc định, tài khoản Administrator thuộc về nhóm này.
+
+Backup          Có thể chạy chương trình Windows Backup để sao lưu và
+Operators       khôi phục dữ liệu.
+Guests          Truy xuất một cách hạn chế trên các tài nguyên đã được gán
+                quyền sở hữu. Thành viên thuộc nhóm không thể thay đổi
+                desktop. Mặc định, tài khoản user guest thuộc về nhóm này.
+Power Users     Có thể tạo mới, điều chỉnh tài khoản user cục bộ và chia xẻ
+                tài nguyên.
+Users           Chỉ có thể thực hiện một số tác vụ nhất định tùy thuộc vào
+                quyền sở hữu được gán. Khi được định nghĩa, tài khoản mới
+                sẽ thuộc về nhóm Users
+Built-in System
+    Nhóm                                 Ý nghĩa
+Everyone      Bao gồm tất cả mọi user truy xuất vào máy.
+Authenticated Bao gồm tất cả mọi user có tài khoản hợp lệ trên máy. Sử
+Users         dụng nhóm này thay cho nhóm Everyone để hạn chế những
+              truy xuất nặc danh vào một tài nguyên.
+Creator       Bao gồm những user tạo ra hoặc có quyền sở hữu một tài
+Owner         nguyên trên máy. Nếu một thành viên thuộc nhóm
+              Administrators tạo một tài nguyên thì nhóm Administrators sẽ
+              là người sở hữu tài nguyên đó.
+Network       Bao gồm tất các user có kết nối từ một máy tính khác trên
+              mạng đến một tài nguyên chia xẻ trên máy .
+Cơ chế bảo mật hệ thống tập tin được sử dụng kiểm soát quyền
+truy xuất thư mục, tập tin của người dùng trên các Volume
+NTFS
+Permissions
+
+
+•   Full Control
+•   Modify
+•   Read & Execute
+•   List Folder Content
+•   Read
+•   Write
+Explicit vs. Inherited Permission
+• Explicit: permissions that are set by default
+  when the object is created, or by user action.
+• Inherited: permissions that are given to an
+  object because it is a child of a parent object.
+Explicit   Inherited
+Effective Permission/Access
+Allow vs. Deny Permission
+Multiple Permission
+Dùng kiểm soát truy xuất lên một tài nguyên từ mạng,
+không áp dụng đối với các truy xuất trên máy cục bộ
+ Share Permission
+Read      Có quyền:
+              - Xem thư mục,
+              - Đọc nội dung file,
+              - Xem thuộc tính file/folder,
+              - Thực thi chương trình.
+
+
+Change    Có quyền Read và:
+              - Tạo file/folder,
+              - Sửa đổi nội dung file,
+              - Thay đổi thuộc tính,
+              - Xóa file/folder
+
+
+Full      Có quyền Change và:
+Control       - Gán, rút quyền sở hữu,
+              - Sở hữu tập tin
+Phối hợp Share & NTFS Permission
+Default shares
+Chia sẻ dữ liệu
+• Chạy mmc
+• Nạp Share folders snap-in
+• Định nghĩa chia xẻ mới bằng share folder wizard
+Truy xuất dữ liệu chia xẻ
+• Truy xuất nhanh
+• Ánh xạ ổ dĩa
+ ▫ Giao diện
+ ▫ Dòng lệnh net use k: \\Server\Shares
+Kiểm soát dữ liệu chia xẻ
+• Xem dữ liệu chia xẻ trên máy cục bộ
+ ▫ Net share
+• Xem dữ liệu chia xẻ trên mạng
+ ▫ Net view \\server
+Active Directory
+•   Microsoft‘s new Directory Service
+•   Called: ADS
+•   Successor to LAN Manager Domains
+•   Goals
+    ▫ Open Standards
+    ▫ High Scalability
+    ▫ Simplified Administration
+Nền tảng
+Phát triển dựa trên các chuẩn mở
+• LDAP (Light-weight Access Protocol)
+ ▫ Low-level API to AD
+• X.500
+ ▫ AD Structure
+• DNS
+ ▫ Resource location
+• Keberos
+ ▫ Authentication
+Tổ chức
+• Phân cấp (Hierachical)
+• Dựa trên Domain (Domain-based)
+Cấu trúc
+           Vật lý        Luận lý
+             Domain
+            Controller     Domain
+              (DC)
+
+
+              Sites         OU
+
+
+
+                            Tree
+
+
+
+                           Forest
+Domain
+• AD Base Element (Building Block)
+• Physically Implemented on Domain Controllers
+  (DC)
+• Border for
+ ▫ Replication Traffic
+ ▫ System Policies
+ ▫ Administration
+Oraganizational Unit
+• Implements a Structure inside a Domain
+• Can be nested as needed
+• Typically used for Administrative Reasons
+  ▫ e.g. System Policies
+• Represents by a circle in
+  diagram
+Tree
+• One or more domains (sub-domain) having
+  relationships with root domain
+• Hierarchical Domain Structure inside a single
+  Namespace
+  ▫ adiscon.com
+  ▫ la.adiscon.com
+  ▫ ny.adiscon.com
+• Schema is common among all domains in a Domain
+  tree
+• Users can search for all information within a
+  Domain tree.
+Forest
+•   A set of Domain trees
+•   Common Schema and configuration
+•   Global Catalog
+•   Namespace is non-contiguous
+    ▫ i.e. Microsoft.com, msn.com
+• Useful for company with subsidiaries that
+  require autonomy in administrative roles
+Sites
+• A site is a set of well-
+  connected subnets.
+• Active Directory uses
+  topology information,
+  stored as site and site
+  link objects in the
+  directory, to build the
+  most efficient
+  replication topology.
+Công cụ quản trị AD
+
+• Logical Objects:
+ ▫ Active Directory Users and Computers
+• Physical Objects:
+ ▫ Active Directory Sites and Services
+

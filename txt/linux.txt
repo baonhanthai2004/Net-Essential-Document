@@ -1,0 +1,1861 @@
+179
+
+Chương 9
+
+Hệ điều hành Unix/Linux
+I. GIỚI THIỆU:
+1. Lịch sử phát triển Unix
+Giữa năm 1960, AT&T Bell Laboratories và một số trung tâm khác
+tham gia vào một cố gắng nhằm tạo ra một hệ điều hành mới được đặt tên là
+Multics (Multiplexed Information and Computing Service). Đến năm 1969,
+chương trình Multics bị bãi bỏ vì đó là một dự án quá nhiều tham vọng và do
+đó không khả thi. Thậm trí nhiều yêu cầu đối với Multics thời đó đến nay vẫn
+chưa có được trên các Unix mới nhất. Nhưng Ken Thompson, Dennis Ritchie,
+và một số đồng nghiệp của Bell Labs đã không bỏ cuộc. Thay vì xây dựng một
+HĐH làm nhiều việc một lúc như Multics, họ quyết định phát triển một HĐH
+đơn giản chỉ làm tốt một việc là chạy chương trình (run program). HĐH sẽ có
+rất nhiều các công cụ (tool) nhỏ, đơn giản, gọn nhẹ (compact) và chỉ làm tốt
+một công việc. Bằng cách kết hợp nhiều công cụ lại với nhau, họ sẽ có một
+chương trình thực hiện một công việc phức tạp. Đó cũng là cách thức người
+lập trình viết ra chương trình. Peter Neumann đặt tên Unix cho HĐH “đơn
+giản” này. Vào năm 1973, sử dụng ngôn ngữ C của Ritchie, Thompson đã viết
+lại toàn bộ HĐH Unix và đây là một thay đổi quan trọng của Unix, vì nhờ đó
+Unix từ chỗ là HĐH cho một máy PDP-xx trở thành HĐH của các máy khác
+với một cố gắng tối thiểu để chuyển đổi. Khoảng 1977 bản quyền của UNIX
+được giải phóng và HDH UNIX trở thành một thương phẩm.
+2. Hai họ Unix
+Có hai họ Unix, đó là System V của AT&T , Novell và Berkeley Software
+Distribution (BSD) của Đại học Berkeley.
+• System V :
+Các phiên bản UNIX cuối cùng do AT&T xuất bản là System III và một vài
+phát hành (releases) của System V. Hai bản phát hành gần đây của System V là
+Release 3 (SVR3.2) và Release 4.2 (SVR4.2). Phiên bản SYR 4.2 là phổ biến
+nhất cho từ máy PC cho tới máy tính lớn.
+• BSD :
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+180
+
+Từ 1970 Computer Science Research Group của University of California tại
+Berkeley (UCB) xuất bản nhiều phiên bản UNIX, được biết đến dưới tên
+Berkeley Software Distribution, hay BSD. Cải biến của PDP-11 được gọi là
+1BSD và 2BSD. Trợ giúp cho các máy tính của Digital Equipment Corporation
+VAX được đưa vào trong 3BSD. Phát triển của VAX được tiếp tục với
+4.0BSD, 4.1BSD, 4.2BSD, và 4.3BSD.
+Trước 1992, UNIX là tên thuộc sở hữu của AT&T. Từ 1992, khi AT&T bán bộ
+phận Unix cho Novell, tên Unix thuộc sở hữu của X/Open foundation. Tất cả
+các hệ điều hành thỏa mãn một số yêu cầu đều có thể gọi là Unix. Ngoài ra,
+Institute of Electrical and Electronic Engineers (IEEE) đã thiết lập chuẩn "An
+Industry-Recognized Operating Systems Interface Standard based on the UNIX
+Operating System." Kết quả cho ra đời POSIX.1 (cho giao diện C ) và
+POSIX.2 (cho hệ thống lệnh trên Unix)
+3. Các phiên bản của Unix
+
+Hình 9.1: Các phiên bản của Unix
+4. Lịch sử phát triển của Linux
+Linux là một HĐH tựa UNIX (Unix-like Operating System) chạy trên
+máy PC với bộ điều khiển trung tâm (CPU) Intel 80386 trở lên, hoặc các bộ vi
+xử lý trung tâm tương thích AMD, Cyrix. Linux ngày nay còn có thể chạy trên
+các máy Macintosh hoặc SUN Sparc.
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+181
+
+Để tránh vấn đề bản quyền, Linux được viết lại từ đầu, tuy nhiên hoạt động của
+Linux hoàn toàn dựa trên nguyên tắc của hệ điều hành Unix. Vì vậy nếu nắm
+được Linux, thì sẽ nắm được UNIX. Cần lưu ý rằng giữa các hệ điều hành Unix
+sự khác nhau cũng không kém gì giữa Unix và Linux.
+Năm 1991 Linus Torvalds, sinh viên của đại học tổng hợp Helsinki, Phần lan,
+tìm hiểu Minix, một phiên bản của Unix với mục đích nghiên cứu cách tạo ra
+một hệ điều hành Unix chạy trên máy PC với bộ vi xử lý Intel 80386.
+Ngày 25/8/1991, Linus cho ra version 0.01 và thông báo trên comp.os.minix
+của Internet về dự định của mình về Linux.
+1/1992, Linus cho ra version 0.12 với shell và C compiler. Linus không cần
+Minix nữa để recompile HĐH của mình. Linus đặt tên HĐH của mình là Linux.
+1994, phiên bản chính thức 1.0 được phát hành.
+Quá trình phát triển của Linux được tăng tốc bởi sự giúp đỡ của chương trình
+GNU (GNU’s Not Unix), đó là chương trình phát triển các Unix có khả năng
+chạy trên nhiều platform. Đến ngày nay, phiên bản mới nhất của Linux kernel
+là 2.6, có khả năng điều khiển các máy đa bộ vi xử lý và rất nhiều các tính
+năng khác.
+5. Các đặc điểm của Linux
+•
+
+Đa nhiệm (Multi-Tasking),
+
+•
+
+Đa người dùng (Multi-User),
+
+•
+
+Tổ chức hệ thống tập tin phân cấp (Hierachical filesystem),
+
+•
+
+Cấu trúc độc lập và trong suốt đối với người dùng,
+
+•
+
+Bảo mật,
+
+•
+
+Mã nguồn mở.
+
+Các hạn chế
+•
+
+Chưa thân thiện với người dùng,
+
+•
+
+Cài đặt phức tạp,
+
+•
+
+Phần mềm ứng dụng còn khó thao tác,
+
+•
+
+Thiếu trợ giúp thân thiện người dùng,
+
+•
+
+Còn dựa chủ yếu vào giao tiếp dòng lệnh,
+
+•
+
+Thiếu hỗ trợ phần cứng.
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+182
+
+6. Các bản phân phối (Linux Distro)
+Vì có tính mở, một số hãng sản xuất hệ điều hành dựa trên nhân (kernel) có sẵn
+của Linux, xây dựng các bản phân phối Linux của riêng mình. Mỗi bản phân
+phối bao gồm chương trình cài đặt Hệ điều hành, tập hợp các phần mềm
+thương mại đi kèm, bộ giao diện và tài liệu hướng dẫn sử dụng. Các distro
+chính hiện nay có thể kể tên như sau:
+•
+
+RedHat
+
+•
+
+Mandrake
+
+•
+
+SuSe
+
+•
+
+Debian
+
+•
+
+Slackware
+
+•
+
+Gentoo
+
+•
+
+Knoppix
+
+•
+
+Lycoris
+
+•
+
+Xandros
+
+•
+
+Lindows
+
+7. Các phiên bản của Linux
+Các phiên bản của HĐH Linux chính là phiên bản của nhân (Kernel) được xác
+định bởi hệ thống số dạng X.YY.ZZ. Nếu YY là số chẵn => phiên bản ổn định.
+YY là số lẻ => phiên bản thử nghiệm .
+Cần lưu ý phân biệt số phiên bản của hệ điều hành (Linux kernel) với phiên bản
+của các phân phối (ví dụ RedHat 9.0 với kernel Linux 2.2.5-15).
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+183
+
+II. MỘT SỐ VẤN ĐỀ CƠ BẢN
+1. Đăng nhập hệ thống
+Vì là hệ điều hành Multi-User, người sử dụng phải đăng nhập trước khi làm
+việc. Màn hình đăng nhập có dạng:
+Red Hat Linux release 9 (Shrike)
+Kernel 2.4.20-8 on an i686
+localhost login:
+Nhập tên tài khoản user đã đăng ký rồi nhập password, xuất hiện dấu nhắc lệnh
+(dấu nhắc shell):
+[root@localhost root]# _
+2. Kết thúc phiên làm việc
+Để kết thúc một phiên làm việc có thể thực hiện các cách sau:
+Nhập lệnh exit
+Hoặc
+Nhập lệnh logout
+Hoặc
+Bấm tổ hợp phím Ctrl+D
+Màn hình đăng nhập lại xuất hiện để đăng nhập với tài khoản user khác.
+3. Kết thúc Linux
+Để kết thúc làm việc với Linux có thể thực hiện các lệnh sau:
+poweroff , shutdown – Tắt máy
+reboot – Khởi động lại
+4. Dấu nhắc Shell
+Shell là thành phần của HĐH Linux giao tiếp giữa người sử dụng và nhân. Dấu
+nhắc Shell thay đổi tùy thuộc vào tài khoản user đang làm việc.
+Khi làm việc với tài khoản user root, dấu nhắc shell có dạng:
+[root@localhost root]# _
+Khi làm việc với tài khoản user thường, dấu nhắc shell có dạng:
+[linux@localhost linux]$ _
+5. Một số đặc điểm của dòng lệnh shell
+Dòng lệnh shell tổng quát có dạng:
+command
+[options]
+argument
+Trong đó:
+command Lệnh
+options
+Tùy chọn, thường băt đầu bằng – hoặc --.
+-
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+184
+
+argument
+-
+
+Nhiều tùy chọn có thể kết hợp bằng một ký hiệu -.
+Ví dụ: -lF thay vì –l –F
+Tham số lệnh. Có thể viết trước options
+
+Dòng lệnh Shell có phân biệt chữ thường và chữ hoa.
+Để xem hướng dẫn sử dụng một lệnh, sử dụng tham số --help hoặc sử
+dụng lệnh man <tên lệnh>.
+
+Ví dụ:
+Để xem hướng dẫn sử dụng lệnh cp (copy) có thể nhập lệnh
+$cp –help
+Hoặc
+$man cp
+Tiền sử lệnh,
+Tự động điền đầy lệnh bằng cách nhập phần đầu của tên lệnh hoặc tham
+số rồi bấm F6,
+- Có thể viết nhiều lệnh liên tiếp trên một dòng lệnh, phân cách bằng ;
+- Có thể thực hiện nhiều lần một lệnh với tham số thay đổi.
+III. TỔ CHỨC DĨA VÀ HỆ THỐNG TẬP TIN
+-
+
+1. Tổ chức dĩa
+Việc đặt tên ổ dĩa trên Linux hoàn toàn khác so với MS-DOS và Window: Các
+ổ dĩa mềm đặt tên là A:, B:, ổ dĩa cứng là C:, D:… Trên Linux ổ dĩa là một
+trong các thiết bị và mọi thiết bị trên linux đều được ký hiệu với chuỗi bắt đầu
+bằng /dev. Bảng dưới tóm tắt tên các loại ổ dĩa và phân vùng theo qui ước trên
+linux.
+Thiết bị
+First floppy (A:)
+First hard drive (entire drive)
+First hard drive, primary partition 1
+First hard drive, primary partition 2
+First hard drive, primary partition 3
+First hard drive, primary partition 4
+First hard drive, logical partition 1
+First hard drive, logical partition 2
+…
+Second hard drive (entire drive)
+Second hard drive, primary partition 1
+…
+
+Giáo trình Mạng căn bản
+
+Tên
+/dev/fd0
+/dev/hda
+/dev/hda1
+/dev/hda2
+/dev/hda3
+/dev/hda4
+/dev/hda5
+/dev/hda6
+/dev/hdb
+/dev/hdb1
+
+Chương 9
+
+185
+
+First SCSI hard drive (entire drive)
+First SCSI hard drive, primary partition 1
+…
+Second SCSI hard drive (entire drive)
+Second SCSI hard drive, primary partition 1
+
+/dev/sda
+/dev/sda1
+/dev/sdb
+/dev/sdb1
+
+Ổ dĩa cứng giao tiếp IDE ký hiệu là /dev/hda, /dev/hdb; giao tiếp SCSI ký hiệu
+là /dev/sda, /dev/sdb… Các ổ dĩa luận lý được ký hiệu bằng đầu từ /dev/hda5,
+/dev/hda6…
+2. Tổ chức hệ thống tập tin
+Đối với hệ điều hành Linux, không có khái niệm các ổ đĩa khác nhau. Sau quá
+trình khởi động, toàn bộ các thư mục và tập tin được mount và tạo thành một hệ
+thống tập tin thống nhất, bắt đầu từ gốc ‘/’
+/-----+
+!-------/bin
+!-------/sbin
+!-------/usr------/usr/bin
+!
+
+!------/usr/sbin
+
+!
+
+!------/usr/local
+
+!
+
+!------/usr/doc
+
+!
+!-------/etc
+!-------/lib
+!-------/var-------/var/adm
+!-------/var/log
+!-------/var/spool
+
+Hình trên là cây thư mục của Linux. Mỗi thư mục có thể nằm trên một phân
+vùng (partition) nhau, toàn bộ cây thư mục có thể trải ra trên nhiều phân vùng
+thuộc nhiều ổ dĩa cứng khác nhau. Khi có một ổ dĩa vật lý mới được gắn vào hệ
+thống, nó sẽ được mount để gắn vào cấu trúc thư mục trên mới có thể sử dụng
+được.
+Ý nghĩa của một số thư mục quan trọng như sau:
+/bin
+
+Chứa hầu hết các lệnh của người dùng linux.
+
+/dev
+
+Thư mục chứa các chương trình điều khiển thiết bị
+
+/etc
+
+Thư mục chứa các tập tin cấu hình hệ thống
+
+/sbin
+
+Chứa các tập tin nhị phân hệ thống được sử dụng bởi root
+
+/home Thư mục chủ của user. Mỗi user có một thư mục chủ nằm trong
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+186
+
+thư mục này với tên chính là tên của user.
+/lib
+
+Thư mục chứa các tập tin thư viện nhị phân được chia xẻ bởi
+nhiều nhiều ứng dụng.
+
+/proc
+
+Là một hệ thống tập tin ảo. Tập tin chứa trong thư mục này được
+chứa trong bộ nhớ chứ không chứa trên dĩa. Chúng đại diện cho
+các chương trình và quá trình đang hoạt động
+
+/tmp
+
+Thư mục chứa các tập tin tin tạm thời được tạo ra khi các ứng
+dụng hoạt động
+
+/usr
+
+Thư mục chứa các thư mục con trong đó chứa các chương trình
+và thông tin cấu hình quan trọng sử dụng trong hệ thống
+
+/var
+
+Thư mục chứa các thư mục con và tập tin có kích thước thường
+xuyên biến động
+
+3. Các lệnh quản lý hệ thống tập tin
+Lệnh df: Xem thông tin về hệ thống tập tin
+Ví dụ:
+
+Dung lượng sử dụng được trình bày dạng khối (mỗi khối có kích thước 1KB).
+Để xem dung lượng sử dụng dạng dễ đọc hơn, sử dụng tham số -H.
+Ví dụ:
+
+Lệnh mount: Gắn một hệ thống tập tin vào cây thư mục trước khi sử dụng
+Dạng:
+
+mount [–t type] dev dir
+
+Trong đó ý nghĩa các tham số như sau:
+type
+dev
+dir
+
+Loại hệ thống tập tin : vfat – FAT, ntfs – NTFS, iso9660 – Hệ thống tập
+tin trên dĩa CD
+Tên thiết bị muốn mount
+Tên thư mục chứa hệ thống tập tin sẽ được mount, thường chứa trong
+/mnt. Ví dụ /mnt/floppy, /mnt/cdrom, /mnt/usb…
+
+Ví dụ:
+Để mount dĩa CD thành thư mục /mnt/cdrom, nhập lệnh:
+$mount –t iso9660 /dev/cdrom /mnt/cdrom
+Để mount dĩa mềm thành thư mục /mnt/floppy, nhập lệnh:
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+187
+
+$mount /dev/fd0 /mnt/floppy
+Tập tin /etc/fstab chứa các dòng thông số để linux tự động mount các hệ thống
+tập tin lúc khởi động máy. Ví dụ nội dung một tập fstab như sau:
+/dev/hda2
+
+/
+
+ext2
+
+defaults
+
+1 1
+
+/dev/hda3
+
+swap
+
+swap
+
+defaults
+
+0 0
+
+/dev/fd0
+
+/mnt/floppy ext2
+
+noauto
+
+0 0
+
+/dev/cdrom
+
+/mnt/cdrom
+
+iso9660
+
+noauto,ro
+
+0 0
+
+none
+
+/proc
+
+proc
+
+defaults
+
+0 0
+
+none
+
+/dev/pts
+
+devpts
+
+mode=0622
+
+0 0
+
+Ý nghĩa các cột được tóm tắt như sau
+Cột
+
+Ý nghĩa
+
+1 (fs_spec)
+
+các thiết bị (device) cần mount
+
+2 (fs_file)
+
+Thư mục mount (mount point)
+
+3 (fs_vfstype)
+
+Kiểu của hệ thống tập tin,
+
+4 (fs_mntops)
+
+các options. Default = mount khi khởi động, ro = read only,
+user nếu cho phép user mount hệ thống tập tin này ...
+
+5 (fs_freq)
+
+Hiện thị (dumped ) hay không hệ thống tập tin
+
+6 (fs_passno)
+
+Có cần kiểm tra hay không bởi fsck
+
+Tập tin fstab còn giúp sử dụng lệnh mount đơn giản hơn. Ví dụ để mount dĩa
+mềm hoặc dĩa CD thì chỉ cần viết lệnh:
+$mount
+/dev/fd0
+Hoặc
+$mount
+/dev/cdrom
+Lệnh umount: Thôi sử dụng một hệ thống tập tin
+Ví dụ:
+Thôi sử dụng dĩa mềm
+$umount /dev/fd0
+4. Các lệnh trên thư mục và tập tin
+a. Lệnh ls: Liệt kê nội dung thư mục
+Dạng:
+ls [options] [file]
+Trong đó ý nghĩa các tham số như sau:
+Options Tùy chọn liệt kê nội dung thư mục:
+-l : Xem chi tiết, -a: Xem tất cả (kể cả các tập tin ẩn), -F:Thêm thông
+tin mô tả vào sau tên, -R:Xem trong các thư mục con.
+File
+Tên thư mục hoặc tập tin, nếu không ghi có nghĩa xem thư mục hiện
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+188
+
+hành.
+Ví dụ:
+$ls
+application hello read_me
+$ ls -l
+total 60
+drwxr-xr-x 2
+john admin 30196 Jun 4 19:50 application
+-rwxr-x--x 1
+john admin
+155 Jul 7 14:45 hello
+-rwxr-xr-x 1
+john admin
+78 Mar 15 8:45 read_me
+$ls -F
+application/ hello read_me
+$ls –lF
+drwxr-xr-x 2
+john admin 30196 Jun 4 19:50 application/
+-rwxr-x--x 1
+john admin
+155 Jul 7 14:45 hello
+-rwxr-xr-x 1
+john admin
+78 Mar 15 8:45 read_me
+$ls -aF
+./
+../
+application/ hello read_me
+b. Lệnh mkdir: Tạo thư mục
+Dạng:
+
+mkdir [Options] Directory
+
+Trong đó ý nghĩa các tham số như sau:
+Tùy chọn thực hiện lệnh:
+-p : không thông báo lỗi khi thư mục đã tồn tại, cho phép tạo thư
+mục con ngay cả khi chưa có thư mục cha
+Directory Tên thư mục muốn tạo
+Ví dụ:
+Tạo thư mục my_dir1, my_dir2
+$mkdir my_dir1 my_dir2
+Tạo thư mục dir3 sau đó tạo dir3/dir4
+$mkdir -p dir3/dir4
+Options
+
+c. Lệnh rmdir: Xóa thư mục rỗng
+Dạng:
+
+rmdir [Options] Directory
+
+Trong đó ý nghĩa các tham số như sau:
+Tùy chọn thực hiện lệnh:
+-p : xóa thư mục và cả các thư mục cha
+Directory Tên thư mục muốn xóa
+Ví dụ:
+Options
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+189
+
+Xóa thư mục rỗng my_dir1, my_dir2
+$rmdir my_dir1 my_dir2
+Xóa thư mục dir3/dir4 sau đó xóa dir3.
+$rmdir -p dir3/dir4
+d. Lệnh pwd: Hiện thư mục đang làm việc.
+Ví dụ:
+$pwd
+/home/linux
+e. Lệnh cd: Chuyển thư mục
+Dạng:
+
+cd [Path]
+$cd /etc
+Chuyển đến thư mục /etc.
+$cd usr
+Chuyển vào thư mục usr là con của thư mục hiện hành.
+$cd ..
+Chuyển lên thư mục cấp cao hơn
+$cd
+Chuyển về thư mục home
+$cd ~
+Chuyển về thư mục home
+
+f. Lệnh cp:Sao chép thư mục-tập tin
+Dạng:
+
+cp
+
+[Options] Source Dest
+
+Trong đó ý nghĩa các tham số như sau:
+Options
+
+Tùy chọn thực hiện lệnh:
+-R : Sao chép toàn bộ thư mục
+Lần lượt là tên thư mục/tập tin nguồn, đích
+
+Source, Dest
+Ví dụ:
+$cp /etc/passwd
+
+passwd
+
+$cp -R mydir_1 mydir_2
+
+Sao chép tập tin passwd vào thư mục hiện
+hành với cùng tên.
+Sao chép thư mục
+
+g. Lệnh rm: Xóa tập tin
+Dạng:
+
+rm [Options] file
+
+Trong đó ý nghĩa các tham số như sau:
+Options
+File
+Ví dụ:
+$rm myfile
+
+Tùy chọn thực hiện lệnh (xem bằng man page)
+tập tin muốn xóa
+Xóa tập tin myfile.
+
+h. Lệnh mv: Di chuyển/đổi tên thư mục-tập tin
+Dạng:
+
+mv
+
+[Options] Source Dest
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+190
+
+Hoặc
+mv [Options] Source… Directory
+Trong đó ý nghĩa các tham số như sau:
+Options
+
+Tùy chọn thực hiện lệnh:
+-i : Nhắc trước khi di chuyển với tập tin/thư mục đích đã có rồi
+-f: Ghi đè khi di chuyển với tập tin/thư mục đích đã có rồi
+Lần lượt là tên thư mục/tập tin nguồn, đích
+
+Source, Dest
+Ví dụ:
+$mv dir1 dir2
+$mv myfile mydir
+$mv myfile dir1/newfile
+
+Đổi tên thư mục dir1 thành dir2.
+Di chuyển tập tin myfile vào thư mục mydir
+Di chuyển tập tin myfile vào thư mục dir1
+đồng thời đổi tên thành newfile
+
+i. Lệnh cat: Đọc nội dung tập tin
+Dạng:
+
+cat [Options] file
+
+Trong đó ý nghĩa các tham số như sau:
+Options
+
+Tùy chọn thực hiện lệnh:
+-n : đánh số thứ tự dòng
+Tập tin muốn đọc nội dung
+
+File
+Ví dụ:
+$cat /etc/passwd
+Xem nội dung tập tin /etc/passwd.
+$cat –n /etc/passwd
+Đánh số thứ tự dòng và xem nội dung tập tin.
+Đặc biệt lênh cat > my_file có thể sử dụng để tạo tập tin my_file.
+j. Lệnh more, less: Xem nội dung tập tin, đìều khiển được khi xem.
+Dạng:
+more/less [Options] file
+Trong lúc xem có thể sử dụng các phím điều khiển sau:
+Space : Xem trang kế tiếp
+B
+: Xem trang trước
+q
+: Kết thúc
+Ví dụ:
+$more /etc/samba/smb.conf
+Xem nội dung tập tin smb.conf.
+k. Lệnh head, tail: Xem 10 dòng đầu tiên/sau cùng nội dung một tập tin.
+Dạng:
+
+head/tail [Options] file
+
+Trong đó ý nghĩa các tham số như sau:
+Options
+
+Tùy chọn thực hiện lệnh:
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+191
+
+-n : số dòng muốn xem
+Tập tin
+
+File
+Ví dụ:
+$head /etc/passwd
+$tail /etc/passwd
+$head -5 /etc/passwd
+$tail -20 /etc/passwd
+
+Xem nội dung 10 dòng đầu tiên tập tin /etc/passwd.
+Xem nội dung 10 dòng cuối tập tin /etc/passwd.
+Xem nội dung 5 dòng đầu tiên tập tin /etc/passwd.
+Xem nội dung 20 dòng cuối tập tin /etc/passwd.
+
+IV. QUYỀN TRÊN HỆ THỐNG TẬP TIN
+Linux cho phép kiểm soát việc truy xuất trên các thư mục và tập tin. Lệnh
+chmod cho phép thực hiện tác vụ này.
+1. Quyền truy xuất
+Quyền truy xuất trên thư mục và tập tin được trình bày khi thực hiện lệnh ls –l.
+Ví dụ:
+$ ls -l
+total 60
+drwxr-xr-x 2
+john admin 30196 Jun 4 19:50 application
+-rwxr-x--x 1
+john admin
+155 Jul 7 14:45 hello
+-rwxr-xr-x 1
+john admin
+78 Mar 15 8:45 read_me
+Danh sách quyền truy xuất trình bày ở cột đầu tiên trong kết quả. Các loại
+quyền truy xuất gồm:
+- Đọc (read): Cho phép đọc nội dung tập tin và xem nội dung thư mục
+bằng lệnh ls.
+- Ghi (write): Cho phép thay đổi nội dung hoặc xóa tập tin. Đối với thư
+mục, quyền này cho phép tạo, xóa hoặc đổi tên tập tin mà không phụ
+thuộc vào quyền sở hữu trên tập tin chứa trong thư mục.
+- Thực thi (execute): Cho phép thực thi chương trình, đối với thư mục,
+quyền này cho phép chuyển vào thư mục bằng lệnh cd.
+Quyền truy xuất gồm 3 nhóm :
+- Quyền của người sở hữu (owner) ký hiệu bằng ký tự u: Người tạo ra thư
+mục/tập tin hoặc được gán quyền sở hữu.
+- Quyền của nhóm (group) ký hiệu bằng ký tự g: Nhóm người sử dụng
+được gán quyền
+- Quyền của những người dùng khác (others) ký hiệu bằng ký tự o: Là
+những người sử dụng khác không thuộc về 2 loại trên.
+2. Biểu diễn quyền truy xuất
+• Bằng chữ
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+192
+
+Trong cách biểu diễn này, quyền truy xuất được viết bằng các ký tự r (read), w
+(write), x (excute) hoặc – (không có quyền) và viết liên tiếp nhau.
+Ví dụ:
+rwx :Có toàn quyền
+r– – :Chỉ có quyền đọc
+rw– :Chỉ có quyền đọc và ghi
+–––
+
+:Không có quyền gì
+
+Và vì quyền thực sự gồm cả 3 nhóm quyền (owner, group, others) nên danh
+sách quyền sẽ gồm 9 ký tự.
+Ví dụ:
+rwxrw–––– Người sở hữu có toàn quyền, các user cùng nhóm chỉ có
+quyền đọc/ghi còn mọi người khác không có quyền truy xuất
+rw–r–– r–– Người sở hữu có quyền đọc/ghi, các user cùng nhóm chỉ có
+quyền đọc còn mọi người khác không có quyền truy xuất
+rwxr–xr––
+Người sở hữu có toàn quyền, các user cùng nhóm chỉ có
+quyền đọc và thực thi chương trình còn mọi người khác chỉ có
+quyền đọc
+• Bằng số
+Trong cách biểu diễn này, mỗi quyền được gán cho một giá trị số theo bảng
+sau:
+Quyền Giá trị
+r
+4
+w
+2
+x
+1
+Mỗi nhóm quyền truy xuất là tổng của các loại quyền trên.
+Ví dụ:
+Quyền Ý nghĩa
+Biểu diễn bằng số
+rwx
+Có toàn quyền
+7
+r– –
+Chỉ có quyền đọc
+4
+rw–
+Chỉ có quyền đọc và ghi
+6
+–––
+
+Không có quyền gì
+
+0
+
+Và vì quyền thực sự gồm cả 3 nhóm quyền (owner, group, others) nên danh
+sách quyền biểu diễn dạng số sẽ gồm 3 chữ số.
+Ví dụ:
+Dạng chữ
+Dạng số
+Ý nghĩa
+rwxrw––––
+740
+Người sở hữu có toàn quyền, các user cùng nhóm
+chỉ có quyền đọc/ghi còn mọi người khác không có
+quyền truy xuất
+Giáo trình Mạng căn bản
+
+Chương 9
+
+193
+
+rw–r–– r––
+
+644
+
+rwxr–xr––
+
+754
+
+Người sở hữu có quyền đọc/ghi, các user cùng
+nhóm chỉ có quyền đọc còn mọi người khác không
+có quyền truy xuất
+Người sở hữu có toàn quyền, các user cùng nhóm
+chỉ có quyền đọc và thực thi chương trình còn mọi
+người khác chỉ có quyền đọc
+
+Lưu ý: Người sử dụng có quyền đọc thì có quyền sao chép tập tin và tập tin sau
+khi sao chép sẽ thuộc sở hữu người thực hiện sao chép.
+Ví dụ:
+
+Trong ví dụ trên quyền truy xuất ban đầu trên tập tin /etc/passwd là:
+- user root: Có quyền đọc ghi.
+- user thuộc nhóm root chỉ có quyền đọc.
+- Mọi user khác chỉ có quyền đọc .
+Sau khi sao chép, quyền truy xuất trên tập tin passwd trong thư mục
+/home/linux trở thành:
+- user linux: Có quyền đọc ghi (người thực hiện sao chép).
+- user thuộc nhóm linux chỉ có quyền đọc.
+- Mọi user khác chỉ có quyền đọc .
+3. Các lệnh về quyền
+Lệnh chmode :Thay đổi quyền truy xuất trên thư mục/tập tin. Chỉ có người sở
+hữu mới có thể thực hiện quyền này
+Dạng lệnh chmod [Options] Mode file
+Trong đó:
+Options :Tùy chọn thực hiện lệnh
+Mode
+:Quyền truy xuất mới trên tập tin
+Ví dụ:
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+194
+
+Quyền truy xuất mới có thể gán cho từng nhóm quyền bằng cách sử dụng ký tự
+u đại diện cho quyền của người sở hữu (owner), g đại diện cho quyền của nhóm
+(group) và o đại diện cho quyền của mọi người dùng khác (others). Ký tư “+”
+có ý nghĩa gán thêm quyền, “-“ có ý nghĩa rút bớt quyền và “=” có nghĩa gán.
+Ví dụ:
+g+w
+o-rwx
+u+x
++x
+a+rw
+ug+r
+o=x
+Ví dụ:
+
+thêm quyền ghi cho nhóm
+loại bỏ tất cả các quyền của mọi người dùng khác
+thêm quyền thực thi cho người sở hữu
+thêm quyền thực thi cho tất cả (mọi người)
+thêm quyền ghi đọc cho tất cả
+thêm quyền đọc cho owner và group
+chỉ cho phép thực thi với mọi người
+
+Tùy chọn –R đối với thư mục làm cho lệnh chmod có tác dụng trên cả các thư
+mục con.
+Lưu ý:
+- Thay đổi quyền truy xuất trên thư mục cũng tương tự như thay đổi
+quyền truy xuất trên tập tin.
+- Nếu không có quyền x trên thư mục thì không thể cd vào thư mục đó.
+- Mọi người sử dụng có quyền ghi trên một thư mục thì có thể xóa tập tin
+trong thư mục bất kể quyền truy xuất trên tập tin của người sử dụng, vì
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+195
+
+thế đa số thư mục có quyền drwxr-xr-x để đảm bảo chỉ có người sở hữu
+của thư mục mới có quyền tạo và xóa tập tin trong thư mục.
+- Để làm cho mọi người có quyền tạo và sửa các tập tin trong một thư
+mục nhưng chỉ có người sở hữu tập tin mới có quyền xóa, sử dụng
+sticky bit. Thư mục /tmp thường có sticky bit bật lên.
+- Để bật sticky bit, sử dụng lệnh chmod 1????????? tên_thư_mục.
+Lệnh chown :Thay đổi người sở hữu thư mục/tập tin.
+Dạng lệnh chown [Options] Owner file
+Trong đó:
+Options :Tùy chọn thực hiện lệnh
+Owner
+:Người sở hữu mới trên tập tin
+
+Ví dụ:
+
+Lệnh chgrp :Thay đổi nhóm sở hữu thư mục/tập tin.
+Dạng lệnh chgrp [Options] Group file
+Trong đó:
+Options :Tùy chọn thực hiện lệnh
+Group
+:Nhóm sở hữu mới trên tập tin
+Ví dụ:
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+196
+
+V. QUẨN LÝ USER VÀ NHÓM USER (GROUP)
+1. User và nhóm user
+Trên linux có hai loại tài khoản user đó là tài khoản user hệ thống và tài khoản
+user. Trong các tài khoản user thì tài khoản user root (superuser) là tài khoản
+quan trong nhất. Tài khoản này được tự động tạo ra khi cài đặt linux. Tài khoản
+này không thể đổi tên hoặc xóa bỏ. User root còn được gọi là superuser vì có
+toàn quyền trên hệ thống. Chỉ làm việc với tài khoản user root khi muốn thực
+hiện công tác quản trị hệ thống, trong các trường hợp khác chỉ nên làm việc với
+tài khoản user bình thường.
+Mỗi user và nhóm có các đặc điểm sau:
+- Tên mỗi user là duy nhất, chỉ có thể đặt tên chữ thường,
+- Mỗi user có một mã định danh duy nhất (uid),
+- Mỗi nhóm có một tên duy nhất,
+- Mỗi nhóm có một mã định danh duy nhất (gid),
+- Mỗi user có thể thuộc về nhiều nhóm,
+- Tài khoản superuser có uid = gid = 0.
+2. Tập tin /etc/passwd
+Là tập tin văn bản chứa thông tin về các tài khoản user trên máy. Mọi user đều
+có thể đọc tập tin này nhưng chỉ có root mới có quyền thay đổi. Hình sau trình
+bày một phần của tập tin /etc.passwd.
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:
+daemon:x:2:2:daemon:/sbin:
+adm:x:3:4:adm:/var/adm:
+lp:x:4:7:lp:/var/spool/lpd:
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:
+news:x:9:13:news:/var/spool/news:
+uucp:x:10:14:uucp:/var/spool/uucp:
+operator:x:11:0:operator:/root:
+games:x:12:100:games:/usr/games:
+gopher:x:13:30:gopher:/usr/lib/gopher−data:
+ftp:x:14:50:FTP User:/home/ftp:
+nobody:x:99:99:Nobody:/:
+xfs:x:43:43:X Font Server:/etc/X11/fs:/bin/false
+named:x:25:25:Named:/var/named:/bin/false
+marty:x:500:500:Not Feldman:/home/marty:/bin/bash
+ernie:x:501:501:Earnest too:/home/ernie:/bin/csh
+Giáo trình Mạng căn bản
+
+Chương 9
+
+197
+
+betty:x:502:502:Ready Betty:/home/betty:/bin/pop
+donald:x:503:503:Unka Donald:/home/donald:/bin/bash
+Mỗi dòng trong tập tin chứa thông tin về một user, định dạng của dòng gồm
+nhiều cột giá trị, dấu “:” được sử dụng để phân cách các cột. Ý nghĩa các cột giá
+trị như sau:
+Cột 1
+
+Tên người sử dụng
+
+Cột 2
+
+Mã liên quan đến mật khẩu cho Unix chuẩn và ‘x’ đối với Linux.
+Linux lưu mã này trong một tập tin khác /etc/shadow mà chỉ có
+root mới có quyền đọc.
+
+Cột 3, 4
+
+user ID, group ID
+
+Cột 5
+
+Tên mô tả người sử dụng.
+
+Cột 6
+
+Thư mục home của user
+
+Cột 7
+
+Shell sẽ hoạt động sau khi user login, thường là /bin/bash
+
+Tập tin mở đầu bởi superuser root. Lưu ý là tất cả những user có uid = 0 đều là
+root. Tiếp theo là các user hệ thống. Đây là các user không có thật và không thể
+login vào hệ thống. Cuối cùng là các user bình thường. Trên linux, các user hệ
+thống có uid nhỏ hơn 100 còn user thường có uid lớn hơn 500 (giá trị này có thể
+thay đổi được).
+3. Tập tin /etc/shadow
+Là tập tin văn bản chứa thông tin về mật khẩu của các tài khoản user trên máy.
+Chỉ có root mới có quyền đọc tập tin này.
+donald:HcX5zb8cpoxmY:11088:0:99999:7:0::
+Mỗi dòng trong tập tin chứa thông tin về mật khẩu của user, định dạng của dòng
+gồm nhiều cột giá trị, dấu “:” được sử dụng để phân cách các cột. Ý nghĩa các
+cột giá trị như sau:
+Cột 1
+
+Tên người sử dụng, tên này cũng giống với tên trong /etc/passwd
+
+Cột 2
+
+Mật khẩu đã được mã hóa. Để trống – không có mật khẩu, Dấu “*”
+– tài khoản bị tạm ngưng (disable).
+
+Cột 3
+
+Số ngày kể từ lần cuối thay đổi mật khẩu (tính từ 1/1/1970).
+
+Cột 4
+
+Số ngày trước khi có thể thay đổi mật khẩu, giá trị 0 có nghĩa có thể
+thay đổi bất kỳ lúc nào.
+
+Cột 5
+
+Số ngày mật khẩu có giá trị. 99999 có ý nghĩa mật khẩu có giá trị vô
+thời hạn.
+
+Cột 6
+
+Số ngày cảnh báo user trước khi mật khẩu hết hạn
+
+Cột 7
+
+Số ngày sau khi mật khẩu hết hạn tài khoản sẽ bị xóa. Thường có
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+198
+
+giá trị 7 (một tuần).
+Cột 8
+
+Số ngày kể từ khi tài khoản bị khóa (tính từ 1/1/1970).
+
+4. Tập tin /etc/group
+Là tập tin văn bản chứa thông tin về nhóm user trên máy. Mọi user đều có thể
+đọc tập tin này nhưng chỉ có root mới có quyền thay đổi. Hình sau trình bày
+một tập tin /etc/group.
+bin::1:root,bin,daemon
+daemon::2:root,bin,daemon
+sys::3:root,bin,adm
+adm::4:root,adm,daemon
+tty::5:
+disk::6:root
+lp::7:daemon,lp
+mem::8:
+kmem::9:
+wheel::10:root,joe,mary
+mail::12:mail
+news::13:news
+uucp::14:uucp
+man::15:
+games::20:
+gopher::30:
+dip::40:
+ftp::50:
+nobody::99:
+users::100:
+sales::500:bob,jane,joe,mary
+Mỗi dòng trong tập tin chứa thông tin về các nhóm user trên máy, định dạng
+của dòng gồm nhiều cột giá trị, dấu “:” được sử dụng để phân cách các cột. Ý
+nghĩa các cột giá trị như sau:
+Cột 1
+
+Tên nhóm
+
+Cột 2
+
+Mật khẩu đã được mã hóa. Để trống – không có mật khẩu, Dấu “*”
+– tài khoản bị tạm ngưng (disable).
+
+Cột 3
+
+Mã nhóm (gid)
+
+Cột 4
+
+Danh sách các user thuộc nhóm
+
+5. Các lệnh quản lý user
+• Lệnh useradd: Tạo tài khoản user
+Dạng useradd [Opions] login_name
+Ví dụ: Tạo user với tên mary và tên đầy đủ Mary Smith (tham số -c)
+Giáo trình Mạng căn bản
+
+Chương 9
+
+199
+
+$useradd –c “Mary Smith” mary
+$passwd mary
+New UNIX password: *******
+Retype new UNIX password: *******
+User được tạo sẽ thuộc về nhóm mary và thư mục của user là /home/mary
+được tạo ra tự động.
+Ví dụ: Tạo user với tên mary và tên đầy đủ Mary Smith (tham số -c), user
+thuộc về nhóm users và các nhóm wheel, sales.
+# useradd −g users −G wheel,sales −c "Mary Smith" mary
+$passwd mary
+New UNIX password: *******
+Retype new UNIX password: *******
+Lệnh tạo user trên sẽ tạo thêm một dòng với nội dung như sau trong tập tin
+/etc/passwd:
+mary:x:500:100:Mary Smith:/home/mary:/bin/bash
+và tạo ra một dòng tương ứng trong tập tin /etc/shadow.
+• Lệnh usermod: Sửa thông tin tài khoản
+Dạng usermod [Opions] login_name
+Ví dụ: Đổi tên tài khoản mary thành Jenny (tham số -l) với thư mục của user là
+/home/jenny (tham số -d)
+# usermod −l jenny −c "Jenny Barnes" −m −d /home/jenny mary
+• Lệnh userdel: Xóa tài khoản user
+Dạng userdel [Opions] login_name
+Ví dụ: Xóa tài khoản user mary.
+#userdel mary
+Thư mục home của user không bị xóa khi sử dụng lệnh userdel, để xóa cả thư
+mục home của user, sử dụng tham số -r.
+Ví dụ: Xóa tài khoản user mary và thư mục home của user.
+#userdel –r mary
+Khi xóa tài khoản user bằng lệnh useradd, dòng mô tả tương ứng của user trong
+các tập tin /etc/passwd và /etc/shadow cũng bị xóa.
+6. Các lệnh quản lý nhóm user
+• Lệnh groupadd: Tạo nhóm
+Dạng
+groupadd [Opions] group
+Ý nghĩa các tham số như sau:
+Options : Tùy chọn thực hiện lệnh
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+200
+
+- g GID: Định nghĩa nhóm với mã nhóm GID
+group
+: Tên nhóm định nghĩa
+Ví dụ: Tạo nhóm users
+$groupadd users
+Tạo nhóm accounting với GID = 200
+$groupadd –g 200 accounting
+• Lệnh groupmod: Sửa thông tin nhóm
+Dạng
+groupmod [Opions] group
+Ý nghĩa các tham số như sau:
+Options : Tùy chọn thực hiện lệnh
+- g GID: Sửa mã nhóm thành GID
+- n group_name: Sửa tên nhóm thành group_name
+group
+: Tên nhóm cũ
+Ví dụ: Sửa gid của nhóm users thành 201
+$groupmod –g 201 users
+Đổi tên nhóm accounting thành accountant
+$groupmod –n accountant accounting
+Có thể thêm nhóm hoặc điều chỉnh nhóm bằng cách sửa trực tiếp nội dung tập
+tin /etc/group.
+VI. NỐI MẠNG BẰNG GIAO THỨC TCP/IP
+1. Cài đặt thiết bị
+Linux hỗ trợ nhiều loại card mạng khác nhau và quá trình cài đặt được thực
+hiện tự động khi khởi động. Trong trường hợp phải cài đặt bằng tay, cần lưu ý
+một số đặc điểm sau:
+- Các chương trình điều khiển card mạng được chứa trong thư mục
+/lib/modules/kernel-version/kernel/driver/net/ trong đó kernelversion là phiên bản nhân của linux. Ví dụ phiên bản nhân của kernel là
+2.4.20-8 thì đường dẫn trên được viết là /lib/modules/2.4.208/kernel/driver/net/.
+- Thông tin về các loại card mạng cài đặt chứa trong tập tin
+/etc/modules.conf. Đối với các loại card PCI, Linux tự động cài đặt
+chương trình điều khiển, tuy nhiên đối với card mạng ISA, để cài đặt
+bằng tay phải khai báo vào trong tập tin này. Ví dụ muốn cài đặt card
+mạng ISA 3C501, phải thêm các dòng khai báo vào tập tin
+/etc/modules.conf như sau:
+alias eth0 3c501
+options 3c501 io=0x300
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+201
+
+-
+
+Dòng đầu tiên khai báo tên thiết bị eth0 thay thế cho tên card 3c501,
+dòng thứ hai khai báo địa chỉ cổng nhập xuất của card.
+Hoặc nạp chương trình điều khiển card mạng bằng lệnh modprobe. Ví
+dụ sau nạp chương trình điều khiển cho card mạng 3COM 3c501
+$modprobe –vd 3c501
+
+2. Qui ước tên thiết bị mạng
+Trên linux tên thiết bị mạng được qui ước như sau:
+- Thiết bị loopback: lo
+- Thiết bị mạng LAN (ethernet): eth0, eth1
+- Thiết bị PPP (nối mạng qua đường dây điện thoại) : ppp0, ppp1
+3. Cài đặt TCP/IP
+Cài đặt TCP/IP trên linux có thể thực hiện ở chế độ dòng lệnh (netconfig) hoặc
+ở màn hình X-Windows (redhat-config-network) hoặc sửa trực tiếp một số tập
+tin cấu hình mạng.
+a. Tiện ích dòng lệnh netconfig
+Nhập netconfig tại dòng lệnh, xuất hiện màn hình netconfig có giao diện như
+hình sau:
+
+Bấm Enter để bắt đầu cài đặt. Màn hình cài đặt như sau:
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+202
+
+• Gán địa chỉ tự động bằng DHCP:
+Bấm phím Tab để di chuyển con trỏ đến mục Use dynamic IP configuration
+(BOOTP/DHCP) , bấm spacebar để chọn rồi chọn Yes để kết thúc cài đặt.
+• Gán địa chỉ bằng tay:
+Nhập địa chỉ IP trong hộp IP Address, bấm phím Tab để nhập Netmask, Default
+gateway và DNS server nếu có. Chọn Yes để kết thúc cài đặt.
+b. Tiện ích redhat-config-network
+Nhập lệnh neat trong cửa sổ dòng lệnh Terminal trong giao diện X-Windows,
+xuất hiện cửa sổ network configuration như hình sau:
+
+Danh sách các card mạng kiệt kê trong khung phía dưới. Để gán địa chỉ IP cho
+card. Click chọn card muốn điều chỉnh trong danh sách rồi bấm nút Edit, xuất
+hiện hộp thoại như hình:
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+203
+
+• Gán địa chỉ tự động bằng DHCP:
+-
+
+Click chọn Automatically obtain IP address settings with dhcp,
+Click OK để kết thúc cài đặt.
+
+• Gán địa chỉ bằng tay:
+-
+
+Click chọn Statically set IP addresses ,
+Nhập địa chỉ IP trong hộp Address, subnet mask và default gateway
+address nếu có.
+Click OK để kết thúc cài đặt.
+
+• Khai báo DNS
+-
+
+Click chọn thẻ DNS trong hộp thoại Network Configuration ,
+Nhập tên máy (FQDN) trong hộp hostname,
+Nhập địa chi các máy chủ DNS trong hộp Primary DNS và Secondary
+DNS (nếu có).
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+204
+
+Ra lệnh File/Save để ghi nhận tất cả những điều chỉnh rồi bấm nút Close để kết
+thúc cài đặt.
+c. Các tập tin cấu hình mạng
+Thông tin lưu trữ
+Tên máy
+Cấu hình TCP/IP card mạng
+
+Tập tin
+/etc/sysconfig/network
+/etc/sysconfig/network-scripts/ifcfg-eth0
+
+Ví dụ một tập tin /etc/sysconfig/network
+NETWORKING=yes
+HOSTNAME=fedora.hcmute.edu.vn
+Ví dụ một tập tin /etc/sysconfig/network-scripts/ifcfg-eth0
+DEVICE=eth0
+ONBOOT=yes
+BOOTPROTO=static
+IPADDR=192.168.10.100
+NETMASK=255.255.255.0
+GATEWAY=192.168.10.1
+Có thê cài đặt TCP/IP bằng các tiện ích trên hoặc điều chỉnh các tập tin cấu
+hình mạng tương ứng. Việc điều chỉnh chỉ có tác dụng sau khi khởi động lại
+máy hoặc khởi động lại dịch vụ mạng. Để khởi động lại dịch vụ mạng, ra lệnh
+như sau:
+Giáo trình Mạng căn bản
+
+Chương 9
+
+205
+
+$/etc/rc.d/init.d/network restart
+
+Khởi động lại dịch vụ mạng
+
+4. Kiểm tra cài đặt TCP/IP
+Kiểm tra cài đặt TCP/IP gồm 2 bước: kiểm tra thông số địa chỉ trên card mạng
+bằng lệnh ifconfig và kiểm tra kết nối với máy tính khác bằng lệnh ping.
+a. Kiểm tra bằng ifconfig
+Nhập lệnh ifconfig, kết quả như sau:
+eth0 Link encap:Ethernet HWaddr 00:90:27:4E:67:35
+inet addr:192.168.10.11 Bcast:192.168.10.255 Mask:255.255.255.0
+UP BROADCAST RUNNING MULTICAST MTU:1500 Metric:1
+RX packets:156 errors:0 dropped:0 overruns:0 frame:0
+TX packets:104 errors:0 dropped:0 overruns:0 carrier:0
+collisions:0
+RX bytes:20179 (19.7 Kb) TX bytes:19960 (19.4 Kb)
+lo
+Link encap:Local Loopback
+inet addr:127.0.0.1 Mask:255.0.0.0
+UP LOOPBACK RUNNING MTU:3924 Metric:1
+RX packets:56 errors:0 dropped:0 overruns:0 frame:0
+TX packets:56 errors:0 dropped:0 overruns:0 carrier:0
+collisions:0
+RX bytes:3148 (3.0 Kb) TX bytes:3148 (3.0Kb)
+Kết quả lệnh cho thấy có 2 card mạng trong máy. Card mạng ethernet eth0 và
+giao tiếp loopback. Các tham số hiển thị gồm địa chỉ vật lý (Hwaddr), địa chỉ IP
+(inet addr), địa chỉ phát quảng bá (Bcast), Subnet Mask (Mask), trạng thái đang
+hoạt động (UP), các thông số truyền (TX), nhận (RX).
+Nếu kết quả lệnh ifconfig không thấy eth0 thì có thể giao tiếp này chưa hoạt
+động. Để kích hoat (Activate), sử dụng lệnh
+#ifconfig eth0 up
+Một cách tương tự, muốn tạm thời ngưng (Deactivate) giao tiếp eth0, sử dụng
+lệnh
+#ifconfig eth0 down
+Lệnh ifconfig cũng có thể được sử dụng để gán tạm thời địa chỉ IP cho card
+mạng. Để gán địa chỉ, ra lệnh như sau:
+#ifconfig eth0 192.168.228.10 netmask 255.255.255.0
+Tuy nhiên địa chỉ này chỉ có tác dụng tạm thời, nó sẽ không còn tác dụng khi
+khởi động lại dịch vụ mạng bằng lệnh /etc/rc.d/init.d/network restart hoặc
+khởi động lại máy. Để gán giá trị cố định, sử dụng các cách đã trình bày ở phần
+trên.
+Giáo trình Mạng căn bản
+
+Chương 9
+
+206
+
+b. Kiểm tra nối mạng bằng ping
+Để kiểm tra kết nối với một máy khác trên mạng, sử dụng lệnh ping <địa chỉ>.
+Ví dụ:
+# ping 192.168.228.1
+Kết quả thông báo như sau:
+PING 192.168.228.1 (192.168.228.1): 56 data bytes
+64 bytes from 192.168.228.1: icmp_seq=0 ttl=255 time=0.6 ms
+64 bytes from 192.168.228.1: icmp_seq=1 ttl=255 time=0.5 ms
+64 bytes from 192.168.228.1: icmp_seq=2 ttl=255 time=0.5 ms
+64 bytes from 192.168.228.1: icmp_seq=3 ttl=255 time=0.5 ms
+64 bytes from 192.168.228.1: icmp_seq=4 ttl=255 time=0.5 ms
+64 bytes from 192.168.228.1: icmp_seq=5 ttl=255 time=0.5 ms
+64 bytes from 192.168.228.1: icmp_seq=6 ttl=255 time=0.5 ms
+64 bytes from 192.168.228.1: icmp_seq=7 ttl=255 time=0.6 ms
+64 bytes from 192.168.228.1: icmp_seq=8 ttl=255 time=0.5 ms
+64 bytes from 192.168.228.1: icmp_seq=9 ttl=255 time=0.5 ms
+−−− 192.168.228.1 ping statistics −−−
+10 packets transmitted, 10 packets received, 0% packet loss
+round−trip min/avg/max = 0.5/0.5/0.6 ms
+Mặc định lệnh ping sẽ thực hiện cho đến khi nào nhận tổ hợp phím Ctrl+C.
+Tham số -c count được dùng để xác định số lần thực hiện.
+Ví dụ:
+# ping –c4 192.168.228.1
+Sẽ thực hiện lệnh 4 lần.
+5. Đăng nhập từ máy tính chạy windows
+Có thể đăng nhập (login) để quản trị linux từ xa trên một máy tính chạy
+windows bằng tiện ích dòng lệnh telnet với điều kiện telnet server phải được cài
+đặt và hoạt động trên máy tính chạy linux.
+a. Kiểm tra và cài đặt telnet-server
+Để kiểm tra xem telnet-server có được cài đặt chưa bằng cách nhập lệnh:
+#rpm –q telnet-server
+Linux sẽ thông báo version của telnet-server nếu đã được cài đặt, trong trường
+hợp chưa được cài đặt, sẽ nhận thông báo:
+Package telnet-server is not installed
+Để cài đặt telnet-server, mount dĩa CD cài đặt linux trong /mnt/cdrom rồi
+chuyển đến thư mục /mnt/cdrom và nhập lệnh:
+#rpm -i telnet-server-0.17-25.i386.rpm
+Giáo trình Mạng căn bản
+
+Chương 9
+
+207
+
+Sau khi cài đặt, nhập lệnh:
+#rpm –q telnet-server
+Kết quả thông báo như sau:
+telnet-server-0.17-25
+b. Kích hoạt telnet-server
+Kích hoạt telnet-server để tự động chạy khi khởi động linux thực hiện như sau:
+#ntsysv
+Màn hình danh sách các dịch vụ hệ thống xuất hiện, chọn mở telnet rồi bấm nút
+OK để xác nhận.
+
+Khởi động lại để kích hoạt telnet server hoặc ra lệnh:
+#/etc/rc.d/init.d/xinetd restart
+c. Đăng nhập từ windows
+Mở cửa sổ lệnh, nhập lệnh telnet <địa chỉ> với địa chỉ là địa chỉ IP của máy tính
+linux. Nếu kết nối được, màn hình login của linux sẽ xuất hiện.
+Ví dụ:
+C:\> telnet 192.168.228.2
+Kết quả xuất hiện như sau:
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+208
+
+6. Chía xẻ dữ liệu với Windows
+Có thể chia xẻ dữ liệu giữa máy tính chạy Linux/Unix với máy tính chạy
+windows hoặc ngược lại bằng cách sử dụng một giao thức của linux, đó là SMB
+(Server Message Block) . Dịch vụ này cho phép chia xẻ tập tin và máy in giữa
+các máy tính chạy HĐH Unix và các máy tính chạy HĐH Windows
+a. Cài đặt samba server trên máy tính linux
+• Kiểm tra và cài đặt Samba server
+Để kiểm tra xem Samba server có được cài đặt chưa bằng cách nhập lệnh:
+#rpm –q Samba
+Linux sẽ thông báo version của Samba server nếu đã được cài đặt, trong trường
+hợp chưa được cài đặt, sẽ nhận thông báo:
+Package Samba is not installed
+Để cài đặt Samba, mount dĩa CD cài đặt linux trong /mnt/cdrom rồi chuyển đến
+thư mục /mnt/cdrom và nhập lệnh:
+#rpm -i Samba-2.2.7a-7.9.0.i386.rpm
+Sau khi cài đặt, nhập lệnh:
+#rpm –q Samba
+Kết quả thông báo như sau:
+Samba-2.2.7a-7.9.0
+Sau khi cài đặt xong phải thấy có thư mục /etc/samba và tập tin smb.conf trong
+đó. Đây là tập tin rất quan trọng chứa thông tin cấu hình hoạt động của samba
+server.
+• Điều chỉnh tập tin cấu hình smb.conf
+Tập tin smb.conf là một tập tin văn bản chứa thông tin cấu hình hoạt động của
+Samba Server. Tập tin gồm nhiều phần (section), mỗi phần bắt đầu bằng một
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+209
+
+chỉ thị viết giữa 2 dấu […]. Sử dụng trình soạn thảo vi, điều chỉnh nội dung các
+phần trong smb.conf như sau:
+[global]
+workgroup = CNTT
+; Tên workgroup – tên này sẽ xuất hiện
+trong My Network Places của Windows
+server string = Samba server ; Chuỗi mô tả server, chuỗi này sẽ xuất
+hiện trong vùng description
+encrypted passwords = yes
+; Password truy xuất được mã hóa
+smb password file = /etc/samba/smbpasswd
+; Tập tin password của
+những user được phép truy xuất samba
+server
+socket options = TCP_NODELAY SORCV_BUF 8192 SOSND_BUF 8192
+interfaces = 192.168.228.2/24 ; Địa chỉ card mạng được phép truy xuất
+dữ liệu của samba server
+[homes]
+comment = Home Directories
+; Thư mục home
+writeable = yes
+; Cho phép ghi
+[tmp]
+comment = Temporary file space ; Thư mục dùng chung giúp
+path = /tmp
+; mọi người chia xẻ dữ liệu
+read only = no
+public = yes
+• Định nghĩa user và khai báo mật khẩu sử dụng samba server
+Sử dụng lệnh useradd để tạo tài khoản user sẽ sử dụng samba server. Ví dụ:
+#useradd smbclient
+#passwd smbclient
+Changing password for smbclient
+New UNIX password:
+Retype new UNIX password:
+Passwd: All authentication tokens updated successfully
+Tạo tất cả các user cần thiết ở bước này.
+Tạo tập tin chứa mật khẩu của các user sẽ sử dụng samba bằng cách nhập lệnh:
+#cat /etc/passwd | mksmbpasswd.sh > /etc/samba/smbpasswd
+Tạo mật khấu sử dụng samba bằng cách nhập lệnh
+#smbpasswd –a smbclient
+New SMB password:
+Retype new SMB password:
+Added user smbclient
+Password changed for user smbclient.
+Giáo trình Mạng căn bản
+
+Chương 9
+
+210
+
+Lần lượt thực hiện lệnh trên cho những tài khoản user sẽ sử dụng samba server.
+• Khởi động samba server
+Để khởi động dịch vụ samba , nhập lệnh:
+#/etc/rc.d/init.d/smb start
+Starting SMB services
+[OK]
+Starting NMB services
+[OK]
+Thông báo cho biết dịch vụ đã sẵn sàng, người sử dụng có thể truy xuất thư mục
+chia xẻ trên Linux từ máy tính chạy windows.
+• Truy xuất dữ liệu chia xẻ từ windows
+Nhấp đúp biểu tượng My Network Places, nhấp đúp biểu tượng Nhóm làm việc
+phải thấy xuất hiện máy chủ samba trong danh sách các máy trên mạng như
+hình sau
+
+Nhấp đúp tại biểu tượng Samba server, phải thấy danh sách các thư mục chia xẻ
+như hình sau:
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+211
+
+Cách sử dụng các thư mục chia xẻ này giống như thư mục từ một máy tính chạy
+windows.
+b. Truy xuất thư mục chia xẻ trên windows từ máy tính Linux
+Chia xẻ một thư mục trên máy tính chạy windows,
+Tạo một thư mục winshare chứa trong /mnt để truy xuất thư mục chia
+xẻ từ windows,
+- Nhập lệnh
+#mount –t smbfs –o username=<username>,password=<password>
+<UNC> /mnt/winshare
+Ví dụ:
+#mount –t smbfs –o username=win,password=win //tp-r30/softs /mnt/winshare
+Sau khi mount, nhập lệnh
+#ls –l /mnt/winshare
+Sẽ thấy nội dung chia xẻ của máy tính windows:
+-
+
+-rwxr-xr-x
+drwxr-xr-x
+-rwxr-xr-x
+drwxr-xr-x
+-rwxr-xr-x
+drwxr-xr-x
+
+1 root
+1 root
+1 root
+1 root
+1 root
+1 root
+
+Giáo trình Mạng căn bản
+
+root
+root
+root
+root
+root
+root
+
+1821147 May 9 2004 fgf160.exe
+4096 May 9 2004 Sasser
+0 May 2 2004 share.txt
+4096 May 4 2004 TabletPlanner
+379515 Apr 24 2003 UNIKEY_3.55.zip
+4096 Apr 19 08:50 VMware
+
+Chương 9
+
+212
+
+Câu hỏi ôn tập
+1. Bản phân phối Linux (Linux Distro) là gì ? Phân biệt giữa phiên bản của
+nhân hệ điều hành Linux và bản phân phối.
+2. Muốn kết thúc một phiên làm việc trên linux và đăng nhập với một tài
+khoản user mới thì có thể sử dụng lệnh gì ?
+3. Muốn tắt máy hoặc ngưng làm việc trên linux sử dụng lệnh gì ?
+4. Có bao nhiêu dạng dấu nhắc đối với Bash shell, các dạng đó là gì ?
+5. Có những cách nào để xem hướng dẫn sử dụng một lệnh trên bash shell ?
+6. Viết ký hiệu tên ổ dĩa mềm đầu tiên, tên phân vùng đầu tiên trên dĩa cứng
+thứ nhất, tên phân vùng đầu tiên trên dĩa cứng thứ hai, tên phân vùng đầu
+tiên trên ổ dĩa cứng SCSI.
+7. Phải thực hiện lệnh gì trước khi sử dụng một dĩa mềm.
+8. Phải thực hiện lệnh gì trước khi sử dụng một dĩa CD.
+9. Liệt kê các lệnh thao tác trên thư mục, các tùy chọn cơ bản của các lệnh đó,
+cho ví dụ minh họa cho mỗi lệnh.
+10. Liệt kê các lệnh thao tác trên tập tin, các tùy chọn cơ bản của các lệnh đó,
+cho ví dụ minh họa cho mỗi lệnh.
+11. Những lệnh nào có thể được sử dụng để xem nội dung một tập tin.
+12. Những lệnh nào có thể được sử dụng để soạn thảo một tập tin văn bản.
+13. Mô tả các loại quyền truy xuất. Quyền x trên thư mục thì có ý nghĩa gì ?
+14. Mô tả các lệnh về quyền trên linux. Cho ví dụ minh họa.
+15. Thông tin về user, group được lưu trữ ở đâu trên linux ?
+16. Muốn tạo mới một tài khoản user, phải thực hiện những bước nào ?
+17. Khi một tài khoản user được tạo mới, một thư mục của user đó được tạo ra
+trong thư mục home. Muốn thay đổi tên user và thay đổi cả thư mục home
+thì phải sử dụng lệnh gì ?
+18. Muốn thay đổi nhóm của một user thì có những cách nào ?
+19. Tên các thiết bị mạng trên linux qui ước như thế nào ?
+20. Mô tả các bước cài đặt TCP/IP trên linux.
+21. Các bước thực hiện để có thể đăng nhập linux từ xa trên máy tính chạy
+windows.
+22. Các bước thực hiện để có thể chia xẻ dữ liệu, máy in giữa máy tính linux và
+máy tính chạy windows.
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+213
+
+Các câu hỏi trắc nghiệm
+1. Để kết thúc một phiên làm việc trên Linux, cách nào nào sau đây sai:
+a. Sử dụng lệnh quit
+b. Sử dụng lệnh exit
+c. Sử dụng lệnh logout
+d. Bấm tổ hợp phím Ctrl+D
+2. Lệnh nào sau đây được sử dụng để khởi động lại linux:
+a. reboot –r now
+b. shutdown –r now
+c. restart
+d. poweroff
+3. Phải ra lệnh nào sau đây trước khi sử dụng dĩa mềm:
+a. mount floppy
+b. mount /dev/floppy
+c. mount /dev/fd0 /mnt/floppy
+d. mount /dev/fd0
+4. Phải ra lệnh nào sau đây trước khi sử dụng dĩa CD:
+a. mount cdrom
+b. mount /dev/cdrom
+c. mount /dev/cdrom /mnt/cd
+d. mount /dev/cd0
+5. Gắn thêm một dĩa cứng thứ hai vào một máy tính chạy linux . Dĩa cứng này
+đã được chia dĩa bằng fdisk trên DOS gồm 1 phân vùng chính và một phân
+vùng mở rộng với một ổ dĩa luận lý trên phân vùng mở rộng. Muốn sử dụng
+dữ liệu trên phân vùng chính của ổ dĩa thứ hai phải ra lệnh:
+a. mount /dev/hd2 /mnt/drive_C
+b. mount /dev/hdb1 /mnt/drive_C
+c. mount /dev/hdb0 /mnt/drive_C
+d. mount /dev/hdba /mnt/drive_C
+6. Gắn thêm một dĩa cứng thứ hai vào một máy tính chạy linux . Dĩa cứng này
+đã được chia dĩa bằng fdisk trên DOS gồm 1 phân vùng chính và một phân
+vùng mở rộng với một ổ dĩa luận lý trên phân vùng mở rộng. Muốn sử dụng
+dữ liệu trên ổ dĩa luận lý trên phân vùng mở rộng của ổ dĩa thứ hai phải ra
+lệnh:
+a. mount /dev/hd21 /mnt/drive_D
+b. mount /dev/hdb1 /mnt/drive_D
+c. mount /dev/hdb2 /mnt/drive_D
+d. mount /dev/hdb5 /mnt/drive_D
+Giáo trình Mạng căn bản
+
+Chương 9
+
+214
+
+7. Người quản trị hệ thống muốn tạo 2 nhóm mới có tên develop và admin.
+Cách nào sau đây có thể được sử dụng ?
+a. Sử dụng lệnh newgrp
+b. Sử dụng lệnh groupadd
+c. Sử dụng lệnh creategroup
+d. Nhập thông tin vào tập tin /etc/group.conf
+8. Người quản trị hệ thống muốn thay đổi sở hữu thư mục /tmp/data/user1 từ
+tài khoản user1 sang tài khoản user2 thì phải sử dụng lệnh nào sau đây?
+a. chown /tmp/data/user2 user1
+b. chown –R /tmp/data/user1 user2
+c. chown user2 /tmp/data/user1
+d. chown user2 /tmp/data/user1 user2
+9. Một user muốn lệnh cmd1 xử lý tập tin file rồi xuất kết quả cho lệnh cmd2
+thì phải sử dụng lệnh nào sau đây?
+a. cmd1 | file > cmd2
+b. cmd1 < file | cmd2
+c. cmd1 > file | cmd2
+d. cmd1 | file < cmd2
+10. Lệnh nào sau đây được sử dụng để tạo thư mục ?
+a. rm
+b. ls
+c. mv
+d. mkdir
+11. Lệnh nào sau đây được sử dụng để gán quyền mặc định cho một file mới
+tạo ?
+a. mask
+b. umask
+c. fmask
+d. createMask
+12. Dòng sau được trích ra từ một tập tin /etc/passwd
+Smith: * : 1133 : 334 : John Smith: /usr/people/jsmith: /bin/bash
+Ký hiệu * có ý nghĩa gì ?
+a. Tài khoản user Smith tạm thời không sử dụng được (deactivate)
+b. Tài khoản Smith là tài khoản superuser
+c. Buộc Smith phải thay đổi mật khẩu ở lần đăng nhập kế tiếp
+d. Dấu hiệu cho biết thư mục home của user Smith được chia xẻ bởi các
+thành viên trong cùng nhóm.
+13. Phân vùng nào sau đây bắt buộc phải có khi cài đặt linux
+a. /
+Giáo trình Mạng căn bản
+
+Chương 9
+
+215
+
+b. /var
+c. /etc
+d. /boot
+14. Một DHCP server được thêm vào trên mạng. Máy tính linux đã được cài đặt
+sử dụng DHCP bằng netconfig. Lệnh nào sau đây khởi động lại dịch vụ
+mạng và kiểm tra card mạng đã nhận địa chỉ IP từ DHCP server ?
+a. ifconfig -test
+b. netstat –R -test
+c. route restart, ping
+d. network restart, ping
+15. Quyền tối thiểu trên một thư mục để user có thể chuyển vào thư mục và liệt
+kê nội dung thư mục ?
+a. Chỉ cần quyền r
+b. Chỉ cần quyền x
+c. Quyền w và r
+d. Quyền r và x
+16. Muốn thực thi chương trình a.out trong thư mục /usr/local/bin, user root có
+thực hiện các lệnh:
+cd /user/local/bin
+a.out
+thấy thông báo lỗi như sau:
+bash: a.out: command not found
+Muốn thực thi được phải sử dụng lệnh nào sau đây ?
+a. ./a.out
+b. chmod o-x a.out
+c. chown root a.out
+d. su –user, a.out
+17. Dòng lệnh /dev/cdrom /cd iso9660 ro, user, noauto 0 0 trong tập tin fstab
+nghĩa :
+a. Cho phép mọi người mount CD-ROM
+b. Chỉ cho phép user root mount CD-ROM
+c. Mount dĩa CD-ROM ở chế độ chỉ đọc (Read-only) lúc boot máy
+d. Tất cả đều sai
+18. Lệnh nào sau đây liên kết giữa giá trị địa chỉ luận lý 32 bit với địa chỉ vật lý
+của card mạng:
+a. arp
+b. masq
+c. mount
+d. route
+Giáo trình Mạng căn bản
+
+Chương 9
+
+216
+
+19. Lệnh nào sau đây được sử dụng để xác định tình trạng hoạt động của card
+mạng trên linux:
+a. cksum
+b. netcfg
+c. ipconfig
+d. ifconfig
+20. Muốn uninstall một gói phần mềm (rpm package) trên linux, sử dụng lệnh
+nào sau đây ?
+a. rpm –e <package>
+b. rpm –rf <package>
+c. rpm –m <package>
+d. rpm –remove <package>
+21. Giao thức nào sau đây được sử dụng khi cài cấu hình để một máy trạm kết
+nối với máy tính khác qua đường dây điện thoại ?
+a. PPP
+b. UDP
+c. UUCP
+d. SNMP
+22. Địa chỉ MAC của một card mạng là :
+a. Mã khóa ISPEC
+b. Giá trị định danh được sử dụng khi router chuyển các gói tin.
+c. Địa chỉ 32 bit gắn liền với một tên luận lý
+d. Giá trị số thập lục phân duy nhất của mỗi card mạng
+
+Giáo trình Mạng căn bản
+
+Chương 9
+
+

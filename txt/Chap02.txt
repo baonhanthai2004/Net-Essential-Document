@@ -1,0 +1,166 @@
+Nguyễn Đăng Quang
+
+CHAPTER 2:
+THE LINK LAYER &
+ETHERNET
+
+Contents
+• Link layer functions and Terminologies
+
+• Ethernet
+• CSMA/CD
+• Ethernet network devices
+
+• Internetworking devices
+
+Link Layer Functions
+• Relies upon the physical layer to deliver a frame to a
+
+neighbor connected by physical link.
+• The hosts (stations) and routers in the communication
+
+path are called nodes.
+• The channels (wired, wireless or optical) connecting
+
+adjacent nodes along the path are called links.
+• Data is encapsulated in a layer-2 packet called a frame.
+
+MAC & LLC Sublayers
+
+Multiple Access Protocols
+• There are two types of links:
+• Point-to-point (PPP) and,
+• Broadcast
+
+MAC Protocols
+1. Channel Partitioning,
+2. Random Access,
+3. Token Ring.
+
+Channel Partitioning
+• TDMA
+
+• FDMA
+
+Shard Ethernet & WLAN Random Access
+• In these environment, each station transmits at the full link
+
+rate (baseband), there is no a priori coordination among
+stations → collisions are a regular occurrence.
+• Random access MAC protocols:
+• CSMA,
+• CSMA/CD (Ethernet 802.3)
+
+• CSMA/CA (Ethernet 802.11)
+
+ETHERNET
+
+Timeline
+• 1973 – Documented the invention of Ethernet, building on the ALOHAnet
+
+protocol (2.94Mbps),
+• 1978 – Xerox developed X-Wire, a 10 Mbps Ethernet running on a
+
+coaxial cable,
+• 1979 – Intel, DEC, Xerox jointly develop an Ethernet specification based
+
+on X-Wire. This group was called DIX.
+• 1983 – 802.3 Specification approved by IEEE
+• 1984 – ISO adopted IEEE 802.3
+• 1985 – Twisted-pair Ethernet Hub
+• 1987 – 3COM developed intelligent switching hubs
+• 1992 – Fast Ethernet (100Mbps)
+
+Topologies
+
+CSMA/CD
+• Carrier Sense Multiple Access with Collision Detection
+Action
+Step 1
+
+The Network Interface Card (NIC) receives a datagram from the
+network layer and creates a frame
+
+Step 2
+
+If the NIC senses, via CSMA, that the channel is not being used, it
+begins sending a frame. If the channel is busy, it waits for an idle
+channel and then transmits
+
+Step 3
+
+If the NIC transmits the entire frame without detecting a collision, the
+transmission is successful; if the NIC detects a collision, via CD,
+while transmitting, the transmission is aborted and a jam signal, 48
+bits in length, is sent to ensure that all other transmitters are aware
+of the collision.
+
+Step 4
+
+After aborting, the NIC enters what is known as Exponential Backoff,
+which is in essence an algorithm to produce a random waiting
+period, and then returns to step 2
+
+Ethernet (DIXv2) & 802.2
+
+Ethernet Network & Devices
+• 10BASE-5
+• 10BASE-2
+• 10BASE-T
+• Fast Ethernet
+
+• Gigabit Ethernet (GbE)
+
+Ethernet Hubs
+
+Ethernet Cables & Connectors
+
+Cat-7 cables & RJ-45 connector
+
+T568B
+
+T568A vs. T568B
+
+Straight-through vs. Cross-over
+
+Gigabit Ethernet
+
+Single-mode and Multi-mode Fiber
+
+Optical Fiber structure
+
+Ten Gigabit Ethernet (10G)
+• Commonly employed in an organization’s backbones,
+
+Wide/Metropolitan Area Networks (WAN/MAN) or data centers.
+• Does not support CSMA/CD, but works only in conjunction with a
+
+switch.
+
+Collision Domain
+A part of a network where packet collisions can
+occur
+
+Collision Domain
+
+Collision Domain
+• Expand network with Hub will enlarge collision
+
+domain
+
+Internetworking Devices
+• Expanding network with internetworking devices avoids
+
+widening collision domain
+
+Bridge
+• Learning
+
+• Filtering
+• Forwarding
+
+Router
+
+Cisco Router
+
+

@@ -1,0 +1,699 @@
+Chapter 01
+
+Introduction
+Nguyễn Đăng Quang
+E-mail: quang.ngdang@outlook.com
+
+Contents
+
+
+Uses of Computer Network
+
+
+
+Network Hardware
+
+
+
+Network Software
+
+
+
+Reference Models
+
+
+
+Example of Networks
+
+
+
+Network Standardization
+
+
+
+IEEE 802 Project
+
+Uses of
+Computer
+Network
+
+•
+
+Business applications
+
+•
+
+Home applications
+
+•
+
+Mobile Users
+
+•
+
+Social Issues
+
+Business applications
+
+
+
+
+Resource sharing
+
+
+Physical Devices
+
+
+
+Information
+
+Client-Server models
+
+
+Web application
+
+
+
+IP Telephony (VoIP)
+
+
+
+Desktop sharing
+
+
+
+E-Commerce
+
+Home applications
+
+
+
+Word processing
+
+
+
+E-mail
+
+
+
+Peer-to-peer communication
+
+
+Bit Torrent, uTorrent
+
+
+
+Instant messaging
+
+
+
+Social Network
+
+
+
+
+
+Facebook
+
+
+
+Twitter
+
+
+
+Wiki
+
+IPTV
+
+Mobile Users
+
+
+
+Fixed Wireless
+
+
+
+
+WIFI Access Point
+
+Mobile Wireless
+
+
+2G, 3G, 4G
+
+
+
+Mobile phones, Smart Phones
+
+
+
+GPS
+
+
+
+NFC (Near Field Communication)
+
+Social Issues
+
+
+
+Mail
+
+
+
+
+Junk mail
+
+Web
+
+
+Cookies
+
+
+
+Profiling Users
+
+
+
+Phishing
+
+
+
+Botnet
+
+Network
+Hardware
+
+•
+
+Transmission Technologies
+
+•
+
+Network size
+
+Transmission Technologies
+
+
+
+Broadcast Links
+
+
+
+
+MultiCast
+
+Point-to-Point Links
+
+Network Scale
+
+PAN Personal Area Network
+
+
+
+Bluetooth (IEEE 802.15)
+
+
+
+RFID
+
+LAN – Local Area Network
+
+
+
+Enterprise Network
+
+
+
+Wireless (IEEE 802.11)
+
+
+
+Ethernet (IEEE 802.3)
+
+
+
+
+
+Switched Ethernet
+
+
+
+VLAN
+
+Power-line network
+
+MAN – Metropolitan Area Network
+
+
+
+TV Cable Network
+
+
+
+WiMAX (IEEE 802.16)
+
+WAN – Wide Area Network
+
+
+
+Router
+
+
+
+Subnets
+
+
+
+ISPs
+
+Network
+software
+
+•
+
+Protocols/Protocol Stack
+
+•
+
+Design Issues
+
+•
+
+Connection-Oriented vs.
+Connectionless
+
+Protocol
+
+
+A protocol defines the format and the order of messages
+exchanged between two or more communicating entities, as well as
+
+the actions taken on the transmission and/or receipt of a message or
+other event
+
+Protocol
+
+Design issues for layers
+
+
+
+Error detection/correction
+
+
+
+Routing
+
+
+
+Addressing/Naming
+
+
+
+Flow Control
+
+
+
+Quality of Service (QoS)
+
+Connection-Oriented vs. Connectionless
+
+
+Connection-Oriented:
+ Establish connection
+ Use the connection
+ Release the connection
+
+Reliable service
+
+
+Connectionless
+
+
+Not Establish connection
+
+
+
+Datagram service = Telegram
+
+Unreliable service
+
+Reference
+Models
+
+•
+
+OSI Reference Model
+
+•
+
+TCP/IP Reference Model
+
+The OSI Reference Model
+
+OSI Reference Model
+
+
+Physical Layer: Transmitting raw bits
+
+
+
+Data Link Layer:
+ Data is broken up in frames
+ How to transmit using shared channel  Media Access Control
+
+(MAC)
+
+
+
+Network Layer:
+ Addressing
+ Routing
+ Handling congestion
+
+
+
+Transport Layer
+ An Error-free point-to-point channel that delivers messages or
+
+bytes in the order they are sent.
+
+OSI Reference Model
+
+
+Session Layer:
+ Establish connection,
+ Manage connection,
+ Disconnect
+
+
+
+Presentation Layer:
+ The lower layers, which are mostly concerned with moving bits
+
+around
+ This layer is concerned with Syntax & Semantic of information
+
+transmitted
+
+
+Application
+
+TCP/IP Reference Model
+
+TCP/IP Reference Model
+
+
+
+
+
+
+
+
+Link Layer:
+
+
+Serial line
+
+
+
+Classic Ethernet
+
+Internet Layer
+
+
+IP Packet
+
+
+
+ICMP Packet
+
+Transport Layer
+
+
+TCP – reliable connection – oriented protocol
+
+
+
+UDP – unreliable connectionless protocol
+
+Application Layer
+
+TCP/IP Reference Model
+
+Packet Transmission
+
+Example
+Network
+
+•
+
+The Internet
+
+•
+
+Network edge
+
+•
+
+Core network
+
+•
+
+Access network
+
+The Internet
+
+Access Networks
+
+
+Residential access networks, connecting a home end system into
+the network.
+
+Access Networks
+
+
+Home networks, connecting a home end system into the network.
+
+Access Networks
+
+
+Institutional access networks, connecting an end system in a
+business or educational institution into the network
+
+
+
+Mobile access networks, connecting a mobile end system into the
+network
+
+Network
+Standardization
+
+•
+
+In Telecommunication World
+
+•
+
+In International Standard
+World
+
+In Telecommunication World
+
+
+ITU (International Telecommunication Union)
+ ITU-T/CCITT (Telecommunications Standardization Sector):
+
+concerns with telephone and data communication systems.
+ ITU-R (Radiocommunications Sector): coordinating the use by
+
+competing interest groups of radio frequencies worldwide.
+ ITU-D (Development Sector): promotes the development of
+
+information and communication technologies
+
+In International Standard World
+
+
+ISO
+
+
+
+NIST (National Institute of Standards and Technology)
+
+
+
+IEEE (Institute of Electrical and Electronics Engineers)
+ IEEE’s 802 – IEEE 802.x
+ IEEE 802.3
+
+ IEEE 802.11
+
+In the Internet Standards World
+Internet
+
+
+IAB (Internet Architecture Board)
+ IRTF (Internet Research Task Force): Research Community – Long-
+
+term Research
+ IETF(Internet Engineering Task Force): Short-term engineering issues
+
+
+
+RFCs (Request For Comments)
+
+Web
+
+
+W3C (World Wide Web Consortium)
+
+Project 802
+
+
+Students research and make presentation
+
+Project 802
+
+1.
+
+The 802 Project Model
+
+2.
+
+The 802 Specifications
+
+3.
+
+Enhancement to the OSI Model
+
+4.
+
+The 802 Categories
+
+The 802 Project Model
+
+
+An IEEE’s project  build up a LAN standard,
+
+
+
+Named for the year and month it began (1980, February),
+
+
+
+Defined network standards for the physical components of a
+network (NIC and cabling), that are accounted for in the physical
+and data-link layers of the OSI reference model.
+
+The 802 specifications
+Set standard for
+
+
+Network interface cards (NICs),
+
+
+
+Local area network (LAN) components,
+
+
+
+Components used to create twisted-pair and coaxial cable
+
+networks.
+The 802 specifications define the ways NICs access and transfer data
+over physical media. These include connecting, maintaining, and
+disconnecting network devices
+
+Enhancements to the OSI Model
+
+
+The physical layer and the data-link layer, define how multiple
+computers can use the network simultaneously without interfering
+with each other
+
+
+
+The 802 standards committee divided the data-link layer into two
+sublayers:
+
+
+
+Logical Link Control (LLC) Establishing and terminating links,
+controlling frame traffic, sequencing frames, and acknowledging
+
+frames
+
+
+Media Access Control (MAC) Managing media access, delimiting
+frames, checking frame errors, and recognizing frame addresses
+
+IEEE 802 Categories
+Specification Description
+802.1
+
+Sets Internetworking standards related to network management.
+
+802.1D
+
+Interconnect multiple LAN segments (STP)
+
+802.1q
+
+VLAN
+
+802.2
+
+Defines the general standard for the data-link layer. The IEEE
+divides this layer into two sub-layers: the LLC and MAC layers. The
+
+MAC layer varies with different network types and is defined by
+standard IEEE 802.3
+802.3
+
+Defines the MAC layer for bus networks that use Carrier-Sense
+Multiple Access with Collision Detection (CSMA/CD).
+This is the Ethernet Standard.
+
+802.4
+
+Defines the MAC layer for bus networks that use a token-passing
+
+802.5
+
+mechanism (Token Bus LAN).
+Defines the MAC layer for token ring networks (Token Ring LAN).
+
+IEEE 802 Categories
+Specification
+
+Description
+
+802.6
+
+Sets standards for metropolitan area networks (MANs). MANs are
+usually characterized by very-high-speed connections using fiberoptic cables or other digital media.
+
+802.11
+
+Defines wireless network standards
+
+802.15
+
+Defines wireless personal area networks (WPAN)
+
+802.15.1
+
+Bluetooth
+
+802.16
+
+Defines broadband wireless standards (WiMAX)
+
+Video
+
+
+
+http://tinyurl.com/lr5dnpo
+
+

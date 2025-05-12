@@ -1,0 +1,9283 @@
+lOMoARcPSD|39944441
+
+Mmt đáp án - okddddd
+Mạng máy tính căn bản (Trường Đại học Sư phạm Kỹ Thuật Thành phố Hồ Chí Minh)
+
+Scan to open on Studocu
+
+Studocu is not sponsored or endorsed by any college or university
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Nhà của tôi / Khoá học / MMT2022 / Chung / Thi cuối kỳ: Mạng máy tính căn bản. 9h45, 07/06/2022 / Xem trước
+Bắt đầu vào lúc
+
+Trạng thái
+
+Kết thúc lúc
+
+Thời gian thực
+hiện
+
+Điểm
+Điểm
+
+Chủ Nhật, 21 Tháng Năm 2023, 10:48 CH
+Đã xong
+
+Chủ Nhật, 21 Tháng Năm 2023, 10:49 CH
+
+13 giây
+
+0,00/397,00
+
+0,00 trên 10,00 (0%)
+
+Câu hỏi 1
+Không trả lời
+Đạt điểm 2,00
+
+Sắp xếp các thông tin sau cho đúng
+Data Link
+
+Chọn...
+
+MAC
+
+Chọn...
+
+ARP
+
+Chọn...
+
+Transport
+
+Chọn...
+
+IPv4
+
+Chọn...
+
+IPv6
+
+Chọn...
+
+The correct answer is:
+Data Link → frame,
+MAC → 48bits,
+ARP → ánh xạ IP & MAC của một thiết bị,
+Transport → Segment,
+IPv4 → 32bit,
+IPv6 → 128bit
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 2
+Không trả lời
+Đạt điểm 1,00
+
+Sắp xếp các thông tin sau cho đúng
+Ethernet
+
+Chọn...
+
+Trunk
+
+Chọn...
+
+WiFi
+
+Chọn...
+
+Token ring
+
+Chọn...
+
+RADIUS
+
+Chọn...
+
+The correct answer is:
+Ethernet → 802.3,
+Trunk → 802.1Q,
+WiFi → 802.11ax,
+Token ring → 802.5,
+RADIUS → 802.1X
+
+Câu hỏi 3
+Không trả lời
+Đạt điểm 1,00
+
+Sắp xếp các thông tin sau cho đúng
+Presentation
+
+Chọn...
+
+Application
+
+Chọn...
+
+Transport
+
+Chọn...
+
+Data Link
+
+Chọn...
+
+Network
+
+Chọn...
+
+Physical
+
+Chọn...
+
+The correct answer is:
+Presentation → data,
+Application → data,
+Transport → Segment,
+Data Link → frame,
+Network → packet,
+Physical → bit
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 4
+Không trả lời
+Đạt điểm 1,00
+
+Sắp xếp các thông tin sau cho đúng
+UDP
+
+Chọn...
+
+IPv6 header
+
+Chọn...
+
+TCP
+
+Chọn...
+
+IPv4 header
+
+Chọn...
+
+The correct answer is:
+UDP → 8 bytes,
+IPv6 header → 40 bytes,
+TCP → 20 bytes,
+IPv4 header → 20 to 60 bytes
+
+Câu hỏi 5
+Không trả lời
+Đạt điểm 1,00
+
+Sắp xếp các thông tin sau cho đúng
+tenet
+
+Chọn...
+
+ping
+
+Chọn...
+
+ipconfig
+
+Chọn...
+
+tracert
+
+Chọn...
+
+ssh
+
+Chọn...
+
+nslookup
+
+Chọn...
+
+The correct answer is:
+tenet → truy cập và quản lý trị hệ thống ở xa,
+ping → kiểm tra kết nối giữa máy nguồn và máy ở xa,
+ipconfig → xem thông tin địa chi IP,
+tracert → xem đường đi từ nguồn đến đích của gói tin,
+ssh → truy cập và quản lý trị hệ thống ở xa,
+nslookup → phân giải tên miền thành IP và ngược lại
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 6
+Không trả lời
+Đạt điểm 1,00
+
+Sắp xếp các thông tin sau cho đúng
+HTTPS
+
+Chọn...
+
+ssh
+
+Chọn...
+
+SMTP
+
+Chọn...
+
+DNS
+
+Chọn...
+
+POP3
+
+Chọn...
+
+FTP
+
+Chọn...
+
+DHCP
+
+Chọn...
+
+Telnet
+
+Chọn...
+
+The correct answer is:
+HTTPS → 143,
+ssh → 22,
+SMTP → 25,
+DNS → 53,
+POP3 → 110,
+FTP → 21,
+DHCP → 67,
+Telnet → 23
+
+Câu hỏi 7
+Không trả lời
+Đạt điểm 1,00
+
+Sắp xếp các thông tin sau cho đúng
+Repeater
+
+Chọn...
+
+Hub
+
+Chọn...
+
+Switch
+
+Chọn...
+
+Router
+
+Chọn...
+
+Bridge
+
+Chọn...
+
+The correct answer is:
+Repeater → Physical,
+Hub → Physical,
+Switch → Data Link,
+Router → Network,
+Bridge → Data Link
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 8
+Không trả lời
+Đạt điểm 1,00
+
+Sắp xếp các thông tin sau cho đúng
+SMTP
+
+Chọn...
+
+IP
+
+Chọn...
+
+ICMP
+
+Chọn...
+
+HTTP
+
+Chọn...
+
+UDP
+
+Chọn...
+
+TCP
+
+Chọn...
+
+OSPF
+
+Chọn...
+
+The correct answer is:
+SMTP → Application,
+IP → Network,
+ICMP → Network,
+HTTP → Application,
+UDP → Transport,
+TCP → Transport,
+OSPF → Network
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 9
+Không trả lời
+Đạt điểm 1,00
+
+Kết nối chức năng của các tầng trong mô hình OSI
+Nén dữ liệu
+
+Chọn...
+
+Truyền các bít dữ liệu trên môi trường truyền dẫn
+
+Chọn...
+
+Mã hóa dữ liệu
+
+Chọn...
+
+Phân đoạn dữ liệu
+
+Chọn...
+
+Đóng gói dữ liệu thành frame
+
+Chọn...
+
+Đánh địa chỉ IP
+
+Chọn...
+
+Đánh số các packet
+
+Chọn...
+
+The correct answer is:
+Nén dữ liệu → Presentation,
+Truyền các bít dữ liệu trên môi trường truyền dẫn → Physical,
+Mã hóa dữ liệu → Presentation,
+Phân đoạn dữ liệu → Transport,
+Đóng gói dữ liệu thành frame → Data link,
+Đánh địa chỉ IP → Network,
+Đánh số các packet → Transport
+
+Câu hỏi 10
+Không trả lời
+Đạt điểm 1,00
+
+Sắp xếp các thông tin sau cho đúng
+Ipv4
+
+Chọn...
+
+ARP
+
+Chọn...
+
+Ipv6
+
+Chọn...
+
+Data Link
+
+Chọn...
+
+Transport
+
+Chọn...
+
+MAC
+
+Chọn...
+
+The correct answer is:
+Ipv4 → 32 bit,
+ARP → ánh xạ IP & MAC của một thiết bị,
+Ipv6 → 128 bit,
+Data Link → frame,
+Transport → segment,
+MAC → 48 bit
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 11
+Không trả lời
+Đạt điểm 1,00
+
+Kết hợp các giao thức với chức năng của nó
+SMTP
+
+Chọn...
+
+DNS
+
+Chọn...
+
+DNS record PTR
+
+Chọn...
+
+DNS Record A
+
+Chọn...
+
+Đường Trunk
+
+Chọn...
+
+The correct answer is:
+SMTP → Giao thức được dùng để gửi email,
+DNS → Dịch vụ phân giải tên miền,
+DNS record PTR → Reverse Lookup zone,
+DNS Record A → Forward Lookup zone,
+Đường Trunk → đường đi chung cho các VLAN
+
+Câu hỏi 12
+Không trả lời
+Đạt điểm 1,00
+
+Kết hợp các giao thức với port
+FTP
+
+Chọn...
+
+SSH
+
+Chọn...
+
+Telnet
+
+Chọn...
+
+HTTPS
+
+Chọn...
+
+POP3
+
+Chọn...
+
+The correct answer is:
+FTP → 21,
+SSH → 22,
+Telnet → 23,
+HTTPS → 443,
+POP3 → 110
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 13
+Không trả lời
+Đạt điểm 1,00
+
+Tầng nào cung cấp các phương tiện để người sử dụng có thể truy nhập được vào môi trường OSI và cung cấp các dịch vụ thông tin phân tán
+Select one:
+A. Transport
+B. Application
+C. Session
+D. Presentation
+
+The correct answer is: Application
+
+Câu hỏi 14
+Không trả lời
+Đạt điểm 1,00
+
+Tầng hai trong mô hình OSI tách luồng bit từ Tầng vật lý chuyển lên thành
+Select one:
+A. PSU
+B. Frame
+C. Packet
+D. Segment
+
+The correct answer is: Frame
+
+Câu hỏi 15
+Không trả lời
+Đạt điểm 1,00
+
+Nếu như một loại mã hóa dữ liệu nào đó được dùng cho các mục đích an toàn thì tầng nào trong OSI có chức năng mã hóa:
+Select one:
+A. Session
+B. Transport
+C. Application
+D. Presentation
+
+The correct answer is: Presentation
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 16
+Không trả lời
+Đạt điểm 1,00
+
+Kích thước nhỏ nhất của UDP header là
+Select one:
+A. 16bytes
+B. 32bytes
+C. 20bytes
+D. 8bytes
+
+The correct answer is: 8bytes
+
+Câu hỏi 17
+Không trả lời
+Đạt điểm 1,00
+
+Sự biến đổi dữ liệu thành các xung điện xảy ra tại lớp nào của OSI:
+Select one:
+A. Session
+B. Physical
+C. Transport
+D. Application
+
+The correct answer is: Physical
+
+Câu hỏi 18
+Không trả lời
+Đạt điểm 1,00
+
+Mức nào trong OSI thực hiện đảm bảo truyền toàn bộ dữ liệu từ máy nguồn đến máy đích
+Select one:
+A. Session
+B. Physical
+C. Application
+D. Transport
+
+The correct answer is: Transport
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 19
+Không trả lời
+Đạt điểm 1,00
+
+Card giao diện mạng thực hiện chức năng chủ yếu tại tầng nào của mô hình OSI
+Select one:
+A. Transport
+B. Session
+C. Physical
+D. Datalink
+
+The correct answer is: Datalink
+
+Câu hỏi 20
+Không trả lời
+Đạt điểm 1,00
+
+Mức nào trong OSI tương ứng với mức IP trong TCP/IP:
+Select one:
+A. Session
+B. Physical
+C. Transport
+D. Network
+
+The correct answer is: Network
+
+Câu hỏi 21
+Không trả lời
+Đạt điểm 1,00
+
+FDM (frequency-division multiplexing) được dùng trong truyền tín hiệu nào?
+Select one:
+A. Electric
+B. Analog
+C. Satellite
+D. Digital
+
+The correct answer is: Analog
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 22
+Không trả lời
+Đạt điểm 1,00
+
+Kích thước lớn nhất của IPv4 header là
+Select one:
+A. 20bytes
+B. 60bytes
+C. 16bytes
+D. 32bytes
+
+The correct answer is: 60bytes
+
+Câu hỏi 23
+Không trả lời
+Đạt điểm 1,00
+
+Kích thước của TCP header là
+Select one:
+A. 16bytes
+B. 8bytes
+C. 20bytes
+D. 32bytes
+
+The correct answer is: 20bytes
+
+Câu hỏi 24
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ MAC nào là đúng?
+Select one:
+A. AD-ED-5C-DF-5A-97
+B. AQ-ED-5C-DF-5A-97
+C. AC-ED-5C-DF-5A-97
+D. AS-ED-5C-DF-5A-97
+
+The correct answer is: AC-ED-5C-DF-5A-97
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 25
+Không trả lời
+Đạt điểm 1,00
+
+Đơn vị nào chỉ tốc độ truyền dẫn dữ liệu?
+Select one:
+A. Kb
+B. Kbps
+C. Mb
+D. KB
+
+The correct answer is: Kbps
+
+Câu hỏi 26
+Không trả lời
+Đạt điểm 1,00
+
+Tốc độ truyền dẫn dữ liệu 1Mbps có nghĩa gì?
+Select one:
+A. Trong 1 giây truyền được 1000byte dữ liệu
+B. Trong 1 giây truyền được 1Megabyte dữ liệu
+C. Trong 1 giây truyền được 1000byte dữ liệu
+D. Trong 1 giây truyền được 1000bit dữ liệu
+
+The correct answer is: Trong 1 giây truyền được 1000bit dữ liệu
+
+Câu hỏi 27
+Không trả lời
+Đạt điểm 1,00
+
+Tốc độ truyền dẫn dữ liệu 2Kbps có nghĩa gì?
+Select one:
+A. Trong 1 giây truyền được 2*1024bit dữ liệu
+B. Trong 1 giây truyền được 2*1000byte dữ liệu
+C. Trong 1 giây truyền được 2*1024byte dữ liệu
+D. Trong 1 giây truyền được 2*1000bit dữ liệu
+
+The correct answer is:
+
+Trong 1 giây truyền được 2*1000bit dữ liệu
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 28
+Không trả lời
+Đạt điểm 1,00
+
+Có các dạng delay nào trong packet-switching?
+Select one:
+A. Processing, Delay, Transmission, Propagation
+B. Processing, Lineing, Transmission, Propagation
+C. Processing, Waiting, Transmission, Propagation
+D. Processing, Queueing, Transmission, Propagation
+
+The correct answer is: Processing, Queueing, Transmission, Propagation
+
+Câu hỏi 29
+Không trả lời
+Đạt điểm 1,00
+
+Thời gian cần để chuyển tất cả các packet lên liên kết là dạng delay nào trong packet-switching?
+Select one:
+A. Transmission
+B. Propagation
+C. Queueing
+D. Processing
+
+The correct answer is: Transmission
+
+Câu hỏi 30
+Không trả lời
+Đạt điểm 1,00
+
+Thời gian cần để truyền dữ liệu từ điểm bắt đầu của liên kết đến Router tiếp theo là dạng delay nào trong packet-switching?
+Select one:
+A. Transmission
+B. Propagation
+C. Processing
+D. Queueing
+
+The correct answer is: Propagation
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 31
+Không trả lời
+Đạt điểm 1,00
+
+Kỹ thuật dồn kênh nào có thể được sử dụng để truyền các kênh có băng thông không bằng nhau
+Select one:
+A. TDM (time-division multiplexing)
+B.
+C.
+
+TDM & FDM
+None of of all
+
+D. FDM (frequency-division multiplexing)
+
+The correct answer is: TDM (time-division multiplexing)
+
+Câu hỏi 32
+Không trả lời
+Đạt điểm 1,00
+
+Trong mạng điện thoại, kỹ thuật dồn kênh nào được dùng?
+Select one:
+A. None of of all
+B.
+
+TDM & FDM
+
+C. FDM (frequency-division multiplexing)
+D.
+
+TDM (time-division multiplexing)
+
+The correct answer is: FDM (frequency-division multiplexing)
+
+Câu hỏi 33
+Không trả lời
+Đạt điểm 1,00
+
+Kỹ thuật dồn kênh nào được dùng truyền tín hiệu số
+Select one:
+A. TDM (time-division multiplexing)
+B.
+
+TDM & FDM
+
+C. FDM (frequency-division multiplexing)
+D. None of of all
+
+The correct answer is: TDM (time-division multiplexing)
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 34
+Không trả lời
+Đạt điểm 1,00
+
+Chi phí lắp đặt thấp hơn và dễ vận hành hơn các sơ đồ mạng khác là mạng
+Select one:
+A. Bus
+B. Mesh
+C. Start
+D. Ring
+
+The correct answer is: Bus
+
+Câu hỏi 35
+Không trả lời
+Đạt điểm 1,00
+
+Đồ hình mạng nào mà các thiết bị kết nối mạng có một đường kết nối riêng lẻ
+Select one:
+A. Ring
+B. Bus
+C. Start
+D. Mesh
+
+The correct answer is: Start
+
+Câu hỏi 36
+Không trả lời
+Đạt điểm 1,00
+
+Đồ hình mạng nào có khả năng tăng tính dự phòng cho hệ thống
+Select one:
+A. Bus
+B. Start
+C. Mesh
+D. Ring
+
+The correct answer is: Mesh
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 37
+Không trả lời
+Đạt điểm 1,00
+
+Công cụ nào dùng để kiểm tra một host đang hoạt động hay không?
+Select one:
+A. ping
+B. nslookup
+C. tracert
+D. route
+
+The correct answer is: ping
+
+Câu hỏi 38
+Không trả lời
+Đạt điểm 1,00
+
+Công cụ nào dùng để hiện thị các bước (hops) để gói tin từ máy tính của bạn tới máy đích?
+Select one:
+A. nslookup
+B. tracert
+C. route
+D. ping
+
+The correct answer is: tracert
+
+Câu hỏi 39
+Không trả lời
+Đạt điểm 1,00
+
+Thiết bị mạng nào hoạt động ở layer Network trong mô hình OSI
+Select one:
+A. Hub
+B. Switch
+C. Router
+D. Repeater
+
+The correct answer is: Router
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 40
+Không trả lời
+Đạt điểm 1,00
+
+Thiết bị mạng nào hoạt động ở layer 2 trong mô hình TCP/IP
+Select one:
+A. Router
+B. Switch
+C. Hub
+D. Repeater
+
+The correct answer is: Switch
+
+Câu hỏi 41
+Không trả lời
+Đạt điểm 1,00
+
+Email và FTP hoạt động ở layer nào trong mô hình OSI?
+Select one:
+A. Session
+B. Transport
+C. Application
+D. Physical
+
+The correct answer is: Application
+
+Câu hỏi 42
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ MAC có bao nhiêu bit
+Select one:
+A. 48
+B. 32
+C. 16
+D. 64
+
+The correct answer is: 48
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 43
+Không trả lời
+Đạt điểm 1,00
+
+Điều gì được yêu cầu phải thực hiện trước khi TCP bắt đầu gửi các segment
+Select one:
+A. Chỉ số port được thống nhất trước giữa máy gửi và máy nhận
+B. Đánh số tuần tự vào các segment
+C. Three-way handshake
+D.
+
+Chỉ số báo nhận của các segment
+
+The correct answer is: Three-way handshake
+
+Câu hỏi 44
+Không trả lời
+Đạt điểm 1,00
+
+Câu nào sau đây mô tả thứ tự đúng của dữ liệu được đóng gói?
+Select one:
+A.
+B.
+C.
+
+User datagrams, session, segments, packet, frames, bits
+User datagrams, packets, segments, frames, bits
+User datagrams, segments, packets, frames, bits
+
+D. User datagrams, packets, segments, session, frames, bits
+
+The correct answer is: User datagrams, segments, packets, frames, bits
+
+Câu hỏi 45
+Không trả lời
+Đạt điểm 1,00
+
+Câu nào sau đây là mô tả đúng khi switch nhận vào gói tin ARP request
+Select one:
+A. Switch chỉ chuyển tiếp gói ARP request đến cổng kết nối với máy đích
+B. Địa chỉ MAC đích trong frame là FF-FF-FF-FF-FF-FF
+C. Địa chỉ MAC nguồn trong frame là FF-FF-FF-FF-FF-FF
+D. Switch sẽ trực tiếp trả lời gói ARP reply
+
+The correct answer is: Địa chỉ MAC đích trong frame là FF-FF-FF-FF-FF-FF
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 46
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào phân giải địa chỉ IP thành MAC?
+Select one:
+A. TCP
+B. IP
+C. ARP
+D. RARP
+
+The correct answer is: ARP
+
+Câu hỏi 47
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào hoạt động ở tầng Transport?
+Select one:
+A. IP & ICMP
+B. UDP & IP
+C. TCP & UDP
+D. ICMP & ARP
+
+The correct answer is: TCP & UDP
+
+Câu hỏi 48
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào được dùng trong công cụ ping để quản lý các thông báo kết nối mạng
+Select one:
+A. ICMP
+B. TCP
+C. UDP
+D. IP
+
+The correct answer is: ICMP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 49
+Không trả lời
+Đạt điểm 1,00
+
+Cờ nào được bật khi một client gửi yêu cầu kết nối TCP đến Server
+Select one:
+A. FIN
+B. START
+C. SYN
+D. ACK
+
+The correct answer is: SYN
+
+Câu hỏi 50
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào được dùng để thực hiện các kết nối tin cậy
+Select one:
+A. ICMP
+B. TCP
+C. IP
+D. UDP
+
+The correct answer is: TCP
+
+Câu hỏi 51
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào được dùng để thực hiện truyền dữ liệu lớn cần đảm bảo thời gian thực
+Select one:
+A. TCP
+B. ICMP
+C. IP
+D. UDP
+
+The correct answer is: UDP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 52
+Không trả lời
+Đạt điểm 1,00
+
+Kích thước của UDP header là
+Select one:
+A. 20bytes
+B. 16bytes
+C. 32bytes
+D. 8bytes
+
+The correct answer is: 8bytes
+
+Câu hỏi 53
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào được sử dụng để tìm địa chỉ MAC cho thiết bị mạng cục bộ?
+Select one:
+A. IP
+B. ARP
+C. DNS
+D. ICMP
+
+The correct answer is: ARP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 54
+Không trả lời
+Đạt điểm 1,00
+
+Cable gì?
+
+Select one:
+a.
+
+coxial
+
+b. fiber
+c.
+
+twisted pair
+
+d. thinnet
+
+The correct answer is: coxial
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 55
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ đích nào sẽ được Host_A sử dụng để gửi dữ liệu đến máy chủ HTTPS như trong hình bên dưới?
+
+Select one:
+a.
+
+The IP address of the switch, MAC address of RouterA’s Fa0/0
+
+b. The IP address of the HTTPS server, MAC address of RouterA’s Fa0/0
+c.
+
+The MAC address of the remote switch, IP address of the HTTPS server
+
+d. The IP address of the HTTPS server, IP address of the switch
+
+The correct answer is: The IP address of the HTTPS server, MAC address of RouterA’s Fa0/0
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 56
+Không trả lời
+Đạt điểm 1,00
+
+Cable gì?
+
+Select one:
+a.
+
+fiber
+
+b. twisted pair
+c.
+
+thinnet
+
+d. coxial
+
+The correct answer is: twisted pair
+
+Câu hỏi 57
+Không trả lời
+Đạt điểm 1,00
+
+Tiện ích nào sau đây xác định đường đi của gói tin từ nguồn tới đích
+Select one:
+a.
+
+telnet
+
+b. ssh
+c.
+
+nslookup
+
+d. ping
+e.
+
+tracert
+
+The correct answer is: tracert
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 58
+Không trả lời
+Đạt điểm 1,00
+
+Trong Token bus, vòng tròn logic được thiết lập bởi các trạm
+Select one:
+a.
+
+Các trạm có nhu cầu nhận dữ liệu
+
+b. Tất cả các trạm trên mạng
+c.
+
+Các trạm có nhu cầu truyền dữ liệu
+
+d. Các trạm trung chuyển dữ liệu
+
+The correct answer is: Các trạm có nhu cầu truyền dữ liệu
+
+Câu hỏi 59
+Không trả lời
+Đạt điểm 1,00
+
+Các thiết bị này nối bằng kiểu nối cable gì?
+
+Select one:
+a.
+
+cross
+
+b. rollover
+c.
+
+straight
+
+d. twisted
+
+The correct answer is: straight
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 60
+Không trả lời
+Đạt điểm 1,00
+
+Hai đầu nối này trong kiểu nối cable gì?
+
+Select one:
+a.
+
+straight
+
+b. cross
+c.
+
+twisted
+
+d. rollover
+
+The correct answer is: straight
+
+Câu hỏi 61
+Không trả lời
+Đạt điểm 1,00
+
+Hai đầu nối này trong kiểu nối cable gì?
+
+Select one:
+a.
+
+cross
+
+b. twisted
+c.
+
+straight
+
+d. rollover
+
+The correct answer is: rollover
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 62
+Không trả lời
+Đạt điểm 1,00
+
+Cho biết mô hình mạng Wifi khi hai máy laptop kết nối mạng trực tiếp với nhau bằng card mạng wifi ?
+Select one:
+a.
+
+Base Station Subsystem (BSS)
+
+b. Ad hoc
+c.
+
+Extended Service Set (ESS)
+
+d. Distribution Subsystem (DS)
+
+The correct answer is: Ad hoc
+
+Câu hỏi 63
+Không trả lời
+Đạt điểm 1,00
+
+Xem hình vẽ sau, cho biết mô hình triển khai mạng Wifi?
+
+Select one:
+a.
+
+Distribution Subsystem (DS)
+
+b. Ad hoc
+c.
+
+Extended Service Set (ESS)
+
+d. Base Station Subsystem (BSS)
+
+The correct answer is: Extended Service Set (ESS)
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 64
+Không trả lời
+Đạt điểm 1,00
+
+Thiết bị mạng nào sau đây hoạt động ở layer Data Link
+Select one or more:
+a.
+
+hub
+
+b. bridge
+c.
+
+router
+
+d. repeater
+e.
+
+switch
+
+The correct answers are: switch,
+bridge
+
+Câu hỏi 65
+Không trả lời
+Đạt điểm 1,00
+
+Card mạng hoạt động ở tầng nào trong mô hình OSI
+Select one:
+a.
+
+transport
+
+b. physical
+c.
+
+data link
+
+d. network
+
+The correct answer is: data link
+
+Câu hỏi 66
+Không trả lời
+Đạt điểm 1,00
+
+Chuẩn cáp mạng nào sau đây hỗ trợ tốc độ lên tới 1Gb/s sử dụng 4 cặp cáp của CAT5e?
+Select one:
+a.
+
+1000BASE-T
+
+b. 1000BASE-LX
+c.
+
+1000BASE-X
+
+d. 1000BASE-SX
+
+The correct answer is: 1000BASE-T
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 67
+Không trả lời
+Đạt điểm 1,00
+
+Trường nào trong IP Header được dùng để tránh trường hợp một gói tin tồn tại mãi trên mạng?
+Select one:
+a.
+
+flags
+
+b. checksum
+c.
+
+header length
+
+d. TTL
+
+The correct answer is: TTL
+
+Câu hỏi 68
+Không trả lời
+Đạt điểm 1,00
+
+Lý do nào sau đây mà giao thức Ethernet sử dụng địa chỉ vật lý (physical address) ?
+Select one:
+a.
+
+Nó cho phép một máy tính xác định là ở xa hay trong mạng cục bộ
+
+b. Nó tạo ra sự khác biệt giữa các cách truyền thông ở layer 2 và layer 3
+c.
+
+Nó dùng để định danh duy nhất cho các thiết bị ở layer 2
+
+d. Nó định nghĩa mô hình địa chỉ luận lý cho các thiết bị
+
+The correct answer is: Nó dùng để định danh duy nhất cho các thiết bị ở layer 2
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 69
+Không trả lời
+Đạt điểm 1,00
+
+Các câu nào sau đây mô tả đúng các địa chỉ cho frame và packet mà host TestkingB nhận được từ host TestKingA?
+
+Select one:
+a.
+
+Destination MAC: 0011.43da.2c98. Source MAC: 0007.0e97.af4e
+
+b. Destination MAC: 0011.43da.2c98. Source MAC: 0007.0e56.ab2e
+c.
+
+Destination MAC: 0011.43da.2c98.
+
+Source MAC: 00b0.d0ef.5f6a
+
+d. Destination MAC: 0011.43da.2c98.
+
+Source MAC: 0007.0e8f.088a
+
+The correct answer is: Destination MAC: 0011.43da.2c98. Source MAC: 0007.0e56.ab2e
+
+Câu hỏi 70
+Không trả lời
+Đạt điểm 1,00
+
+Thiết bị làm việc ở tầng mạng và có thể định tuyến đường đi cho việc truyền thông trên mạng
+Select one:
+a.
+
+router
+
+b. hub
+c.
+
+switch
+
+d. gateway
+
+The correct answer is: router
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 71
+Không trả lời
+Đạt điểm 1,00
+
+Host A đang giao tiếp với Host B. Các thông tin gì của gói tin khi dữ liệu rời khỏi Router TestKing1? Src(MAC,IP), Des(MAC,IP)
+
+Select one:
+a.
+
+Src: 000A.8A47.E612; IP: 192.168.23.4.
+Des: 000B.DC04.12F4; 192.168.127.7
+
+b. Src: 000A.8A47.E612; 192.168.23.4.
+Des: 0010.7BE7.FAEF; 192.168.23.1
+c.
+
+Src: 0010.7B3A.8191; 192.168.23.4.
+Des: 000B.DC04.12F4; 192.168.127.7
+
+d. Src: 0010.7BE7.FAEF; 192.168.23.1.
+Des: 000B.DC04.12F4 ; 192.168.127.7
+
+The correct answer is: Src: 0010.7B3A.8191; 192.168.23.4.
+Des: 000B.DC04.12F4; 192.168.127.7
+
+Câu hỏi 72
+Không trả lời
+Đạt điểm 1,00
+
+Thiết bị làm việc ở tầng Vật lý và chức năng như một bộ khuyếch đại tín hiệu giữa 2 cổng của hai phân đoạn mạng
+Select one:
+a.
+
+repeater
+
+b. router
+c.
+
+hub
+
+d. switch
+
+The correct answer is: repeater
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 73
+Không trả lời
+Đạt điểm 1,00
+
+Các chuẩn nào sau đây không phải là chuẩn của WiFi?
+Select one:
+a.
+
+802.11ax
+
+b. 802.11g
+c.
+
+802.11v
+
+d. 802.11a
+
+The correct answer is: 802.11v
+
+Câu hỏi 74
+Không trả lời
+Đạt điểm 1,00
+
+Những câu nào sau đây là mô tả đúng cho kiểu kết nối tin cậy trong quá trình truyền dữ liệu?
+Select one:
+a.
+
+Nếu hết thời gian chờ trong việc truyền gói tin thì máy gửi sẽ ngắt kết nối với máy nhận
+
+b. Khi buffer đầy, dữ liệu sẽ bị loại bỏ và không được truyền lại
+c.
+
+Là quá trình gửi dữ liệu có báo nhận
+
+d. Giá trị windows-size được sử dụng để điều khiển số lượng dữ liệu truyền đi trước khi chờ báo nhận gửi về
+
+The correct answer is: Là quá trình gửi dữ liệu có báo nhận
+
+Câu hỏi 75
+Không trả lời
+Đạt điểm 1,00
+
+Phương pháp truy nhập nào có thể lắng nghe lưu thông mạng trên đường truyền trước khi truyền dữ liệu và có phát hiện đụng độ
+Select one:
+a.
+
+Token Ring
+
+b. Token Bus
+c.
+
+CSMA/CD
+
+d. CSMA/CA
+
+The correct answer is: CSMA/CD
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 76
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào thực hiện truyền các thông báo điều khiển giữa các gateway hay trạm của liên mạng
+Select one:
+a.
+
+ICMP
+
+b. ARP
+c.
+
+RARP
+
+d. TCP
+
+The correct answer is: ICMP
+
+Câu hỏi 77
+Không trả lời
+Đạt điểm 1,00
+
+Dịch vụ HTTP ở tầng Application sử dụng cơ chế truyền nào ở tầng Transport
+Select one:
+a.
+
+half-duplex
+
+b. best-effort
+c.
+
+reliable
+
+d. full-duplex
+
+The correct answer is: reliable
+
+Câu hỏi 78
+Không trả lời
+Đạt điểm 1,00
+
+Chuẩn Ethernet nào có sử dụng cáp quang:
+Select one:
+a.
+
+1000BASE-RX
+
+b. 1000BASE-FX
+c.
+
+1000BASE-CX
+
+d. 1000BASE-TX
+
+The correct answer is: 1000BASE-FX
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 79
+Không trả lời
+Đạt điểm 1,00
+
+Công nghệ LAN nào sử dụng CSMA/CD
+Select one:
+a.
+
+Ethernet
+
+b. Token Bus
+c.
+
+FDDI
+
+d. Token Ring
+
+The correct answer is: Ethernet
+
+Câu hỏi 80
+Không trả lời
+Đạt điểm 1,00
+
+Công nghệ nào sử dụng vòng tròn phụ hoạt động khi hệ thống bị lỗi và có tác dụng sửa lỗi
+Select one:
+a.
+
+Token Bus
+
+b. FDDI
+c.
+
+Ethernet
+
+d. Token Ring
+
+The correct answer is: FDDI
+
+Câu hỏi 81
+Không trả lời
+Đạt điểm 1,00
+
+Dịch vụ nào cho phép chuyển các file từ trạm này sang trạm khác, bất kể yếu tố địa lý hay hệ điều hành sử dụng
+Select one:
+a.
+
+Telnet
+
+b. SMTP
+c.
+
+FTP
+
+d. HTTP
+
+The correct answer is: FTP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 82
+Không trả lời
+Đạt điểm 1,00
+
+Đơn vị dữ liệu datagram được dùng trong giao thức nào trong TCP/IP
+Select one:
+a.
+
+TCP
+
+b. ICMP
+c.
+
+IP
+
+d. UDP
+
+The correct answer is: IP
+
+Câu hỏi 83
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức cho phép gửi thư đi
+Select one:
+a.
+
+SNMP
+
+b. FTP
+c.
+
+SMTP
+
+d. ICMP
+
+The correct answer is: SMTP
+
+Câu hỏi 84
+Không trả lời
+Đạt điểm 1,00
+
+Thiết bị làm việc ở tầng Vật lý và chức năng như một bộ khuyếch đại tín hiệu giữa 2 cổng của hai phân đoạn mạng
+Select one:
+a.
+
+router
+
+b. switch
+c.
+
+repeater
+
+d. hub
+
+The correct answer is: repeater
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 85
+Không trả lời
+Đạt điểm 1,00
+
+Hai nhà cung cấp dịch vụ ISP kết nối với nhau qua thiết bị
+Select one:
+a.
+
+repeater
+
+b. router
+c.
+
+switch
+
+d. hub
+
+The correct answer is: router
+
+Câu hỏi 86
+Không trả lời
+Đạt điểm 1,00
+
+Hai nhà cung cấp dịch vụ ISP kết nối với nhau qua thiết bị
+Select one:
+a.
+
+router
+
+b. switch
+c.
+
+repeater
+
+d. hub
+
+The correct answer is: router
+
+Câu hỏi 87
+Không trả lời
+Đạt điểm 1,00
+
+Trong frame, trường nào được dùng để phát hiện lỗi
+Select one:
+a.
+
+Flag
+
+b. MTU
+c.
+
+PDU
+
+d. FCS
+
+The correct answer is: FCS
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 88
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào trong TCP/IP có trao đổi thông tin điều khiển trước khi truyền dữ liệu
+Select one:
+a.
+
+IP
+
+b. UDP
+c.
+
+ICMP
+
+d. TCP
+
+The correct answer is: TCP
+
+Câu hỏi 89
+Không trả lời
+Đạt điểm 1,00
+
+Cable gì?
+
+Select one:
+a.
+
+fiber
+
+b. coxial
+c.
+
+twisted pair
+
+d. thinnet
+
+The correct answer is: coxial
+
+Câu hỏi 90
+Không trả lời
+Đạt điểm 1,00
+
+Phần nào trong địa chỉ IP được ROUTER sử dụng khi tìm đường đi
+
+Select one:
+a.
+
+Network address
+
+b. PC address
+c.
+
+Host address
+
+d. router address
+
+The correct answer is: Network address
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 91
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ 19.219.255.255 là địa chỉ gì
+
+Select one:
+a.
+
+Broadcast lớp A
+
+b. Broadcast lớp B
+c.
+
+Host lớp B
+
+d. Broadcast lớp C
+
+The correct answer is: Broadcast lớp B
+
+Câu hỏi 92
+Không trả lời
+Đạt điểm 1,00
+
+Một mạng con lớp B mượn 5 bit để chia subnet thì subnetmask sẽ là
+
+Select one:
+a.
+
+255.255.255.1
+
+b. 255.255.255.128
+c.
+
+255.255.248.0
+
+d. 255.255.255.248
+
+The correct answer is: 255.255.248.0
+
+Câu hỏi 93
+Không trả lời
+Đạt điểm 1,00
+
+Một mạng lớp B cần chia thành 3 mạng con sử dụng subnet mask nào sau đây
+
+Select one:
+a.
+
+255.255.192.0
+
+b. 255.255.255.224
+c.
+
+255.255.255.192
+
+d. 255.255.224.0
+
+The correct answer is: 255.255.192.0
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 94
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ IPv6 nào dưới đây tương đương với địa chỉ loopback của IPv4 127.0.0.1
+Select one:
+a.
+
+::1
+
+b. 2000::/3
+c.
+
+::
+
+d. 0::/10
+
+The correct answer is: ::1
+
+Câu hỏi 95
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ nào biểu diễn địa chỉ link-local của IPv6
+Select one:
+a.
+
+FE81::280f.512b:e14f:3d69
+
+b. FE80::380e:611a:e14f:3d69
+c.
+
+FE08::280e:611:a:f14f.3d69
+
+d. FEFE:0345:5f1b::e14d:3d69
+
+The correct answer is: FE80::380e:611a:e14f:3d69
+
+Câu hỏi 96
+Không trả lời
+Đạt điểm 1,00
+
+Một mạng con lớp B mượn 5 bit để chia subnet thì subnet mask sẽ là:
+Select one:
+a.
+
+255.255.255.248
+
+b. 255.255.248.0
+c.
+
+255.255.255.128
+
+d. 255.255.255.1
+
+The correct answer is: 255.255.248.0
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 97
+Không trả lời
+Đạt điểm 1,00
+
+Mạng có subnet mask 255.255.255.192 có thể đánh địa chỉ cho bao nhiêu máy
+
+Select one:
+a.
+
+192
+
+b. 124
+c.
+
+62
+
+d. 64
+
+The correct answer is: 62
+
+Câu hỏi 98
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ IP nào sau đây là địa chỉ dạng Private
+
+Select one:
+a.
+
+172.30.150.1
+
+b. 172.50.30.1
+c.
+d.
+
+11.11.11.11
+193.120.56.1
+
+The correct answer is: 172.30.150.1
+
+Câu hỏi 99
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ mạng lớp B 172.16.0.0/19 cung cấp bao nhiêu mạng con và số host trong 1 mạng con?
+a.
+
+7 subnets, mỗi subnet có 30 hosts
+
+b. 8 subnets, mỗi subnet có 30 hosts
+c.
+
+7 subnets, mỗi subnet có 8190 hosts
+
+d. 7 subnets, mỗi subnet có 2046 hosts
+e.
+
+8 subnets, mỗi subnet có 8190 hosts
+
+The correct answer is: 8 subnets, mỗi subnet có 8190 hosts
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 100
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ mạng của Host có địa chỉ IP là 172.16.66.0/21 là bao nhiêu?
+a.
+
+172.16.48.0
+
+b. 172.16.36.0
+c.
+
+172.16.64.0
+
+d. 172.16.0.0
+
+The correct answer is: 172.16.64.0
+
+Câu hỏi 101
+Không trả lời
+Đạt điểm 1,00
+
+Giả sử cần 500 subnets, mỗi subnet có khoảng 100 hosts. Subnetmask nào sẽ được dùng, biết hệ thống dùng địa chỉ IP Lớp B?
+a.
+
+255.255.254.0
+
+b. 255.255.255.0
+c.
+
+255.255.255.128
+
+d. 255.255.255.252
+
+The correct answer is: 255.255.255.128
+
+Câu hỏi 102
+Không trả lời
+Đạt điểm 1,00
+
+Nếu một cổng Ethernet trên Router được gán địa chỉ IP là 172.16.112.1/25, thì địa chỉ mạng con hợp lệ là gì?
+a.
+
+172.16.112.0
+
+b. 172.16.255.0
+c.
+
+172.16.0.0
+
+d. 172.16.96.0
+
+The correct answer is: 172.16.112.0
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 103
+Không trả lời
+Đạt điểm 1,00
+
+HOST A trên mạng con Teachers truyền một gói tin đến HOST D trên mạng con Student. Địa chỉ Lớp 2 và Lớp 3 nào được chứa trong các PDU
+được truyền từ Router đến HOST D?
+
+a.
+
+Destination MAC: 00-00-0c-94-36-cd
+Source MAC: 00-00-0c-94-36-aa
+Destination IP: 172.16.20.200
+Source IP: 172.16.20.99
+
+b. Destination MAC: 00-00-0c-94-36-cc
+Source MAC: 00-00-0c-94-36-aa
+Destination IP: 172.16.20.100
+Source IP: 172.16.10.100
+
+c.
+
+Destination MAC: 00-00-0c-94-36-dd
+Source MAC: 00-00-0c-94-36-ab
+Destination IP: 172.16.20.200
+Source IP: 172.16.10.100
+
+d. Destination MAC: 00-00-0c-94-36-dd
+Source MAC: 00-00-0c-94-36-cd
+Destination IP: 172.16.20.200
+Source IP: 172.16.10.100
+
+The correct answer is: Destination MAC: 00-00-0c-94-36-dd
+Source MAC: 00-00-0c-94-36-cd
+Destination IP: 172.16.20.200
+Source IP: 172.16.10.100
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 104
+Không trả lời
+Đạt điểm 1,00
+
+Nếu Host B muốn gửi gói tin đến Host A, địa chỉ đích nào sẽ ở trong khung dữ liệu (frame) khi nó rời Host B?
+
+a.
+
+172.168.11.88
+
+b. 172.168.10.130
+c.
+
+BB:BB:BB:BB:BB:BB
+
+d. CC:CC:CC:CC:CC:CC
+e.
+
+AA:AA:AA:AA:AA:AA
+
+f.
+
+172.168.11.65
+
+The correct answer is: CC:CC:CC:CC:CC:CC
+
+Câu hỏi 105
+Không trả lời
+Đạt điểm 1,00
+
+Giá trị AD (Administrative Distance) mặc định của OSPF là?
+Select one:
+a.
+
+110
+
+b. 150
+c.
+
+120
+
+d. 90
+
+The correct answer is: 110
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 106
+Không trả lời
+Đạt điểm 1,00
+
+Giá trị AD (Administrative Distance) mặc định của OSPF là?
+Select one:
+a.
+
+120
+
+b. 150
+c.
+
+110
+
+d. 90
+
+The correct answer is: 110
+
+Câu hỏi 107
+Không trả lời
+Đạt điểm 1,00
+
+Giá trị AD (Administrative Distance) mặc định của RIP là?
+Select one:
+a.
+
+120
+
+b. 90
+c.
+
+150
+
+d. 110
+
+The correct answer is: 120
+
+Câu hỏi 108
+Không trả lời
+Đạt điểm 1,00
+
+Giá trị AD (Administrative Distance) mặc định của RIP là?
+Select one:
+a.
+
+110
+
+b. 150
+c.
+
+90
+
+d. 120
+
+The correct answer is: 120
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 109
+Không trả lời
+Đạt điểm 1,00
+
+Giá trị AD (Administrative Distance) mặc định của Static Routing là?
+Select one:
+a.
+
+1
+
+b. 150
+c.
+
+120
+
+d. 90
+
+The correct answer is: 1
+
+Câu hỏi 110
+Không trả lời
+Đạt điểm 1,00
+
+Giá trị AD (Administrative Distance) mặc định của Static Routing là?
+Select one:
+a.
+
+150
+
+b. 90
+c.
+
+120
+
+d. 1
+
+The correct answer is: 1
+
+Câu hỏi 111
+Không trả lời
+Đạt điểm 1,00
+
+Một VLAN là một tập các thiết bị nằm cùng miền ________.
+Select one:
+a.
+
+Bandwidth domain
+
+b. Storm domain
+c.
+
+Broadcast domain
+
+d. Collision domain
+
+The correct answer is: Broadcast domain
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 112
+Không trả lời
+Đạt điểm 1,00
+
+Which domain do devices in a VLAN belong to?
+Select one:
+a.
+
+Storm domain
+
+b. Collision domain
+c.
+
+Broadcast domain
+
+d. Bandwidth domain
+
+The correct answer is: Broadcast domain
+
+Câu hỏi 113
+Không trả lời
+Đạt điểm 1,00
+
+Một VLAN là một tập các thiết bị nằm cùng miền ________.
+Select one:
+a.
+
+Collision domain
+
+b. Storm domain
+c.
+
+Broadcast domain
+
+d. Bandwidth domain
+
+The correct answer is: Broadcast domain
+
+Câu hỏi 114
+Không trả lời
+Đạt điểm 1,00
+
+Thiết bị nào sau đây được dùng để kết nối các VLAN
+Select one:
+a.
+
+Bridge
+
+b. Router
+c.
+
+Hub
+
+d. Switch
+
+The correct answer is: Router
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 115
+Không trả lời
+Đạt điểm 1,00
+
+Thiết bị nào sau đây được dùng để kết nối các VLAN
+Select one:
+a.
+
+Switch
+
+b. Bridge
+c.
+
+Hub
+
+d. Router
+
+The correct answer is: Router
+
+Câu hỏi 116
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức STP dùng để làm gì?
+Select one:
+a.
+
+Dùng để cập nhật định tuyến trong môi trường Switch
+
+b. Dùng để quản lý việc thêm, xóa, sửa thông tin VLAN trong hệ thống có nhiều Switch
+c.
+
+Dùng để chống "routing loop" trong mạng
+
+d. Dùng để tránh "switching loop" trong mạng
+
+The correct answer is: Dùng để tránh "switching loop" trong mạng
+
+Câu hỏi 117
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức STP dùng để làm gì?
+Select one:
+a.
+
+Dùng để quản lý việc thêm, xóa, sửa thông tin VLAN trong hệ thống có nhiều Switch
+
+b. Dùng để tránh "switching loop" trong mạng
+c.
+
+Dùng để cập nhật định tuyến trong môi trường Switch
+
+d. Dùng để chống "routing loop" trong mạng
+
+The correct answer is: Dùng để tránh "switching loop" trong mạng
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 118
+Không trả lời
+Đạt điểm 1,00
+
+Để kiểm tra interface fa0/5 có được gán cho VLAN 10 không, thì ta sử dụng lệnh nào sau đây?
+Select one:
+a.
+
+show vtp
+
+b. show vlan
+c.
+
+show ip interface
+
+d. show interfaces trunk
+
+The correct answer is: show vlan
+
+Câu hỏi 119
+Không trả lời
+Đạt điểm 1,00
+
+Để kiểm tra interface fa0/5 có được gán cho VLAN 10 không, thì ta sử dụng lệnh nào sau đây?
+Select one:
+a.
+
+show interfaces trunk
+
+b. show vtp
+c.
+
+show ip interface
+
+d. show vlan
+
+The correct answer is: show vlan
+
+Câu hỏi 120
+Không trả lời
+Đạt điểm 1,00
+
+Để kiểm tra interface fa0/5 đã được kích hoạt đường giao tiếp chung của các VLAN, thì ta sử dụng lệnh nào sau đây?
+Select one:
+a.
+
+show vlan
+
+b. show interfaces trunk
+c.
+
+show ip interface
+
+d. show vtp
+
+The correct answer is: show interfaces trunk
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 121
+Không trả lời
+Đạt điểm 1,00
+
+Tham số được STP sử dụng để bầu chọn “root bridge”?
+Select one:
+a.
+
+Địa chỉ MAC
+
+b. IP cost
+c.
+
+Địa chỉ IP
+
+d. port cost
+
+The correct answer is: Địa chỉ MAC
+
+Câu hỏi 122
+Không trả lời
+Đạt điểm 1,00
+
+Tham số được STP sử dụng để bầu chọn “root bridge”?
+Select one:
+a.
+
+Địa chỉ IP
+
+b. Địa chỉ MAC
+c.
+
+IP cost
+
+d. port cost
+
+The correct answer is: Địa chỉ MAC
+
+Câu hỏi 123
+Không trả lời
+Đạt điểm 1,00
+
+Để kiểm tra interface fa0/5 đã được kích hoạt đường giao tiếp chung của các VLAN, thì ta sử dụng lệnh nào sau đây?
+Select one:
+a.
+
+show vtp
+
+b. show interfaces trunk
+c.
+
+show ip interface
+
+d. show vlan
+
+The correct answer is: show interfaces trunk
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 124
+Không trả lời
+Đạt điểm 1,00
+
+Để kiểm tra bảng định tuyến trên Router 1 thì ta sử dụng lệnh nào sau đây?
+Select one:
+a.
+
+show vlan
+
+b. show ip interface
+c.
+
+show routing-table
+
+d. show ip route
+
+The correct answer is: show ip route
+
+Câu hỏi 125
+Không trả lời
+Đạt điểm 1,00
+
+Để kiểm tra bảng định tuyến trên Router 1 thì ta sử dụng lệnh nào sau đây?
+Select one:
+a.
+
+show ip interface
+
+b. show ip route
+c.
+
+show vlan
+
+d. show routing-table
+
+The correct answer is: show ip route
+
+Câu hỏi 126
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào sau đây được dùng để phân phối thông tin về cấu hình VLAN đến các Switch khác trong mạng?
+Select one:
+a.
+
+SNMP
+
+b. STP
+c.
+
+VTP
+
+d. EIGRP
+
+The correct answer is: VTP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 127
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào sau đây được dùng để phân phối thông tin về cấu hình VLAN đến các Switch khác trong mạng?
+Select one:
+a.
+
+SNMP
+
+b. EIGRP
+c.
+
+STP
+
+d. VTP
+
+The correct answer is: VTP
+
+Câu hỏi 128
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Mục đích của việc kết nối các Switch dạng như thế này
+
+Select one:
+a.
+
+Tránh được vòng lặp
+
+b. Dùng để phân hoạch mạng thành nhiều miền đụng độ
+c.
+
+Để tăng cường tính dự phòng cho hệ thống mạng
+
+d. Dùng để phân hoạch mạng thành nhiều miền đụng độ
+
+The correct answer is: Để tăng cường tính dự phòng cho hệ thống mạng
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 129
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Mục đích của việc kết nối các Switch dạng như thế này
+
+Select one:
+a.
+
+Tránh được vòng lặp
+
+b. Dùng để phân hoạch mạng thành nhiều miền đụng độ
+c.
+
+Dùng để phân hoạch mạng thành nhiều miền đụng độ
+
+d. Để tăng cường tính dự phòng cho hệ thống mạng
+
+The correct answer is: Để tăng cường tính dự phòng cho hệ thống mạng
+
+Câu hỏi 130
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Switch nào được chọn là Root Bridge?
+
+Select one:
+a.
+
+SW2
+
+b. SW3
+c.
+
+SW1
+
+d. Không có Switch nào
+
+The correct answer is: SW1
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 131
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Switch nào được chọn là Root Bridge?
+
+Select one:
+a.
+
+Không có Switch nào
+
+b. SW1
+c.
+
+SW2
+
+d. SW3
+
+The correct answer is: SW1
+
+Câu hỏi 132
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Những thông tin cấu hình nào sau đây là đúng cho các host trong mô hình trên?
+
+Select one:
+a.
+
+Địa chỉ IP của HB: 192.1.1.125
+
+b. Subnet mask của HA: 255.255.255.224
+c.
+d.
+
+Subnet mask của HC: 255.255.255.224
+Địa chỉ IP của HC: 192.1.1.66
+
+The correct answer is: Subnet mask của HC: 255.255.255.224
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 133
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Những thông tin cấu hình nào sau đây là đúng cho các host trong mô hình trên?
+
+Select one:
+a.
+
+Địa chỉ IP của HB: 192.1.1.125
+
+b. Subnet mask của HC: 255.255.255.224
+c.
+d.
+
+Subnet mask của HA: 255.255.255.224
+Địa chỉ IP của HC: 192.1.1.66
+
+The correct answer is: Subnet mask của HC: 255.255.255.224
+
+Câu hỏi 134
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Những thông tin cấu hình nào sau đây là đúng cho các host trong mô hình trên?
+
+Select one:
+a.
+
+Địa chỉ IP của HA: 192.168.1.128
+
+b. Subnet mask của HA: 255.255.255.224
+c.
+
+Địa chỉ IP của HC: 192.1.1.66
+
+d. Địa chỉ IP máy HB là 192.168.1.100
+
+The correct answer is: Địa chỉ IP máy HB là 192.168.1.100
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 135
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Những thông tin cấu hình nào sau đây là đúng cho các host trong mô hình trên?
+
+Select one:
+a.
+b.
+c.
+
+Subnet mask của HA: 255.255.255.224
+Địa chỉ IP của HC: 192.1.1.66
+Địa chỉ IP của HA: 192.168.1.128
+
+d. Địa chỉ IP máy HB là 192.168.1.100
+
+The correct answer is: Địa chỉ IP máy HB là 192.168.1.100
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 136
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Router trong mô hình mạng được cấu hình như trên. Switch kết nối với router qua đường trunk. Trên Switch cấu hình 3
+VLAN: VLAN1, VLAN2, and VLAN3. Một máy tính A kết nối vào VLAN2. Hỏi địa chỉ default gateway phải đặt cho máy tính này là địa chỉ nào
+sau đây?
+
+Select one:
+a.
+
+192.168.1.1
+
+b. 192.168.3.1
+c.
+
+192.168.2.1
+
+d. 192.168.3.2
+
+The correct answer is: 192.168.2.1
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 137
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Router trong mô hình mạng được cấu hình như trên. Switch kết nối với router qua đường trunk. Trên Switch cấu hình 3
+VLAN: VLAN1, VLAN2, and VLAN3. Một máy tính A kết nối vào VLAN2. Hỏi địa chỉ default gateway phải đặt cho máy tính này là địa chỉ nào
+sau đây?
+
+Select one:
+a.
+b.
+c.
+
+192.168.3.1
+192.168.1.1
+192.168.2.1
+
+d. 192.168.3.2
+
+The correct answer is: 192.168.2.1
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 138
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Router trong mô hình mạng được cấu hình như trên. Switch kết nối với router qua đường trunk. Trên Switch cấu hình 3
+VLAN: VLAN1, VLAN2, and VLAN3. Một máy tính A kết nối vào VLAN2. Hỏi địa chỉ IP có thể đặt cho máy tính này là địa chỉ nào sau đây?
+
+Select one:
+a.
+
+192.168.2.255
+
+b. 192.168.2.100
+c.
+
+192.168.2.0
+
+d. 192.168.2.1
+
+The correct answer is: 192.168.2.100
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 139
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Router trong mô hình mạng được cấu hình như trên. Switch kết nối với router qua đường trunk. Trên Switch cấu hình 3
+VLAN: VLAN1, VLAN2, and VLAN3. Một máy tính A kết nối vào VLAN2. Hỏi địa chỉ IP có thể đặt cho máy tính này là địa chỉ nào sau đây?
+
+Select one:
+a.
+
+192.168.2.0
+
+b. 192.168.2.1
+c.
+
+192.168.2.255
+
+d. 192.168.2.100
+
+The correct answer is: 192.168.2.100
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 140
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Máy của Sales không liên lạc được với Server B. Những địa chỉ IP nào đánh sai
+
+Select one:
+a.
+
+192.168.1.30
+
+b. 192.168.1.41
+c.
+
+192.168.1.25
+
+d. 192.168.1.81
+
+The correct answer is: 192.168.1.41
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 141
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Máy của Sales không liên lạc được với Server B. Những địa chỉ IP nào đánh sai
+
+Select one:
+a.
+
+192.168.1.81
+
+b. 192.168.1.30
+c.
+
+192.168.1.41
+
+d. 192.168.1.25
+
+The correct answer is: 192.168.1.41
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 142
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Địa chỉ IP nào sau đây có thể được gán cho máy PC?
+
+Select one:
+a.
+
+192.168.1.145
+
+b. 192.168.1.160
+c.
+
+192.168.1.159
+
+d. 192.168.1.143
+
+The correct answer is: 192.168.1.145
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 143
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Địa chỉ IP nào sau đây có thể được gán cho máy PC?
+
+Select one:
+a.
+
+192.168.1.159
+
+b. 192.168.1.145
+c.
+
+192.168.1.143
+
+d. 192.168.1.160
+
+The correct answer is: 192.168.1.145
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 144
+Không trả lời
+Đạt điểm 1,00
+
+Xem mô hình mạng. Địa chỉ IP nào sau đây có thể được gán cho máy PC?
+
+Select one:
+a.
+
+192.168.1.159
+
+b. 192.168.1.143
+c.
+
+192.168.1.160
+
+d. 192.168.1.144
+
+The correct answer is: 192.168.1.144
+
+Câu hỏi 145
+Không trả lời
+Đạt điểm 1,00
+
+Xem bảng MAC sau. Switch sẽ làm gì với các gói được gửi từ Client A đến Client E? (kiểm tra cổng)
+
+Select one:
+a.
+
+Flood
+
+b. Flood and Forward
+c.
+
+Forward
+
+d. Filter
+
+The correct answer is: Filter
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 146
+Không trả lời
+Đạt điểm 1,00
+
+Xem bảng MAC sau. Switch sẽ làm gì với các gói được gửi từ Client A đến Client D? (kiểm tra cổng)
+
+Select one:
+a.
+
+Flood and Forward
+
+b. Forward
+c.
+
+Flood
+
+d. Filter
+
+The correct answer is: Forward
+
+Câu hỏi 147
+Không trả lời
+Đạt điểm 1,00
+
+Switch thực hiện chức năng Filter dựa vào thông tin gì?
+Select one:
+a.
+
+IP đích
+
+b. IP nguồn
+c.
+
+MAC nguồn
+
+d. MAC đích
+
+The correct answer is: MAC đích
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 148
+Không trả lời
+Đạt điểm 1,00
+
+Switch thực hiện chức năng Learn dựa vào thông tin gì?
+Select one:
+a.
+
+IP đích
+
+b. IP nguồn
+c.
+
+MAC đích
+
+d. MAC nguồn
+
+The correct answer is: MAC nguồn
+
+Câu hỏi 149
+Không trả lời
+Đạt điểm 1,00
+
+Switch làm gì khi nhận được một khung dữ liệu (frame) trên một cổng với MAC đích là không xác định?
+Select one:
+a.
+
+Flood frame trên mạng (phía cổng nhận) để tìm kiếm thiết bị
+
+b. Bỏ các frame
+c.
+
+Chuyển frame ngược lại nơi gửi
+
+d. Forward frame trên một port khác
+
+The correct answer is: Flood frame trên mạng (phía cổng nhận) để tìm kiếm thiết bị
+
+Câu hỏi 150
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào sau đây là giao thức định tuyến?
+Select one:
+a.
+
+ICMP
+
+b. UDP
+c.
+
+OSPF
+
+d. TCP
+
+The correct answer is: OSPF
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 151
+Không trả lời
+Đạt điểm 1,00
+
+Nếu Host A muốn gửi gói tin đến Host B, địa chỉ nguồn sẽ ở trong khung nào khi nó rời khỏi Router R1?
+
+a.
+
+BB:BB:BB:BB:BB:BB
+
+b. 172.168.11.65
+c.
+
+CC:CC:CC:CC:CC:CC
+
+d. 172.168.10.130
+e.
+
+AA:AA:AA:AA:AA:AA
+
+f.
+
+172.168.11.88
+
+The correct answer is: CC:CC:CC:CC:CC:CC
+
+Câu hỏi 152
+Không trả lời
+Đạt điểm 1,00
+
+DNS record nào ánh xạ từ hostname ra IP
+a.
+
+PTR
+
+b. A
+c.
+
+MX
+
+d. CNAME
+e.
+
+SOA
+
+The correct answer is:
+A
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 153
+Không trả lời
+Đạt điểm 1,00
+
+DNS record nào được sử dụng khi phân giải từ IP ra tên miền?
+a.
+
+MX
+
+b. PTR
+c.
+
+A
+
+d. CNAME
+e.
+
+SOA
+
+The correct answer is:
+PTR
+
+Câu hỏi 154
+Không trả lời
+Đạt điểm 1,00
+
+Chức năng Reservation trong DHCP server cho phép thực hiện điều gì sau đây?
+
+a.
+
+Dùng để thiết lập địa chỉ Default gateway cho các máy tính trong một Scope
+
+b. Dùng để cấp phát IP cố định cho một host dựa vào địa chỉ MAC của host đó
+c.
+
+MX
+
+d. Dùng để cấp phát IP cố định cho một host dựa vào Hostname của host đó
+
+The correct answer is:
+Dùng để cấp phát IP cố định cho một host dựa vào địa chỉ MAC của host đó
+
+Câu hỏi 155
+Không trả lời
+Đạt điểm 1,00
+
+Chức năng RelayAgent trong dịch vụ DHCP cho phép thực hiện điều gì sau đây?
+
+a.
+
+Dùng để cấp phát IP cho một host ở cùng mạng với DHCP Server
+
+b. Dùng để cấp phát IP cho một host dựa vào Hostname của host đó
+c.
+
+Dùng để cấp phát IP cho một host ở mạng khác so với DHCP Server
+
+d. Dùng để thiết lập địa chỉ IP cố định cho một host dựa vào địa chỉ MAC của host đó
+
+The correct answer is:
+Dùng để cấp phát IP cho một host ở mạng khác so với DHCP Server
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 156
+Không trả lời
+Đạt điểm 1,00
+
+Thứ tự các gói tin trao đổi giữa DHCP client và DHCP server để xin cấp phát địa chỉ IP động là?
+a.
+
+DHCPOFFER,DHCPDISCOVER, DHCPREQUEST, DHCPACK
+
+b. DHCPREQUEST, DHCPDISCOVER, DHCPOFFER, DHCPACK
+c.
+
+DHCPDISCOVER, DHCPREQUEST, DHCPOFFER, DHCPACK
+
+d. DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK
+
+The correct answer is:
+DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK
+
+Câu hỏi 157
+Không trả lời
+Đạt điểm 1,00
+
+Câu nào sau đây là đúng khi nói về gói tin DHCPDISCOVER?
+a.
+
+Địa chỉ MAC nguồn trong gói tin này là địa chỉ MAC của DHCP client
+
+b. Địa chỉ MAC đích trong gói tin này là địa chỉ MAC của DHCP server
+c.
+
+Địa chỉ IP đích trong gói tin này là địa chỉ IP của DHCP server
+
+d. Địa chỉ MAC nguồn trong gói tin này là địa chỉ MAC của DHCP Server
+
+The correct answer is:
+Địa chỉ MAC nguồn trong gói tin này là địa chỉ MAC của DHCP client
+
+Câu hỏi 158
+Không trả lời
+Đạt điểm 1,00
+
+Câu nào sau đây là đúng khi nói về gói tin DHCPOFFER?
+a.
+
+Địa chỉ MAC đích trong gói tin này là địa chỉ MAC của DHCP server
+
+b. Địa chỉ IP đích trong gói tin này là địa chỉ IP của DHCP server
+c.
+
+Địa chỉ MAC nguồn trong gói tin này là địa chỉ MAC của DHCP Server
+
+d. Địa chỉ MAC nguồn trong gói tin này là địa chỉ MAC của DHCP client
+
+The correct answer is:
+Địa chỉ MAC nguồn trong gói tin này là địa chỉ MAC của DHCP Server
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 159
+Không trả lời
+Đạt điểm 1,00
+
+Các thông số cấu hình nào trong DHCP Server là tham số tùy chọn khi cấu hình cấp phát địa chỉ IP cho các máy trong mạng?
+a.
+
+IP & Subnet Mask
+
+b. Subnet Mask và DNS
+c.
+
+IP và Default Gateway
+
+d. Default Gateway và DNS
+
+The correct answer is:
+Default Gateway và DNS
+
+Câu hỏi 160
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào sau đây dùng để gửi email?
+
+a.
+
+NTP
+
+b. SMTP
+c.
+
+IMAP
+
+d. ICMP
+e.
+
+SNMP
+
+The correct answer is:
+SMTP
+
+Câu hỏi 161
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào sau đây dùng để nhận email?
+
+a.
+
+NTP
+
+b. ICMP
+c.
+
+SNMP
+
+d. SMTP
+e.
+
+POP3
+
+The correct answer is:
+POP3
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 162
+Không trả lời
+Đạt điểm 1,00
+
+Trong FTP active, Server FTP dùng cổng nào để truyền dữ liệu đi cho client:
+a.
+
+23
+
+b. 22
+c.
+
+21
+
+d. 20
+e.
+
+1024
+
+The correct answer is:
+21
+
+Câu hỏi 163
+Không trả lời
+Đạt điểm 1,00
+
+Dịch vụ web an toàn dùng cặp giao thức và cổng nào
+a.
+
+HTTPS/443
+
+b. HTTP/443
+c.
+
+HTTPS/81
+
+d. HTTPS/8080
+e.
+
+HTTPS/80
+
+The correct answer is:
+HTTPS/443
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 164
+Không trả lời
+Đạt điểm 1,00
+
+DHCP server sử dụng giao thức nào ở tầng transport và cổng bao nhiêu để lắng nghe các yêu cầu cung cấp địa chỉ IP từ DHCP client?
+a.
+
+TCP/23
+
+b.
+
+UDP/67
+
+c.
+
+TCP/68
+
+d. TCP/67
+e.
+
+UDP/23
+
+f.
+
+UDP/68
+
+The correct answer is:
+UDP/67
+
+Câu hỏi 165
+Không trả lời
+Đạt điểm 1,00
+
+1)
+
+DHCP server sử dụng giao thức nào ở tầng transport và cổng bao nhiêu để trả lời các thông tin cung cấp địa chỉ IP cho DHCP client?
+a.
+
+UDP/68
+
+b. TCP/23
+c.
+
+UDP/67
+
+d. UDP/23
+e.
+
+TCP/67
+
+f.
+
+TCP/68
+
+The correct answer is:
+UDP/68
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 166
+Không trả lời
+Đạt điểm 1,00
+
+Thời điểm nào DHCP client sẽ liên lạc với DHCP server để gia hạn thời gian thuê địa chỉ IP?
+a.
+
+Khi hết thời gian thuê
+
+b. 50% thời gian thuê
+c.
+
+DHCP client sẽ không cần liên lạc với DHCP server, địa chỉ IP được cấp một lần và sử dụng cho đến khi client chuyển tới một mạng
+
+khác
+
+d. 90% thời gian thuê
+e.
+
+25% thời gian thuê
+
+The correct answer is: 50% thời gian thuê
+
+Câu hỏi 167
+Không trả lời
+Đạt điểm 1,00
+
+Câu nào sau đây mô tả đúng về phân giải thuận (forward lookup) trong DNS?
+a.
+
+Chuyển tiếp yêu cầu phân giải tên miền đến một DNS Server khác
+
+b. Phân giải tên ra địa chỉ IP
+c.
+
+Phân giải IP từ DNS cục bộ mà không cần sự giúp đỡ của các DNS khác
+
+d. Phân giải IP ra tên
+e.
+
+The correct answer is: Phân giải tên ra địa chỉ IP
+
+Câu hỏi 168
+Không trả lời
+Đạt điểm 1,00
+
+Câu nào sau đây là đúng nhất về phân giải ngược (reverse lookup) trong DNS?
+a.
+b.
+c.
+
+Phân giải từ IP ra tên miền
+
+Phân giải từ tên miền ra địa chỉ IP
+Yêu cầu phân giải được chuyển đến cho một DNS server khác để phân giải
+
+d. Yêu cầu phân giải ngược được thực hiện trên DNS server cục bộ mà không cần trợ giúp từ các DNS server khác
+
+The correct answer is: Phân giải từ IP ra tên miền
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 169
+Không trả lời
+Đạt điểm 1,00
+
+DNS sử dụng giao thức và cổng nào cho các truy vấn trực tiếp?
+a.
+
+TCP/53
+
+b. UDP/53
+c.
+
+TCP/68
+
+d. UDP/67
+
+The correct answer is:
+UDP/53
+
+Câu hỏi 170
+Không trả lời
+Đạt điểm 1,00
+
+DNS sử dụng giao thức và cổng nào cho việc chuyển tiếp các zone?
+a.
+
+TCP/53
+
+b. UDP/53
+c.
+d.
+
+UDP/67
+TCP/68
+
+The correct answer is:
+TCP/53
+
+Câu hỏi 171
+Không trả lời
+Đạt điểm 1,00
+
+Các thông số cấu hình nào trong DHCP Server là tham số tùy chọn khi cấu hình cấp phát địa chỉ IP cho các máy trong mạng?
+a.
+
+IP & Subnet Mask
+
+b. IP và Default Gateway
+c.
+d.
+
+Default Gateway và DNS
+Subnet Mask và DNS
+
+The correct answer is:
+Default Gateway và DNS
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 172
+Không trả lời
+Đạt điểm 1,00
+
+Trong FTP passive, sau khi Server xác nhận yêu cầu truyền dữ liệu được gửi từ port N của Client thì:
+a.
+
+Client mở port N+1 để nhận dữ liệu từ Server.
+
+b. Server dùng port 20 để truyền dữ liệu cho Client.
+c.
+
+Server dùng port N+1 để truyền dữ liệu cho Client.
+
+d. Client mở port 20 để nhận dữ liệu từ Server.
+
+The correct answer is:
+Client mở port N+1 để nhận dữ liệu từ Server.
+
+Câu hỏi 173
+Không trả lời
+Đạt điểm 1,00
+
+FTP sử dụng giao thức và cổng nào cho việc truyền dữ liệu?
+a.
+
+UDP/20
+
+b. UDP/21
+c.
+
+TCP/21
+
+d. TCP/20
+
+The correct answer is:
+
+TCP/20
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 174
+Không trả lời
+Đạt điểm 1,00
+
+FTP sử dụng giao thức và cổng nào cho việc truyền các chỉ thị?
+a.
+
+UDP/21
+
+b. TCP/21
+c.
+d.
+
+TCP/20
+UDP/20
+
+The correct answer is:
+
+TCP/21
+
+Câu hỏi 175
+Không trả lời
+Đạt điểm 1,00
+
+Trong FTP active, sau khi Server xác nhận yêu cầu truyền dữ liệu được gửi từ port N của Client thì:
+a.
+b.
+
+c.
+d.
+
+Client mở port N+1 để nhận dữ liệu từ Server.
+Server dùng port 20 để truyền dữ liệu cho Client.
+
+Server dùng port N+1 để truyền dữ liệu cho Client.
+Client mở port N+1 để nhận dữ liệu từ Server.
+
+The correct answer is:
+
+Server dùng port 20 để truyền dữ liệu cho Client.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 176
+Không trả lời
+Đạt điểm 1,00
+
+Phương thức nào trong giao thức HTTP được dùng khi Client gửi thông tin lên cho Server để xử lý dữ liệu
+a.
+
+GET
+
+b. OPTION
+c.
+
+PUT
+
+d. POST
+e.
+
+HEAD
+
+The correct answer is:
+
+POST
+
+Câu hỏi 177
+Không trả lời
+Đạt điểm 1,00
+
+Phương thức nào trong giao thức HTTP được dùng khi Client muốn kiểm tra một đối tượng có tồn tại trên Server hay không
+a.
+
+OPTION
+
+b. POST
+c.
+
+GET
+
+d. HEAD
+e.
+
+PUT
+
+The correct answer is:
+
+HEAD
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 178
+Không trả lời
+Đạt điểm 1,00
+
+DNS record nào dùng để xác định máy chủ mail cho một tên miền?
+a.
+
+CNAME
+
+b. SOA
+c.
+
+MX
+
+d. AAA
+e.
+
+PTR
+
+The correct answer is:
+MX
+
+Câu hỏi 179
+Không trả lời
+Đạt điểm 1,00
+
+Mô hình Workgroup sử dụng user đăng nhập là
+a.
+
+Local user
+
+b. Domain user
+c.
+
+Bất kì
+
+d. Anonymous
+
+The correct answer is:
+Local user
+
+Câu hỏi 180
+Không trả lời
+Đạt điểm 1,00
+
+Thành phần nào không thuộc kiến trúc logic của Active Directory
+a.
+
+Organizational Units (OU)
+
+b. Domain Tree
+c.
+
+Object
+
+d. Domain controller
+e.
+
+Domain
+
+The correct answer is:
+Domain controller
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 181
+Không trả lời
+Đạt điểm 1,00
+
+Thành phần nào thuộc kiến trúc vật lý của Active Directory
+a.
+
+Domain
+
+b. Object
+c.
+
+Organizational Units (OU)
+
+d. Site
+e.
+
+Domain Tree
+
+The correct answer is:
+Site
+
+Câu hỏi 182
+Không trả lời
+Đạt điểm 1,00
+
+Organizational Units (OU) có thể chứa gì?
+a.
+
+Forest
+
+b. Domain Controller
+c.
+
+Domain Tree
+
+d. Objects
+e.
+
+Domain
+
+The correct answer is:
+Objects
+
+Câu hỏi 183
+Không trả lời
+Đạt điểm 1,00
+
+Dịch vụ nào sẽ lưu trữ thông tin về các đối tượng trong domain
+
+a.
+
+Active Directory Lightweight Directory Services (AD LDS)
+
+b. Active Directory Rights Management Services (AD RMS)
+c.
+
+Active Directory Domain Services ADDS
+
+d. Active Directory Federation Services (AD FS)
+
+The correct answer is:
+
+Active Directory Domain Services ADDS
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 184
+Không trả lời
+Đạt điểm 1,00
+
+Khi Roamming profile cho user đến máy DC1, lưu trong thư mục đã chia sẻ Homedir. Câu lệnh là
+a.
+
+\\DC1\Homedir\%Username%
+
+b. \\DC1\Homedir\User
+c.
+
+\\DC1\Homedir\%User%
+
+d. \\DC1\Homedir\Username
+
+The correct answer is:
+\\DC1\Homedir\%Username%
+
+Câu hỏi 185
+Không trả lời
+Đạt điểm 1,00
+
+Jery vừa thuộc nhóm Marketing và nhóm Accounting, user Jery có quyền Read thư mục D:\Data. Trong khi đó, nhóm Marketing có quyền
+Write thư mục D:\Data, nhưng nhóm Accounting bị cấm quyền Write file D:\Data\vb2.txt. Vậy Jery có quyền gì trên file vb2.txt:
+a.
+
+Không có quyền gì
+
+b. Read và Write
+c.
+
+Read
+
+d. Write
+
+The correct answer is:
+Không có quyền gì
+
+Câu hỏi 186
+Không trả lời
+Đạt điểm 1,00
+
+Quyền nào là quyền cơ bản trên NTFS
+a.
+
+Take Ownership
+
+b. Modify
+c.
+
+Synchronize
+
+d. Delete
+
+The correct answer is:
+Modify
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 187
+Không trả lời
+Đạt điểm 1,00
+
+Quyền nào là quyền đặc biệt trên NTFS
+a.
+
+Synchronize
+
+b. Take Ownership
+c.
+
+Modify
+
+d. Delete
+
+The correct answer is:
+Take Ownership
+
+Câu hỏi 188
+Không trả lời
+Đạt điểm 1,00
+
+Khi copy file và thư mục trong cùng phân vùng NTFS thì:
+a.
+
+Các quyền bị xóa bỏ
+
+b. Có toàn quyền ở thư mục đích chứa chúng
+c.
+
+Các file và thư mục vẫn giữ nguyên quyền đã được thiết lập
+
+d. Các file và thư mục có quyền của thư mục đích chứa chúng
+
+The correct answer is:
+Các file và thư mục vẫn giữ nguyên quyền đã được thiết lập
+
+Câu hỏi 189
+Không trả lời
+Đạt điểm 1,00
+
+Khi copy file và thư mục từ phân vùng NTFS này sang một phân vùng NTFS khác thì
+a.
+
+Các file và thư mục vẫn giữ nguyên quyền đã được thiết lập
+
+b. Các file và thư mục có quyền của thư mục đích chứa chúng
+c.
+
+Các quyền bị xóa bỏ
+
+d. Có toàn quyền ở thư mục đích chứa chúng
+
+The correct answer is:
+Các file và thư mục có quyền của thư mục đích chứa chúng
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 190
+Không trả lời
+Đạt điểm 1,00
+
+Khi di chuyển file và thư mục từ phân vùng NTFS này sang một phân vùng NTFS khác thì
+a.
+
+Các file và thư mục vẫn giữ nguyên quyền đã được thiết lập
+
+b. Các quyền bị xóa bỏ
+c.
+
+Có toàn quyền ở thư mục đích chứa chúng
+
+d. Các file và thư mục có quyền của thư mục đích chứa chúng
+
+The correct answer is:
+Các file và thư mục có quyền của thư mục đích chứa chúng
+
+Câu hỏi 191
+Không trả lời
+Đạt điểm 1,00
+
+Máy chủ DC là
+a.
+
+Máy chủ quản lý user và computer
+
+b. Máy chủ cung cấp các dịch vụ và quản lý toàn bộ mạng
+c.
+
+Máy chủ các tài nguyên trong mạng công ty
+
+d. Máy chủ quản lý miền
+
+The correct answer is:
+Máy chủ quản lý user và computer
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 192
+Không trả lời
+Đạt điểm 1,00
+
+Để truy cập thư mục Data được share ẩn trên PC01, sử dụng lệnh
+a.
+
+\\Data
+
+b. \\PC01\Data$
+c.
+
+\\PC01/Data
+
+d. \\Data$
+
+The correct answer is:
+
+\\Data$
+
+Câu hỏi 193
+Không trả lời
+Đạt điểm 1,00
+
+User u1 phân quyền NTFS bị cấm truy xuất tới thư mục Data, biết thư mục Data được chia sẻ cho nhóm Everyone với quyền Read, lúc này u1
+có quyền gì?
+a.
+
+u1 có thể đọc dữ liệu trong thư mục Data
+
+b. u1 không thể truy xuất thư mục chia sẻ Data
+c.
+
+u1 có thể truy xuất thư mục chia sẻ Data, nhưng chỉ có quyền đọc
+
+d. u1 có toàn quyền truy xuất thư mục chia sẻ Data
+
+The correct answer is: u1 có thể đọc dữ liệu trong thư mục Data
+
+Câu hỏi 194
+Không trả lời
+Đạt điểm 1,00
+
+User u1 thuộc 2 group g1 và g2, g1 có quyền list, read & execute trên thư mục Data, g2 bị cấm quyền truy xuất thư mục Data. Quyền của u1
+là
+a.
+
+u1 có quyền truy xuất thư mục Data
+
+b. u1 không có quyền truy xuất thư mục Data
+c.
+
+u1 chỉ có thể xem nội dung thư mục Data, nhưng không mở được các file trên thư mục này
+
+d. u1 có thể đọc và thực thi các tập tin chương trình đặt trong thư mục Data
+
+The correct answer is: u1 chỉ có thể xem nội dung thư mục Data, nhưng không mở được các file trên thư mục này
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 195
+Không trả lời
+Đạt điểm 1,00
+
+Trong môi trường Microsoft, mô hình nào có các thông tin người dùng được lưu trữ tập trung và người dùng phải chứng thực khi đăng nhập
+vào mạng:
+a.
+
+Server
+
+b. Workgroup
+c.
+
+Domain
+
+d. Client
+
+The correct answer is:
+
+Server
+
+Câu hỏi 196
+Không trả lời
+Đạt điểm 1,00
+
+Jery vừa thuộc nhóm Marketing và nhóm Accounting, user Jery có quyền Read thư mục D:\Dat. Trong khi đó, nhóm Marketing có quyền
+Write thư mục D:\Data, nhưng nhóm Accounting bị cấm quyền Write file D:\Data\vb2.txt. Vậy Jery có quyền gì trên file vb2.txt:
+a.
+
+Không có quyền gì cả
+
+b. Read & Write
+c.
+
+Write
+
+d. Read
+
+The correct answer is:
+
+Read & Write
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 197
+Không trả lời
+Đạt điểm 1,00
+
+Quyền nào là quyền đặc biệt trên NTFS
+a.
+
+Take Ownership
+
+b. Modify
+c.
+
+Write
+
+d. Execute
+
+The correct answer is:
+
+Execute
+
+Câu hỏi 198
+Không trả lời
+Đạt điểm 1,00
+
+Quyền nào là quyền cơ bản trên NTFS
+a.
+b.
+c.
+d.
+
+Modify
+Take Ownership
+Synchronize
+Delete
+
+The correct answer is:
+
+Take Ownership
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 199
+Không trả lời
+Đạt điểm 1,00
+
+Trong Windows, User Profile là nơi
+a.
+
+Là nơi lưu tất cả các thuộc tính của user
+
+b. Lưu tất cả các thông tin liên quan đến user (desktop, start menu...)
+c.
+
+Là thư mục gốc của user khi đăng nhập
+
+d. Các user khác có thể đọc thư mục này
+
+The correct answer is:
+
+Là thư mục gốc của user khi đăng nhập
+
+Câu hỏi 200
+Không trả lời
+Đạt điểm 1,00
+
+Máy PC01 chia sẻ thư mục Shared với tên là Shared_PC01, máy trong LAN có thể truy cập trực tiếp thư mục này bằng lệnh
+a.
+b.
+c.
+d.
+
+\\PC01\shared_pc01
+\\PC01/SharedShared_PC01
+\\PC01\Shared
+\\PC01
+
+The correct answer is:
+
+\\PC01
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 201
+Không trả lời
+Đạt điểm 1,00
+
+Để share ẩn một thư mục ta thêm
+a.
+
+Chữ $ vào sau tên chia sẻ
+
+b. Chữ $ vào trước tên chia sẻ
+c.
+
+Chữ & vào trước tên chia sẻ
+
+d. Chữ & vào sau tên chia sẻ
+
+The correct answer is:
+
+Chữ & vào sau tên chia sẻ
+
+Câu hỏi 202
+Không trả lời
+Đạt điểm 1,00
+
+Quyền change trên thư mục chia sẻ không được làm gì?
+
+a.
+
+b.
+c.
+
+Tạo thư mục, tập tin
+
+Gán, rút quyền sở hữu
+Thay đổi thuộc tính
+
+d. Xóa thư mục, tập tin
+
+The correct answer is:
+
+Tạo thư mục, tập tin
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 203
+Không trả lời
+Đạt điểm 1,00
+
+Thư mục Data được phân quyền cho user u1 như sau:
+Share permission: Full control. NTFS permission: Deny write
+Vậy quyền u1 trên Data là
+
+a.
+b.
+c.
+
+Thay đổi nội dung file trong Data
+Tạo một folder trong Data
+Chỉ đọc được nội dung Data
+
+d. Tạo một file trong thư mục con của Data
+
+The correct answer is:
+
+Tạo một file trong thư mục con của Data
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 204
+Không trả lời
+Đạt điểm 1,00
+
+Các quyền trên thư mục chia sẻ là:
+
+a.
+b.
+c.
+d.
+
+Read, write, execute
+Full control, read, change
+Full control, read, write, execute
+Full control, read, write
+
+The correct answer is:
+
+Full control, read, write
+
+Câu hỏi 205
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào sau đây được sử dụng để truyền thông tin giám sát giữa Manager và Agent trong hệ thống giám sát mạng?
+a.
+
+IP
+
+b. TCP
+c.
+
+HTTP
+
+d. ICMP
+e.
+
+SNMP
+
+The correct answer is:
+SNMP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 206
+Không trả lời
+Đạt điểm 1,00
+
+Hệ thống giám sát mạng sẽ theo dõi những thông tin gì? (chọn 2)
+a.
+
+Lưu lượng mạng
+
+b. Nguồn điện của thiết bị
+c.
+
+Các hoạt động của user
+
+d. Thông tin về thiết bị
+
+The correct answers are: Lưu lượng mạng, Thông tin về thiết bị
+
+Câu hỏi 207
+Không trả lời
+Đạt điểm 1,00
+
+Chức năng của firewall
+a.
+
+Ngăn được các tấn công bên ngoài mạng
+
+b. Kiểm soát luồng dữ liệu vào ra của mạng
+c.
+
+Ngăn được các tấn công bên trong mạng
+
+d. Phát hiện được các tấn công bên ngoài mạng
+
+The correct answer is: Kiểm soát luồng dữ liệu vào ra của mạng
+
+Câu hỏi 208
+Không trả lời
+Đạt điểm 1,00
+
+Mục tiêu của đảm bảo an toàn cho một hệ thống CNTT được biết đến với mô hình có tên gọi là CIA gồm các tính chất
+
+a.
+
+Tính toàn vẹn, tính sẵn sàng, tính xác thực
+
+b. Tính bí mật, tính xác thực, tính toàn vẹn
+c.
+
+Tính bí mật, tính toàn vẹn, tính chống chối
+
+d. Tính bí mật, tính toàn vẹn, tính sẵn sàng
+
+The correct answer is:
+Tính bí mật, tính toàn vẹn, tính sẵn sàng
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 209
+Không trả lời
+Đạt điểm 1,00
+
+Chức năng của hệ thống IDS đặt trước một mạng LAN
+a.
+
+Phát hiện được các tấn công bên ngoài mạng
+
+b. Ngăn được các tấn công bên ngoài mạng
+c.
+
+Ngăn được các tấn công bên trong mạng
+
+d. Phát hiện được các tấn công bên trong mạng
+e.
+
+Kiểm soát luồng dữ liệu vào ra của mạng
+
+The correct answer is: Phát hiện được các tấn công bên ngoài mạng
+
+Câu hỏi 210
+Không trả lời
+Đạt điểm 1,00
+
+Tấn công DOS (Denial of Service) thuộc loại tấn công nào ?
+a.
+
+Tấn công nội bộ (Local Attack)
+
+b. Tấn công thụ động (Passive Attack)
+c.
+
+Tấn công chủ động (Active Attack)
+
+d. Tấn công mã hóa
+
+The correct answer is: Tấn công chủ động (Active Attack)
+
+Câu hỏi 211
+Không trả lời
+Đạt điểm 1,00
+
+Hình thức tấn công thụ động chống lại nguyên tắc cốt lõi nào của an toàn thông tin?
+a.
+
+sẵn sàng
+
+b. toàn vẹn
+c.
+
+tính xác thực
+
+d. bí mật
+
+The correct answer is:
+bí mật
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 212
+Không trả lời
+Đạt điểm 1,00
+
+Phương pháp mã hóa đảm bảo tiêu chuẩn gì của an toàn thông tin
+a.
+
+bí mật
+
+b. tính xác thực
+c.
+
+sẵn sàng
+
+d. toàn vẹn
+
+The correct answer is:
+bí mật
+
+Câu hỏi 213
+Không trả lời
+Đạt điểm 1,00
+
+Trong bảo mật nhiều lớp, phương pháp nào dùng bảo mật lớp physical
+
+a.
+
+Mã hóa dữ liệu
+
+b. Camera
+c.
+
+Antivirus
+
+d. Firewall
+
+The correct answer is:
+Camera
+
+Câu hỏi 214
+Không trả lời
+Đạt điểm 1,00
+
+Trong bảo mật nhiều lớp, phương pháp nào dùng bảo mật lớp Application
+
+a.
+
+Firewall
+
+b. Antivirus
+c.
+
+Camera
+
+d. Mã hóa dữ liệu
+
+The correct answer is: Antivirus
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 215
+Không trả lời
+Đạt điểm 1,00
+
+Để đảm bảo cho một hệ thống CNTT được an toàn, các mục tiêu quan trọng của người quản trị bảo mật là?(Chọn 3)
+a.
+
+Làm giảm thời gian "Time to recover"
+
+b. Làm tăng thời gian "Time to recover"
+c.
+
+Làm tăng thời gian "Time to detect"
+
+d. Làm giảm thời gian "Time to detect"
+e.
+
+Làm tăng thời gian "Time to compromise"
+
+f.
+
+Làm giảm thời gian "Time to compromise"
+
+The correct answers are: Làm tăng thời gian "Time to compromise", Làm giảm thời gian "Time to detect",
+Làm giảm thời gian "Time to recover"
+
+Câu hỏi 216
+Không trả lời
+Đạt điểm 1,00
+
+Để nâng cao việc phát triển các giải pháp an toàn cho một hệ thống CNTT, người ta tập trung đầu tư vào 3 vấn đề chính là?
+
+a.
+
+Đội ngũ chuyên gia bảo mật
+
+b. Tăng chi phí đầu tư cho bảo mật
+c.
+
+Con người
+
+d. Đào tạo nâng cao nhận thức
+e.
+
+Quy trình
+
+f.
+
+Công nghệ
+
+The correct answers are: Con người
+, Quy trình, Công nghệ
+
+Câu hỏi 217
+Không trả lời
+Đạt điểm 1,00
+
+Người quản trị sử dụng các cấu hình mặc định, đặt password đơn giản đã gây ra lỗ hổng dạng gì
+a.
+
+về mặt quản trị hệ thống
+
+b. về mặt chính sách
+c.
+
+về mặt con người
+
+d. về mặt kỹ thuật
+
+The correct answer is:
+
+về mặt quản trị hệ thống
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 218
+Không trả lời
+Đạt điểm 1,00
+
+Tấn công nào sau đây là dạng tấn công bị động?
+a.
+
+Dos
+
+b. mã hóa dữ liệu
+c.
+
+bẻ mật khẩu
+
+d. Scan port
+
+The correct answer is:
+Scan port
+
+Câu hỏi 219
+Không trả lời
+Đạt điểm 1,00
+
+Đặc điểm nào sau đây không phải mô tả tấn công Dos?
+a.
+
+Chiếm dụng băng thông mạng
+
+b. Chiếm dụng tài nguyên Server
+c.
+
+Người dùng hợp pháp không truy xuất được vào Server
+
+d. Xóa dữ liệu trên Server
+
+The correct answer is:
+Xóa dữ liệu trên Server
+
+Câu hỏi 220
+Không trả lời
+Đạt điểm 1,00
+
+Kiến trúc AAA gồm các yếu tố nào?
+a.
+
+Authentication, Authorization, Access control
+
+b. Availability, Authorization, Accounting
+c.
+
+Authentication, Authorization, Availability
+
+d. Authentication, Authorization, Accounting
+
+The correct answer is:
+Authentication, Authorization, Accounting
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 221
+Không trả lời
+Đạt điểm 1,00
+
+Tiêu chuẩn an toàn thông tin CIA là?
+a.
+
+Bí mật, toàn vẹn, sẵn sàng
+
+b. Xác thực, toàn vẹn, sẵn sàng
+c.
+
+Bí mật, sẵn sàng, xác thực
+
+d. Bí mật, toàn vẹn, xác thực
+
+The correct answer is:
+Bí mật, toàn vẹn, sẵn sàng
+
+Câu hỏi 222
+Không trả lời
+Đạt điểm 1,00
+
+PDUs at the Network layer of the OSI are called what?
+a.
+b.
+c.
+d.
+
+Transport
+Segments
+Packets
+Frames
+
+The correct answer is:
+Packets
+
+Câu hỏi 223
+Không trả lời
+Đạt điểm 1,00
+
+Which fields are contained within an IEEE Ethernet frame header? (Choose two.)
+a.
+
+Source and destination MAC address
+
+b. Source and destination network address
+c.
+
+Source and destination MAC address and source and destination network address
+
+d. FCS field
+
+The correct answers are:
+Source and destination MAC address,
+FCS field
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 224
+Không trả lời
+Đạt điểm 1,00
+
+What is the maximum data rate for 802.11b wireless LANs?
+a.
+
+10Mbps
+
+b. 2Mbps
+c.
+
+54Mbps
+
+d. 11Mbps
+
+The correct answer is:
+11Mbps
+
+Câu hỏi 225
+Không trả lời
+Đạt điểm 1,00
+
+Segmentation of a data stream happens at which layer of the OSI model?
+a.
+
+Network
+
+b. Physical
+c.
+d.
+
+Data Link
+Transport
+
+The correct answer is:
+Transport
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 226
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following describe router functions? (Choose four.)
+a.
+
+Internetwork communication
+
+b. Packet switching
+c.
+
+Packet filtering
+
+d. Broadcast forwarding
+
+e.
+
+f.
+
+g.
+
+Collision prevention
+
+Broadcast domain enlargement
+
+Path selection
+
+The correct answers are:
+Packet switching,
+Packet filtering,
+Internetwork communication,
+Path selection
+
+Câu hỏi 227
+Không trả lời
+Đạt điểm 1,00
+
+Which layer of the OSI provides translation of data?
+a.
+
+b.
+c.
+
+Data Link
+
+Application
+Presentation
+
+d. Session
+e.
+
+Transport
+
+The correct answer is:
+Presentation
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 228
+Không trả lời
+Đạt điểm 1,00
+
+When data is encapsulated, which is the correct order?
+a.
+
+Data, segment, frame, packet, bit
+
+b. Segment, data, packet, frame, bit
+c.
+
+Data, segment, packet, frame, bit
+
+d. Data, frame, packet, segment, bit
+
+The correct answer is:
+Data, segment, packet, frame, bit
+
+Câu hỏi 229
+Không trả lời
+Đạt điểm 1,00
+
+Why does the data communication industry use the layered OSI reference model? (Choose two.)
+a.
+b.
+
+c.
+
+It supports the evolution of multiple competing standards, and thus provides business opportunities for equipment manufacturers.
+It divides the network communication process into smaller and simpler components, thus aiding component development, design,
+and troubleshooting.
+It provides a framework by which changes in functionality in one layer require changes in other layers.
+
+d. It enables equipment from different vendors to use the same electronic components, thus saving research and development funds.
+e.
+
+It encourages industry standardization by defining what functions occur at each layer of the model.
+
+The correct answers are:
+
+It divides the network communication process into smaller and simpler components, thus aiding component development, design, and
+troubleshooting.,
+It encourages industry standardization by defining what functions occur at each layer of the model.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 230
+Không trả lời
+Đạt điểm 1,00
+
+What are two purposes for segmentation with a bridge?
+a.
+
+Add more bandwidth for users.
+
+b. Reduce collisions within a broadcast domain.
+
+c.
+d.
+
+Allow more broadcasts for users.
+Increase the number of collision domains.
+
+e.
+
+Add more broadcast domains.
+
+f.
+
+Create more collision domains.
+
+The correct answers are:
+Create more collision domains.,
+Add more bandwidth for users.
+
+Câu hỏi 231
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following are unique characteristics of half-duplex Ethernet when compared to full-duplex Ethernet?
+a.
+
+Half-duplex Ethernet operates in a shared collision domain.
+
+b. Half-duplex Ethernet has higher effective throughput.
+c.
+
+Half-duplex Ethernet operates in a private collision domain.
+
+d. Half-duplex Ethernet has lower effective throughput.
+e.
+
+Half-duplex Ethernet operates in a private broadcast domain.
+
+The correct answers are:
+Half-duplex Ethernet operates in a shared collision domain.,
+Half-duplex Ethernet has lower effective throughput.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 232
+Không trả lời
+Đạt điểm 1,00
+
+You want to implement a network medium that is not susceptible to EMI. Which type of cabling should you use?
+a.
+
+Fiber optic cable
+
+b. Category 5 UTP cable
+c.
+
+Thinnet coax
+
+d. Thicknet coax
+
+The correct answer is:
+Fiber optic cable
+
+Câu hỏi 233
+Không trả lời
+Đạt điểm 1,00
+
+Acknowledgements, sequencing, and flow control are characteristic of which OSI layer?
+a.
+b.
+c.
+d.
+
+Layer 4
+Layer 2
+Layer 7
+Layer 3
+
+The correct answer is:
+Layer 4
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 234
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following are types of flow control?
+a.
+
+Buffering
+
+b. Congestion avoidance
+c.
+
+Windowing
+
+d. Cut-through
+e.
+
+VLANs
+
+The correct answers are:
+Buffering,
+Windowing,
+Congestion avoidance
+
+Câu hỏi 235
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following types of connections can use full duplex? (Choose three.)
+a.
+
+Host to host
+
+b. Switch to hub
+
+c.
+
+Hub to hub
+
+d. Switch to switch
+e.
+
+Switch to host
+
+The correct answers are:
+Switch to switch,
+Host to host,
+Switch to host
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 236
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following describes a MAC address? (Choose two.)
+a.
+
+It is a unique address in a broadcast domain.
+
+b. It is provided by the manufacturer of the NIC.
+c.
+
+d.
+e.
+
+Is is a logical address.
+
+It is a globally unique IP address.
+It is used as part of the IPX/SPX configuration.
+
+The correct answers are:
+It is provided by the manufacturer of the NIC.,
+It is used as part of the IPX/SPX configuration.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 237
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following are considered some reasons for LAN congestion? (Choose six.)
+a.
+
+b.
+c.
+
+Bill Gates
+
+Too many users in a broadcast domain
+The addition of hubs to the network
+
+d. Low bandwidth
+e.
+
+Broadcast storms
+
+f.
+
+Multicasting
+
+g. Large amount of ARP or IPX traffic
+
+h.
+
+Routers
+
+The correct answers are:
+
+Low bandwidth,
+
+Too many users in a broadcast domain,
+
+Broadcast storms,
+
+Multicasting,
+
+The addition of hubs to the network,
+Large amount of ARP or IPX traffic
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 238
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following are reasons for breaking up a network into two segments with a router? (Choose two.)
+a.
+
+To create one large broadcast domain
+
+b. To stop one segment’s broadcasts from being sent to the second segment
+c.
+
+To create fewer broadcast domains
+
+d. To create more broadcast domains
+
+The correct answers are:
+To create more broadcast domains,
+To stop one segment’s broadcasts from being sent to the second segment
+
+Câu hỏi 239
+Không trả lời
+Đạt điểm 1,00
+
+How does a host on an Ethernet LAN know when to transmit after a collision has occurred?
+a.
+
+The jam signal indicates that the collision has been cleared.
+
+b. An electric pulse indicates that the collision has cleared.
+c.
+
+The destination host sends a request to the source for retransmission.
+
+d. The hosts will attempt to resume transmission after a time delay has expired.
+e.
+
+The router on the segment will signal that the collision has cleared.
+
+The correct answer is:
+The hosts will attempt to resume transmission after a time delay has expired.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 240
+Không trả lời
+Đạt điểm 1,00
+
+You want to use full-duplex Ethernet instead of half duplex. Which two of the following will be benefits on your network?
+a.
+
+You will have more collision domains.
+
+b. It will be less expensive.
+c.
+
+You’ll have no collisions on each segment.
+
+d. It should be faster.
+
+The correct answers are:
+You’ll have no collisions on each segment.,
+It should be faster.
+
+Câu hỏi 241
+Không trả lời
+Đạt điểm 1,00
+
+You have the following MAC address: C9-3F-32-B4-DC-19. What is the OUI portion in binary?
+a.
+
+11000110-11000000-00011111
+
+b. 11001001-00111111-00110010
+c.
+d.
+
+11001100-01111000-00011000
+11001001-00111111-00110010
+
+The correct answer is:
+11001001-00111111-00110010
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 242
+Không trả lời
+Đạt điểm 1,00
+
+A client packet is received by a server. The packet has a destination port number of 143. What service is the client requesting?
+a.
+
+FTP
+
+b. IMAP
+c.
+
+SMTP
+
+d. UDP
+e.
+
+ICMP
+
+f.
+
+TCP
+
+The correct answer is: IMAP
+
+Câu hỏi 243
+Không trả lời
+Đạt điểm 1,00
+
+What are two fields shared by TCP and UDP? (Choose two.)
+a.
+
+length
+
+b. window size
+c.
+
+source port and destination port
+
+d. checksum
+e.
+
+flags
+
+The correct answers are: source port and destination port, checksum
+
+Câu hỏi 244
+Không trả lời
+Đạt điểm 1,00
+
+Which value, that is contained in an IPv4 header field, is decremented by each router that receives a packet?
+a.
+
+Services
+
+b. Fragment Offset
+c.
+
+Time-To-Live
+
+d. Header length
+
+The correct answer is: Time-To-Live
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 245
+Không trả lời
+Đạt điểm 1,00
+
+Which two traffic types use the UDP? (Choose two.)
+a.
+
+voice
+
+b. web
+c.
+
+file
+
+d. video
+
+The correct answers are: voice, video
+
+Câu hỏi 246
+Không trả lời
+Đạt điểm 1,00
+
+Which two traffic types use the TCP? (Choose two.)
+a.
+
+voice
+
+b. video
+c.
+
+e-mail
+
+d. live stream
+e.
+
+web
+
+The correct answers are: e-mail, web
+
+Câu hỏi 247
+Không trả lời
+Đạt điểm 1,00
+
+Which protocol provides a connection-oriented data transmission service between applications?
+a.
+
+IP
+
+b. TCP
+c.
+
+SMTP
+
+d. ICMP
+e.
+
+UDP
+
+The correct answer is: TCP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 248
+Không trả lời
+Đạt điểm 1,00
+
+In order to terminate connectivity between two network devices, which flag in the TCP header is used in response to a received FIN flag?
+a.
+
+END
+
+b. SYN
+c.
+
+ACK
+
+d. RST
+e.
+
+URG
+
+The correct answer is: ACK
+
+Câu hỏi 249
+Không trả lời
+Đạt điểm 1,00
+
+To reassemble and reorder received segments, what information is used by TCP ?
+a.
+
+fragment numbers
+
+b. sequence numbers
+c.
+
+acknowledgment numbers
+
+d. port numbers
+
+The correct answer is: sequence numbers
+
+Câu hỏi 250
+Không trả lời
+Đạt điểm 1,00
+
+What is the decimal and hexadecimal equivalent of the binary number 10011101? (Choose two.)
+a.
+b.
+
+c.
+
+0x9D
+0xD9
+
+157
+
+d. 185
+e.
+
+159
+
+The correct answers are:
+157,
+0x9D
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 251
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following allows a router to respond to an ARP request that is intended for a remote host?
+a.
+
+Inverse ARP (IARP)
+
+b. Reverse ARP (RARP)
+c.
+
+Address Resolution Protocol (ARP)
+
+d. Proxy ARP
+e.
+
+Gateway DP
+
+The correct answer is: Proxy ARP
+
+Câu hỏi 252
+Không trả lời
+Đạt điểm 1,00
+
+You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS
+information. Which protocol will you use to accomplish this?
+a.
+b.
+c.
+
+SMTP
+ARP
+DHCP
+
+d. SNMP
+
+The correct answer is:
+DHCP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 253
+Không trả lời
+Đạt điểm 1,00
+
+What protocol is used to find the hardware address of a local device?
+a.
+
+RARP
+
+b. BootP
+
+c.
+d.
+e.
+
+ARP
+ICMP
+IP
+
+The correct answer is:
+ARP
+
+Câu hỏi 254
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following are layers in the TCP/IP model? (Choose three.)
+a.
+
+Application
+
+b. Session
+c.
+
+Internet
+
+d. Physical
+
+e.
+
+Data Link
+
+f.
+
+Transport
+
+The correct answers are:
+Application,
+Transport,
+Internet
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 255
+Không trả lời
+Đạt điểm 1,00
+
+PC1 needs to send a packet to PC2 so it sends an ARP request. In this scenario, what will happen next?
+
+a.
+
+RT1 will send an ARP reply with its Fa0/0 MAC address
+
+b. RT1 will send an ARP reply with PC2 MAC address
+c.
+
+SW1 will send an ARP reply with its Fa0/1 MAC address
+
+d. PC2 will send an ARP reply with its MAC address
+
+The correct answer is: PC2 will send an ARP reply with its MAC address
+
+Câu hỏi 256
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following describe the DHCP Discover message? (Choose two.)
+a.
+b.
+c.
+d.
+
+It uses TCP as the Transport layer protocol.
+It uses FF-FF-FF-FF-FF-FF as a layer 2 broadcast.
+It uses UDP as the Transport layer protocol.
+It does not use a layer 2 destination address.
+
+The correct answers are:
+It uses FF-FF-FF-FF-FF-FF as a layer 2 broadcast.,
+It uses UDP as the Transport layer protocol.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 257
+Không trả lời
+Đạt điểm 1,00
+
+What does the “Inside Global” address represent in the configuration of NAT?
+a.
+
+The MAC address of the router used by inside hosts to connect to the Internet
+
+b. The summarized address for all of the internal subnetted addresses
+c.
+
+A registered address that represents an inside host to an outside network
+
+d. A globally unique, private IP address assigned to a host on the inside network
+
+The correct answer is:
+A registered address that represents an inside host to an outside network
+
+Câu hỏi 258
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following protocols uses TCP port 443?
+a.
+
+SMTP
+
+b. TFTP
+c.
+
+HTTPS
+
+d. HTML
+e.
+
+Telnet
+
+The correct answer is:
+TFTP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 259
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following services use TCP? (Choose three.)
+a.
+
+FTP
+
+b. TFTP
+
+c.
+d.
+e.
+f.
+
+DHCP
+HTTP
+SMTP
+SNMP
+
+The correct answers are:
+SMTP,
+FTP,
+HTTP
+
+Câu hỏi 260
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following services use UDP? (Choose three.)
+a.
+
+DHCP
+
+b. SNMP
+c.
+d.
+
+TFTP
+FTP
+
+e.
+
+SMTP
+
+f.
+
+HTTP
+
+The correct answers are:
+DHCP,
+SNMP,
+TFTP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 261
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following are TCP/IP protocols used at the Application layer of the OSI model? (Choose three.)
+a.
+
+b.
+c.
+d.
+e.
+
+TCP
+
+TFTP
+Telnet
+IP
+FTP
+
+The correct answers are:
+Telnet,
+FTP,
+TFTP
+
+Câu hỏi 262
+Không trả lời
+Đạt điểm 1,00
+
+You have the binary number 10110011. Which two of the following are equivalent to this?
+a.
+
+0xB3
+
+b. 0x3C
+
+c.
+
+0xAC
+
+d. 179
+e.
+
+184
+
+f.
+
+128
+
+The correct answers are:
+179,
+
+0xB3
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 263
+Không trả lời
+Đạt điểm 1,00
+
+If you use either Telnet or FTP, which is the highest layer you are using to transmit data?
+a.
+
+Presentation
+
+b. Transport
+c.
+
+Session
+
+d. Application
+
+The correct answer is:
+Application
+
+Câu hỏi 264
+Không trả lời
+Đạt điểm 1,00
+
+The DoD model (also called the TCP/IP stack) has four layers. Which layer of the DoD model is equivalent to the Network layer of the OSI
+model?
+a.
+
+Internet
+
+b. Network Access
+c.
+d.
+
+Host-to-Host
+Application
+
+The correct answer is:
+Internet
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 265
+Không trả lời
+Đạt điểm 1,00
+
+You have the binary number 11000111. Which two of the following are equivalent to this?
+a.
+
+179
+
+b. 199
+c.
+
+d.
+e.
+f.
+
+0xB7
+
+0xC7
+228
+0x3C
+
+The correct answers are:
+199,
+0xC7
+
+Câu hỏi 266
+Không trả lời
+Đạt điểm 1,00
+
+What layer in the TCP/IP stack is equivalent to the Transport layer of the OSI model?
+a.
+
+Application
+
+b. Internet
+c.
+
+Network Access
+
+d. Host-to-Host
+
+The correct answer is:
+Host-to-Host
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 267
+Không trả lời
+Đạt điểm 1,00
+
+Your company uses Voice over IP (VoIP). The system sends UDP datagrams containing the voice data between communicating hosts. When
+areas of the network become busy, some of the datagrams arrive at their destination out of order. What happens when this occurs?
+a.
+
+UDP will drop the datagrams that arrive out of order.
+
+b. UDP will send an ICMP Information request message to the source host.
+c.
+
+UDP will use the sequence numbers in the datagram headers to reassemble the data into the order in which it was transmitted.
+
+d. UDP will pass the information in the datagrams up to the next OSI layer in the order in which they arrive.
+
+The correct answer is:
+
+UDP will pass the information in the datagrams up to the next OSI layer in the order in which they arrive.
+
+Câu hỏi 268
+Không trả lời
+Đạt điểm 1,00
+
+What is the address range of a Class B network address in binary?
+a.
+
+10xxxxxx
+
+b. 01xxxxxx
+c.
+d.
+
+0xxxxxxx
+110xxxxx
+
+The correct answer is:
+0xxxxxxx
+
+Câu hỏi 269
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following protocols use both TCP and UDP?
+a.
+
+FTP
+
+b. DNS
+c.
+
+Telnet
+
+d. SMTP
+
+The correct answer is:
+DNS
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 270
+Không trả lời
+Đạt điểm 1,00
+
+What subnet mask is needed if an IPv4 network has 40 devices that need IP addresses and address space is not to be wasted?
+a.
+b.
+
+c.
+
+255.255.255.192
+0xD9
+
+255.255.255.0
+
+d. 255.255.255.128
+e.
+
+255.255.255.240
+
+The correct answer is: 255.255.255.192
+
+Câu hỏi 271
+Không trả lời
+Đạt điểm 1,00
+
+PC1 needs to send a packet to PC3 so it sends an ARP request. In this scenario, what will happen next?
+
+a.
+
+PC3 will send an ARP reply with its MAC address
+
+b. RT1 will send an ARP reply with its Fa0/0 MAC address
+c.
+
+SW1 will send an ARP reply with its Fa0/1 MAC address
+
+d. RT1 will send an ARP reply with PC3 MAC address
+
+The correct answer is: RT1 will send an ARP reply with its Fa0/0 MAC address
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 272
+Không trả lời
+Đạt điểm 1,00
+
+PC1 needs to send a packet to PC3. When router RT1 receives packet, it sends an ARP request. In this scenario, what will happen next?
+
+a.
+
+PC1 will send an ARP reply with ít MAC address
+
+b. PC3 will send an ARP reply with Fa0/2 MAC address on SW2
+c.
+
+PC3 will send an ARP reply with its MAC address to Router RT1
+
+d. SW2 will send an ARP reply with its Fa0/1 MAC address
+
+The correct answer is: PC3 will send an ARP reply with its MAC address to Router RT1
+
+Câu hỏi 273
+Không trả lời
+Đạt điểm 1,00
+
+What is the subnetwork number of a host with an IP address of 172.16.210.0/22?
+a.
+b.
+c.
+d.
+
+e.
+
+172.16.252.0
+172.16.42.0
+172.16.208.0
+172.16.254.0
+
+172.16.107.0
+
+The correct answer is:
+172.16.208.0
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 274
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following IP addresses fall into the CIDR block of 115.64.4.0/22? (Choose three.)
+a.
+
+b.
+
+c.
+
+115.64.3.255
+
+115.64.12.128
+
+115.64.5.128
+
+d. 115.64.6.255
+e.
+
+115.64.7.64
+
+f.
+
+115.64.8.32
+
+The correct answers are:
+115.64.7.64,
+115.64.6.255,
+115.64.5.128
+
+Câu hỏi 275
+Không trả lời
+Đạt điểm 1,00
+
+What is the subnetwork address for a host with the IP address 200.10.5.68/28?
+a.
+
+200.10.5.64
+
+b. 200.10.5.0
+c.
+d.
+
+200.10.5.32
+200.10.5.56
+
+The correct answer is:
+200.10.5.64
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 276
+Không trả lời
+Đạt điểm 1,00
+
+The network address of 172.16.0.0/19 provides how many subnets and hosts?
+a.
+
+b.
+c.
+d.
+
+8 subnets, 30 hosts each
+
+7 subnets, 2046 hosts each
+7 subnets, 30 hosts each
+8 subnets, 2046 hosts each
+
+e.
+
+8 subnets, 8190 hosts each
+
+f.
+
+7 subnets, 8190 hosts each
+
+The correct answer is:
+8 subnets, 8190 hosts each
+
+Câu hỏi 277
+Không trả lời
+Đạt điểm 1,00
+
+You need 500 subnets, each with about 100 usable host addresses per subnet. What mask will you assign using a Class B network address?
+a.
+b.
+c.
+d.
+
+255.255.255.252
+255.255.255.0
+255.255.254.0
+255.255.255.128
+
+The correct answer is:
+255.255.255.128
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 278
+Không trả lời
+Đạt điểm 1,00
+
+Your router has a summary entry in the routing table of 192.168.144.0/20. Which of the following packet destination addresses will the router
+forward according to this summary address? (Choose two.)
+a.
+
+192.168.1.144
+
+b. 192.168.143.145
+
+c.
+
+192.168.160.11
+
+d. 192.168.151.254
+e.
+
+192.168.138.41
+
+f.
+
+192.168.159.2
+
+The correct answers are:
+192.168.159.2,
+
+192.168.151.254
+
+Câu hỏi 279
+Không trả lời
+Đạt điểm 1,00
+
+On a VLSM network, which mask should you use on point-to-point WAN links in order to reduce the waste of IP addresses?
+a.
+b.
+c.
+
+/30
+/28
+/27
+
+d. /31
+
+e.
+
+/29
+
+The correct answer is:
+/30
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 280
+Không trả lời
+Đạt điểm 1,00
+
+What is the subnetwork number of a host with an IP address of 172.16.66.0/21?
+a.
+
+172.16.0.0
+
+b. 172.16.48.0
+c.
+
+172.16.36.0
+
+d. 172.16.64.0
+
+The correct answer is:
+172.16.64.0
+
+Câu hỏi 281
+Không trả lời
+Đạt điểm 1,00
+
+What mask would you assign to the network ID of 172.16.0.0 if you needed about 100 subnets with about 500 hosts each?
+a.
+b.
+c.
+d.
+
+255.255.254.0
+255.255.0.0
+255.255.252.0
+255.255.255.0
+
+The correct answer is:
+255.255.254.0
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 282
+Không trả lời
+Đạt điểm 1,00
+
+You need to configure a server that is on the subnet 192.168.19.24/29. The router has the first available host address. Which of the following
+should you assign to the server?
+a.
+
+192.168.19.33 255.255.255.240
+
+b. 192.168.19.34 255.255.255.240
+
+c.
+
+192.168.19.31 255.255.255.248
+
+d. 192.168.19.0 255.255.255.0
+e.
+
+192.168.19.26 255.255.255.248
+
+The correct answer is:
+192.168.19.26 255.255.255.248
+
+Câu hỏi 283
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following IP addresses fall into the CIDR block of 110.68.4.0/18? (Choose three.)
+a.
+
+110.67.6.255
+
+b. 110.66.3.254
+
+c.
+
+110.65.5.128
+
+d. 110.68.7.64
+e.
+f.
+
+110.68.8.32
+110.64.12.128
+
+The correct answers are:
+110.68.7.64,
+
+110.67.6.255,
+110.65.5.128
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 284
+Không trả lời
+Đạt điểm 1,00
+
+You have the network shown in the following graphic. Which subnet mask do you need in order to design and implement this network in a
+classful manner?
+
+a.
+
+255.255.255.224
+
+b. 255.255.255.240
+c.
+
+255.255.255.192
+
+d. 255.255.255.248
+
+The correct answer is:
+255.255.255.224
+
+Câu hỏi 285
+Không trả lời
+Đạt điểm 1,00
+
+You need a minimum of 300 subnets with a maximum of 50 hosts per subnet. Which of the following masks will support the business
+requirements? (Choose two.)
+a.
+b.
+c.
+
+255.255.252.0
+255.255.255.0
+255.25.255.224
+
+d. 255.255.255.192
+e.
+
+f.
+
+255.255.248.0
+
+255.255.255.128
+
+The correct answers are:
+255.255.255.128,
+255.255.255.192
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 286
+Không trả lời
+Đạt điểm 1,00
+
+If an Ethernet port on a router were assigned an IP address of 172.16.112.1/25, what would be the valid subnet address of this host?
+a.
+
+172.16.112.0
+
+b. 172.16.128.0
+
+c.
+d.
+e.
+
+172.16.96.0
+172.16.0.0
+172.16.255.0
+
+The correct answer is:
+172.16.112.0
+
+Câu hỏi 287
+Không trả lời
+Đạt điểm 1,00
+
+You have a Class B network ID and need about 450 IP addresses per subnet. What is the best mask for this network?
+a.
+
+255.255.254.0
+
+b. 255.255.255.0
+c.
+
+255.255.248.0
+
+d. 255.255.240.0
+
+The correct answer is:
+255.255.254.0
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 288
+Không trả lời
+Đạt điểm 1,00
+
+You have a network as shown in the following graphic. Why can’t the host talk to the remote network?
+
+a.
+b.
+c.
+d.
+
+The host has the wrong IP address for the subnet.
+The host has an invalid default gateway address.
+The router and the host have different subnet masks.
+The default gateway is on another subnet.
+
+The correct answer is:
+The host has an invalid default gateway address.
+
+Câu hỏi 289
+Không trả lời
+Đạt điểm 1,00
+
+Which configuration command must be in effect to allow the use of 8 subnets if the Class C subnet mask is 255.255.255.224?
+a.
+
+Router(config)#ip all-nets
+
+b. Router(config)#ip unnumbered
+
+c.
+
+Router(config)#ip subnet-zero
+
+d. Router(config)#ip classless
+e.
+
+Router(config)#ip version 6
+
+f.
+
+Router(config)#no ip classful
+
+The correct answer is:
+Router(config)#ip subnet-zero
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 290
+Không trả lời
+Đạt điểm 1,00
+
+You have a network with a subnet of 172.16.17.0/22. Which are valid host addresses?
+a.
+
+172.16.20.1 255.255.254.0
+
+b. 172.16.0.1 255.255.255.0
+
+c.
+d.
+
+172.16.17.1 255.255.255.252
+172.16.16.1 255.255.255.240
+
+e.
+
+172.16.0.1 255.255.240.0
+
+f.
+
+172.16.18.255 255.255.252.0
+
+The correct answer is:
+172.16.18.255 255.255.252.0
+
+Câu hỏi 291
+Không trả lời
+Đạt điểm 1,00
+
+Your router has the following IP address on Ethernet0: 172.16.112.1/20. How many hosts can be accommodated on the Ethernet segment?
+a.
+b.
+c.
+d.
+e.
+
+2046
+4096
+1024
+4094
+8190
+
+The correct answer is:
+4094
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 292
+Không trả lời
+Đạt điểm 1,00
+
+You have a /27 subnet mask. Which of the following are valid hosts? (Choose three.)
+a.
+
+143.187.16.56
+
+b. 192.168.15.87
+c.
+
+11.244.18.63
+
+d. 200.45.115.159
+
+e.
+
+f.
+
+216.66.11.192
+
+90.10.170.93
+
+The correct answers are:
+90.10.170.93,
+143.187.16.56,
+192.168.15.87
+
+Câu hỏi 293
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following is a layer 2 protocol used to maintain a loop-free network?
+a.
+
+STP
+
+b. VTP
+c.
+
+RIP
+
+d. CDP
+
+The correct answer is: STP
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 294
+Không trả lời
+Đạt điểm 1,00
+
+You have 10 hosts plus a server connected to a switch. Each device is running 10Mbps half-duplex. What is the bandwidth available for each
+device when it communicates to the server?
+a.
+
+100Mbps
+
+b. 1Mpbs
+c.
+
+10Mbps
+
+d. 2Mbps
+
+The correct answer is:
+10Mbps
+
+Câu hỏi 295
+Không trả lời
+Đạt điểm 1,00
+
+What is the result of segmenting a network with a bridge (switch)? (Choose two options.)
+a.
+
+It decreases the number of collision domains.
+
+b. It decreases the number of broadcast domains.
+
+c.
+
+It makes smaller collision domains.
+
+d. It increases the number of broadcast domains.
+e.
+
+It makes larger collision domains.
+
+f.
+
+It increases the number of collision domains.
+
+The correct answers are:
+It increases the number of collision domains.,
+It makes smaller collision domains.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 296
+Không trả lời
+Đạt điểm 1,00
+
+What will occur if two Cisco LAN switches are connected with a single crossover cable?
+a.
+
+The switch port link lights will flash amber, indicating an error.
+
+b. The switch port link lights will be green, indicating normal operation.
+c.
+
+The switch port link lights will be off on both switches, indicating that the ports are not connected.
+
+d. The switch port link light will be off on one switch, indicating that STP has disabled the port.
+
+The correct answer is:
+The switch port link lights will be green, indicating normal operation.
+
+Câu hỏi 297
+Không trả lời
+Đạt điểm 1,00
+
+You want to ensure that only the server can connect to port fa0/1 on your Catalyst switch. What can you do to ensure that only the MAC
+address of the server is allowed by switch port fa0/1? (Choose two.)
+a.
+
+b.
+
+c.
+
+Configure an access list on the server to deny server traffic on all ports by port fa0/1.
+
+Bind the IP address of the server to its MAC address on the switch to prevent other hosts from spoofing the server IP address.
+
+Configure the MAC address of the server as a static entry associated with port fa0/1.
+
+d. Configure port security on fa0/1 to reject traffic with a source MAC address other than that of the server.
+e.
+
+Employ a proprietary connector type on fa0/1 that is incompatible with other host connectors.
+
+f.
+
+Configure port fa0/1 to accept connections only from the static IP address of the server.
+
+The correct answers are:
+Configure the MAC address of the server as a static entry associated with port fa0/1.,
+Configure port security on fa0/1 to reject traffic with a source MAC address other than that of the server.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 298
+Không trả lời
+Đạt điểm 1,00
+
+Which statement describes a spanning-tree network that has converged?
+a.
+
+All switch and bridge ports are assigned as either root or designated ports.
+
+b. All switch and bridge ports are in either the forwarding or blocking state.
+c.
+
+All switch and bridge ports are either blocking or looping.
+
+d. All switch and bridge ports are in the forwarding state.
+
+The correct answer is:
+All switch and bridge ports are in either the forwarding or blocking state.
+
+Câu hỏi 299
+Không trả lời
+Đạt điểm 1,00
+
+Your network design emphasizes efficient, error-free transport instead of fast transport. Which switching mode should be configured on the
+new switches to provide error-free transport to the network?
+a.
+
+FragmentFree
+
+b. Cut-through
+c.
+d.
+
+FastForward
+Store-and-forward
+
+The correct answer is:
+Store-and-forward
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 300
+Không trả lời
+Đạt điểm 1,00
+
+What are the three distinct functions of layer 2 switching that increase available bandwidth on the network? (Choose three.)
+a.
+
+Loop avoidance
+
+b. Address learning
+c.
+
+Forwarding and filtering
+
+d. Routing
+e.
+
+f.
+
+IP addressing
+
+Creating network loops
+
+The correct answers are:
+Address learning,
+Forwarding and filtering,
+Loop avoidance
+
+Câu hỏi 301
+Không trả lời
+Đạt điểm 1,00
+
+You are working on a network design and determine that a new testing application requires multiple hosts that must be capable of sharing
+data between each host and server running 10Mbps. Other departments use applications that require less than 3Mbps to the server. What
+should you recommend?
+a.
+
+Use a switch with a 100Mbps uplink to the server and 10Mbps to the hosts.
+
+b. Replace the 10Mbps Ethernet hub with a 100Mbps Ethernet hub.
+c.
+
+Use a bridge to break up collision domains.
+
+d. Install a router between departments.
+
+The correct answer is:
+Use a switch with a 100Mbps uplink to the server and 10Mbps to the hosts.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 302
+Không trả lời
+Đạt điểm 1,00
+
+What technology is used by Catalyst switches to resolve topology loops and ensure that data flows properly through a single network path?
+a.
+
+STP
+
+b. IGRP
+c.
+
+Store-and-forward
+
+d. RIP
+e.
+
+Cut-through
+
+The correct answer is:
+STP
+
+Câu hỏi 303
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following statements is true?
+a.
+
+A switch creates separate collision domains and separate broadcast domains. A router provides separate collision domains.
+
+b. A switch creates a single collision domain and a single broadcast domain. A router creates a single collision domain.
+c.
+
+A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain.
+
+d. A switch creates a single collision domain and separate broadcast domains. A router provides a separate broadcast domain as well.
+
+The correct answer is:
+A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 304
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following is true regarding layer 2 switches? (Choose two.)
+a.
+
+A switch is a multiport bridge.
+
+b. Switches learn IP addresses from each frame and filter the network using these addresses.
+c.
+
+Switches learn MAC addresses by examining the source address of each frame.
+
+d. A switch is a hub with more ports.
+
+The correct answers are:
+A switch is a multiport bridge.,
+Switches learn MAC addresses by examining the source address of each frame.
+
+Câu hỏi 305
+Không trả lời
+Đạt điểm 1,00
+
+What does a switch do when a frame is received on an interface and the destination MAC is unknown?
+a.
+
+Drops the frame
+
+b. Sends back a message to the originating station asking for a name resolution
+c.
+
+Forwards the switch to the first available link
+
+d. Floods the network with the frame looking for the device
+
+The correct answer is: Floods the network with the frame looking for the device
+
+Câu hỏi 306
+Không trả lời
+Đạt điểm 1,00
+
+Which LAN switch type waits for the collision window to pass before looking up the destination hardware address in the MAC filter table and
+forwarding the frame?
+a.
+
+Store-and-forward
+
+b. Cut-through
+c.
+
+FragmentFree
+
+d. FragmentCheck
+
+The correct answer is:
+FragmentFree
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 307
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following are spanning-tree switch port states? (Choose three.)
+a.
+
+Forwarding
+
+b. FragmentFree
+
+c.
+d.
+e.
+
+Learning
+Cut-through
+Listening
+
+The correct answers are:
+Learning,
+Listening,
+Forwarding
+
+Câu hỏi 308
+Không trả lời
+Đạt điểm 1,00
+
+Your core switch needs to be set as the root bridge of your network. What will make your core switch the root bridge?
+a.
+
+Setting the bridge priority to more than 32,768
+
+b. Setting the bridge priority to less than 32,768
+c.
+
+Setting the STP protocol lower
+
+d. Setting the MAC address of the switch lower
+
+The correct answer is:
+Setting the bridge priority to less than 32,768
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 309
+Không trả lời
+Đạt điểm 1,00
+
+What purpose in a switched LAN does STP perform?
+a.
+
+Prevent routing loops in a network with redundant paths.
+
+b. Create multiple broadcast domains in a layer 2 switched network.
+c.
+
+Allow VLAN information to be passed in a trunked link.
+
+d. Prevent switching loops in a network with redundant switched paths.
+
+The correct answer is:
+Prevent switching loops in a network with redundant switched paths.
+
+Câu hỏi 310
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following is a characteristic of having a network segment on a switch?
+a.
+b.
+c.
+d.
+
+The segment can translate from one media to a different media.
+All devices on a segment are part of a different broadcast domain.
+The segment is many collision domains.
+One device per segment can send frames to the switch at a time.
+
+The correct answer is:
+One device per segment can send frames to the switch at a time.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 311
+Không trả lời
+Đạt điểm 1,00
+
+Judging by the outputs below, which switch device would be the spanning-tree root bridge?
+VAIL#sh spanning-tree
+Spanning tree enabled protocol ieee
+Root ID
+
+Priority
+
+32768, Address
+
+0009.7ccf.a880
+
+Hello Time 2 sec Max Age 20 sec Forward Delay 15 sec
+Breckenridge#sh spanning-tree
+Spanning tree enabled protocol ieee
+Root ID
+
+Priority
+
+16384, Address
+
+0009.7ccf.a880
+
+Hello Time 2 sec Max Age 20 sec Forward Delay 15 sec
+Keystone#sh spanning-tree
+Spanning tree enabled protocol ieee
+Root ID
+
+Priority 8192, Address
+
+0009.7ccf.a880
+
+Hello Time 2 sec Max Age 20 sec Forward Delay 15 sec
+CopperMtn#sh spanning-tree
+Spanning tree enabled protocol ieee
+Root ID
+
+Priority
+
+4096, Address
+
+0009.7ccf.a880
+
+Hello Time 2 sec Max Age 20 sec Forward Delay 15 sec
+a.
+
+Vail
+
+b. CopperMtn
+c.
+
+Keystone
+
+d. Breckenridge
+
+The correct answer is:
+CopperMtn
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 312
+Không trả lời
+Đạt điểm 1,00
+
+Nếu Host A muốn gửi gói tin đến Host B, địa chỉ đích nào sẽ ở trong khung (frame) dữ liệu khi nó vừa rời khỏi Host A?
+
+a.
+
+172.168.10.130
+
+b. BB:BB:BB:BB:BB:BB
+c.
+
+AA:AA:AA:AA:AA:AA
+
+d. 172.168.11.65
+e.
+
+172.168.11.88
+
+f.
+
+CC:CC:CC:CC:CC:CC
+
+The correct answer is: BB:BB:BB:BB:BB:BB
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 313
+Không trả lời
+Đạt điểm 1,00
+
+If host A want to send packet to host B, what will the destination IP address be in the packet when it leaves host A?
+
+a.
+
+172.168.11.65
+
+b. AA:AA:AA:AA:AA:AA
+c.
+
+CC:CC:CC:CC:CC:CC
+
+d. 172.168.11.88
+e.
+
+BB:BB:BB:BB:BB:BB
+
+f.
+
+172.168.10.130
+
+The correct answer is: 172.168.11.88
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 314
+Không trả lời
+Đạt điểm 1,00
+
+If host A want to send packet to host B, what will the source address be in the frame when it leaves Router R1?
+
+a.
+
+172.168.10.130
+
+b. 172.168.11.65
+c.
+
+172.168.11.88
+
+d. BB:BB:BB:BB:BB:BB
+e.
+
+CC:CC:CC:CC:CC:CC
+
+f.
+
+AA:AA:AA:AA:AA:AA
+
+The correct answer is: CC:CC:CC:CC:CC:CC
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 315
+Không trả lời
+Đạt điểm 1,00
+
+Host A on subnet Teachers transmits a packet to host C on subnet Students. Which Layer 2 and Layer 3 addresses are contained in the PDUs
+that are transmitted from host B to the router?
+
+a.
+
+Destination MAC: 00-00-0c-94-36-cc
+Source MAC: 00-00-0c-94-36-aa
+Destination IP: 172.16.20.100
+Source IP: 172.16.10.100
+
+b. Destination MAC: 00-00-0c-94-36-ab
+Source MAC: 00-00-0c-94-36-cc
+Destination IP: 172.16.20.100
+Source IP: 172.16.10.100
+
+c.
+
+Destination MAC: 00-00-0c-94-36-cd
+Source MAC: 00-00-0c-94-36-aa
+Destination IP: 172.16.20.100
+Source IP: 172.16.10.100
+
+d. Destination MAC: 00-00-0c-94-36-ab
+Source MAC: 00-00-0c-94-36-aa
+Destination IP: 172.16.20.100
+Source IP: 172.16.10.100
+
+The correct answer is: Destination MAC: 00-00-0c-94-36-ab
+Source MAC: 00-00-0c-94-36-aa
+Destination IP: 172.16.20.100
+Source IP: 172.16.10.100
+
+Câu hỏi 316
+Không trả lời
+Đạt điểm 1,00
+
+What need to configure on a host can help communicate with hosts in other networks.
+a.
+
+DNS
+
+b. Subnetmask
+c.
+
+IP
+
+d. The default gateway
+
+The correct answer is: The default gateway
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 317
+Không trả lời
+Đạt điểm 1,00
+
+A user is attempting to access http://www.cisco.com/ without success. Which two configuration values must be set on the host to allow this
+access? (Choose two.)
+a.
+
+The default gateway
+
+b. Source port and Destination port
+c.
+
+Source MAC and Destination MAC
+
+d. DNS Server
+
+The correct answers are: The default gateway , DNS Server
+
+Câu hỏi 318
+Không trả lời
+Đạt điểm 1,00
+
+PC Sales can not connect to ServerA in Marketing, which is wrong IP?
+
+a.
+
+192.168.1.86
+
+b. 192.168.1.81
+c.
+
+192.168.1.41
+
+d. 192.168.1.87
+e.
+
+192.168.1.30
+
+f.
+
+192.168.1.42
+
+The correct answer is: 192.168.1.87
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 319
+Không trả lời
+Đạt điểm 1,00
+
+If host B want to send packet to host A, what will the destination IP address be in the packet when it leaves host B?
+
+a.
+
+172.168.11.88
+
+b. 172.168.10.130
+c.
+
+172.168.10.99
+
+d. AA:AA:AA:AA:AA:AA
+e.
+
+CC:CC:CC:CC:CC:CC
+
+f.
+
+BB:BB:BB:BB:BB:BB
+
+The correct answer is: 172.168.11.88
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 320
+Không trả lời
+Đạt điểm 1,00
+
+If host A want to send packet to host B, what will the destination address be in the frame when it leaves Router R1?
+
+a.
+
+BB:BB:BB:BB:BB:BB
+
+b. 172.168.10.130
+c.
+
+172.168.11.65
+
+d. 172.168.11.88
+e.
+
+AA:AA:AA:AA:AA:AA
+
+f.
+
+DD:DD:DD:DD:DD:DD
+
+The correct answer is: DD:DD:DD:DD:DD:DD
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 321
+Không trả lời
+Đạt điểm 1,00
+
+If host A want to send packet to host B, what is the gateway in host A?
+
+a.
+
+172.168.10.129
+
+b. 172.168.11.88
+c.
+
+172.168.10.130
+
+d. 172.168.10.99
+e.
+
+172.168.10.65
+
+f.
+
+172.168.11.65
+
+The correct answer is: 172.168.10.65
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 322
+Không trả lời
+Đạt điểm 1,00
+
+If host B want to send packet to host A, what is the gateway in host B?
+
+a.
+
+172.168.10.99
+
+b. 172.168.10.130
+c.
+
+172.168.10.65
+
+d. 172.168.11.65
+e.
+
+172.168.10.129
+
+f.
+
+172.168.11.88
+
+The correct answer is:
+172.168.11.65
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 323
+Không trả lời
+Đạt điểm 1,00
+
+Network 206.143.5.0 was assigned to the Acme Company to connect to its ISP. The administrator of Acme would like to configure one router
+with the commands to access the Internet. Which commands could be configured on the Gateway router to allow Internet access to the
+entire network? (Choose two.)
+a.
+
+Gateway(config)#router rip
+
+b. Gateway(config)#ip default-network 206.143.5.0
+c.
+
+d.
+e.
+
+f.
+
+Gateway(config)#ip route 206.143.5.0 255.255.255.0 default
+
+Gateway(config)#router rip
+Gateway(config-router)#network 206.143.5.0 default
+
+Gateway(config-router)#network 206.143.5.0
+
+g. Gateway(config)#ip route 0.0.0.0 0.0.0.0 206.143.5.2
+
+The correct answers are:
+Gateway(config)#ip route 0.0.0.0 0.0.0.0 206.143.5.2,
+Gateway(config)#ip default-network 206.143.5.0
+
+Câu hỏi 324
+Không trả lời
+Đạt điểm 1,00
+
+What command is used to stop RIP routing updates from exiting out an interface but still receive RIP route updates?
+a.
+
+Router(config-router)#passive-interface s0
+
+b. Router(config-router)#no routing updates
+c.
+
+Router(config-if)#passive-interface
+
+d. Router(config-if)#no routing
+
+The correct answer is:
+Router(config-router)#passive-interface s0
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 325
+Không trả lời
+Đạt điểm 1,00
+
+Host_A want to send data to the HTTPS server as shown in the graphic below. What is gateway in HostA ? (Choose two.)
+
+a.
+
+The IP address of the HTTPS server
+
+b. The IP address of RouterA’s Fa0/0 interface
+c.
+
+The IP address of RouterA’s Fa0/1 interface
+
+d. The IP address of the Switch
+
+The correct answer is: The IP address of RouterA’s Fa0/0 interface
+
+Câu hỏi 326
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following statements are true regarding the command ip route 172.16.4.0
+255.255.255.0 192.168.4.2? (Choose two.)
+a.
+
+b.
+c.
+d.
+e.
+
+The command is used to establish a stub network.
+
+The default administrative distance is used.
+The subnet mask for the source address is 255.255.255.0.
+The command is used to establish a static route.
+The command is used to configure the default route.
+
+The correct answers are:
+The command is used to establish a static route.,
+The default administrative distance is used.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 327
+Không trả lời
+Đạt điểm 1,00
+
+What destination addresses will be used by Host_A to send data to the HTTPS server as shown in the graphic below? (Choose two.)
+
+a.
+
+The IP address of the HTTPS server
+
+b. The IP address of RouterA’s Fa0/0 interface
+c.
+
+The IP address of the switch
+
+d. The MAC address of the HTTPS server
+e.
+f.
+
+The MAC address of RouterA’s Fa0/0 interface
+
+The correct answers are: The IP address of the HTTPS server, The MAC address of RouterA’s Fa0/0 interface
+
+Câu hỏi 328
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following is true regarding the following output? (Choose two.)
+04:06:16: RIP: received v1 update from 192.168.40.2 on Serial0/1
+04:06:16:
+
+192.168.50.0 in 16 hops (inaccessible)
+
+04:06:40: RIP: sending v1 update to 255.255.255.255 via FastEthernet0/0 (192.168.30.1)
+04:06:40: RIP: build update entries
+04:06:40:
+
+network 192.168.20.0 metric 1
+
+04:06:40:
+
+network 192.168.40.0 metric 1
+
+04:06:40:
+
+network 192.168.50.0 metric 16
+
+04:06:40: RIP: sending v1 update to 255.255.255.255 via Serial0/1 (192.168.40.1)
+
+a.
+
+A ping to 192.168.50.1 will be successful.
+
+b. There are at least two routers exchanging information.
+c.
+
+There are three interfaces on the router participating in this update.
+
+d. A ping to 192.168.40.2 will be successful.
+
+The correct answers are:
+There are at least two routers exchanging information.,
+A ping to 192.168.40.2 will be successful.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 329
+Không trả lời
+Đạt điểm 1,00
+
+What is split horizon?
+a.
+
+Information about a route should not be sent back in the direction from which the original update came.
+
+b. It holds the regular updates from broadcasting to a downed link.
+c.
+
+It prevents regular update messages from reinstating a route that has gone down.
+
+d. It splits the traffic when you have a large bus (horizon) physical network.
+
+The correct answer is:
+Information about a route should not be sent back in the direction from which the original update came.
+
+Câu hỏi 330
+Không trả lời
+Đạt điểm 1,00
+
+Using the graphic from question 4, which of the following would be true if HostA is trying to communicate to HostC and interface Fa0/0 of
+Router C goes down? (Choose two.)
+a.
+
+RouterC will use ICMP to inform HostA, RouterA, and RouterB that HostB cannot be reached.
+
+b. RouterC will use ICMP to inform RouterB that HostB cannot be reached.
+c.
+
+RouterC will send a Source Quench message type.
+
+d. RouterC will send a Router Selection message type.
+
+e.
+
+RouterC will send a Destination Unreachable message type.
+
+f.
+
+RouterC will use an ICMP to inform HostA that HostB cannot be reached.
+
+The correct answers are:
+RouterC will use an ICMP to inform HostA that HostB cannot be reached.,
+RouterC will send a Destination Unreachable message type.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 331
+Không trả lời
+Đạt điểm 1,00
+
+Which statement is true regarding classless routing protocols? (Choose two.)
+a.
+
+b.
+c.
+d.
+e.
+
+IGRP supports classless routing within the same autonomous system.
+
+RIPv2 supports classless routing.
+RIPv1 is a classless routing protocol.
+The use of discontiguous networks is not allowed.
+The use of variable length subnet masks is permitted.
+
+The correct answers are:
+The use of variable length subnet masks is permitted.,
+RIPv2 supports classless routing.
+
+Câu hỏi 332
+Không trả lời
+Đạt điểm 1,00
+
+Which two of the following are true regarding the distance-vector and link-state routing protocols?
+a.
+b.
+c.
+d.
+
+Distance vector sends its complete routing table out all active interfaces on periodic time intervals.
+Distance vector sends updates containing the state of their own links to all routers in the internetwork.
+Link state sends updates containing the state of their own links to all routers in the internetwork.
+Link state sends its complete routing table out all active interfaces on periodic time intervals.
+
+The correct answers are:
+Distance vector sends its complete routing table out all active interfaces on periodic time intervals.,
+Link state sends updates containing the state of their own links to all routers in the internetwork.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 333
+Không trả lời
+Đạt điểm 1,00
+
+Which command displays RIP routing updates?
+a.
+
+show protocols
+
+b. show ip route
+c.
+
+debug ip route
+
+d. debug ip rip
+
+The correct answer is:
+debug ip rip
+
+Câu hỏi 334
+Không trả lời
+Đạt điểm 1,00
+
+What does RIPv2 use to prevent routing loops? (Choose two.)
+a.
+b.
+
+c.
+
+Holddown timers
+Classless masking
+
+Authentication
+
+d. CIDR
+e.
+
+Split horizon
+
+The correct answers are:
+Split horizon,
+Holddown timers
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 335
+Không trả lời
+Đạt điểm 1,00
+
+A network administrator views the output from the show ip route commanA network that is advertised by both RIP and IGRP appears in the
+routing table flagged as an IGRP routWhy is the RIP route to this network not used in the routing table?
+a.
+
+The IGRP route has fewer hops.
+
+b. RIP has a higher metric value for that route.
+c.
+
+IGRP has a lower administrative distance.
+
+d. IGRP has a faster update timer.
+e.
+
+The RIP path has a routing loop.
+
+The correct answer is:
+IGRP has a lower administrative distance.
+
+Câu hỏi 336
+Không trả lời
+Đạt điểm 1,00
+
+You type debug ip rip on your router console and see that 172.16.10.0 is being advertised to you with a metric of 16. What does this mean?
+a.
+
+The route is inaccessible.
+
+b. The route is 16 hops away.
+c.
+
+The route has a delay of 16 microseconds.
+
+d. The route is queued at 16 messages a second.
+
+The correct answer is:
+
+The route is inaccessible.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 337
+Không trả lời
+Đạt điểm 1,00
+
+IGRP uses which of the following as default parameters for finding the best path to a remote network? (Choose two.)
+a.
+
+b.
+c.
+d.
+e.
+
+STP
+
+Path bandwidth value
+Hop count
+Cumulative interface delay
+MTU
+
+The correct answers are:
+Cumulative interface delay,
+Path bandwidth value
+
+Câu hỏi 338
+Không trả lời
+Đạt điểm 1,00
+
+The corporate router receives an IP packet with a source IP address of 192.168.214.20 and a destination address of 192.168.22.3. Looking at
+the output from the Corporate router, what will the router do with this packet?
+Corp#sh ip route
+[output cut]
+R
+
+192.168.215.0 [120/2] via 192.168.20.2, 00:00:23, Serial0/0
+
+R
+
+192.168.115.0 [120/1] via 192.168.20.2, 00:00:23, Serial0/0
+
+R
+
+192.168.30.0 [120/1] via 192.168.20.2, 00:00:23, Serial0/0
+
+C
+
+192.168.20.0 is directly connected, Serial0/0
+
+C
+
+192.168.214.0 is directly connected, FastEthernet0/0
+a.
+
+The router will broadcast looking for the destination.
+
+b. The packets will be routed out the S0/0 interface.
+c.
+d.
+
+The packets will be routed out the Fa0/0 interface.
+The packets will be discarded.
+
+The correct answer is:
+The packets will be discarded.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 339
+Không trả lời
+Đạt điểm 1,00
+
+If your routing table has a static, a RIP, and an IGRP route to the same network, which route will be used to route packets by default?
+a.
+
+RIP route
+
+b. They will all load-balance.
+
+c.
+d.
+e.
+
+IGRP route
+Static route
+Any available route
+
+The correct answer is:
+Static route
+
+Câu hỏi 340
+Không trả lời
+Đạt điểm 1,00
+
+You have the following routing tablWhich of the following networks will not be placed in the neighbor routing table?
+R
+
+192.168.30.0/24 [120/1] via 192.168.40.1, 00:00:12, Serial0
+
+C
+
+192.168.40.0/24 is directly connected, Serial0
+172.16.0.0/24 is subnetted, 1 subnets
+
+C
+
+172.16.30.0 is directly connected, Loopback0
+
+R
+
+192.168.20.0/24 [120/1] via 192.168.40.1, 00:00:12, Serial0
+
+R
+
+10.0.0.0/8 [120/15] via 192.168.40.1, 00:00:07, Serial0
+
+C
+
+192.168.50.0/24 is directly connected, Ethernet0
+a.
+
+192.168.30.0
+
+b. 10.0.0.0
+c.
+
+All of them will be placed in the neighbor routing table.
+
+d. 172.16.30.0
+
+The correct answer is:
+10.0.0.0
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 341
+Không trả lời
+Đạt điểm 1,00
+
+Two connected routers are configured with RIP routing. What will be the result when a router receives a routing update that contains a
+higher-cost path to a network already in its routing table?
+a.
+
+The updated information will replace the existing routing table entry.
+
+b. The update will be ignored and no further action will occur.
+c.
+
+The existing routing table entry will be deleted from the routing table and all routers will exchange routing updates to reach
+
+convergence.
+d.
+
+The updated information will be added to the existing routing table.
+
+The correct answer is:
+The update will be ignored and no further action will occur.
+
+Câu hỏi 342
+Không trả lời
+Đạt điểm 1,00
+
+What is route poisoning?
+a.
+
+It prevents regular update messages from reinstating a route that has just come up.
+
+b. It describes when a router sets the metric for a downed link to infinity.
+c.
+
+It is information received from a router that can’t be sent back to the originating router.
+
+d. It sends back the protocol received from a router as a poison pill, which stops the regular updates.
+
+The correct answer is:
+It describes when a router sets the metric for a downed link to infinity.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 343
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following is true regarding RIPv2?
+a.
+
+It has the same timers as RIPv1.
+
+b. It has a lower administrative distance than RIPv1.
+c.
+
+It converges faster than RIPv1.
+
+d. It is harder to configure than RIPv1.
+
+The correct answer is:
+It has the same timers as RIPv1.
+
+Câu hỏi 344
+Không trả lời
+Đạt điểm 1,00
+
+What destination addresses will be used by HTTP Server reply data to the HostA as shown in the graphic below? (Choose two.)
+
+a.
+
+The IP address of RouterA’s Fa0/1 interface
+
+b. The MAC address of the HostA
+c.
+
+The IP address of the HostA
+
+d. The IP address of the switch
+e.
+f.
+
+The MAC address of RouterA’s Fa0/1 interface
+
+The correct answers are: The IP address of the HostA, The MAC address of RouterA’s Fa0/1 interface
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 345
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following is true regarding VLANs?
+a.
+
+You must have at least two VLANs defined in every Cisco switched network.
+
+b. All VLANs are configured at the fastest switch and, by default, propagate this information to all other switches.
+c.
+
+VTP is used to send VLAN information to switches in a configured VTP domain.
+
+d. You should not have more than 10 switches in the same VTP domain.
+
+The correct answer is: VTP is used to send VLAN information to switches in a configured VTP domain.
+
+Câu hỏi 346
+Không trả lời
+Đạt điểm 1,00
+
+According to the graphic below, which of the following describes the router port configuration and the switch port configuration as shown in
+the topology? (Choose three.)
+
+a.
+
+The router port connected to the switch is configured at 10Mbps.
+
+b. The router port connected to the switch is configured using subinterfaces.
+c.
+
+The switch port connected to the router is configured as a trunking port.
+
+d. The router WAN port is configured as a trunk port.
+e.
+
+The switch port connected to the hosts are configured as access ports.
+
+f.
+
+The switch port connected to the hub is configured as full duplex.
+
+The correct answers are:
+
+The router port connected to the switch is configured using subinterfaces.,
+The switch port connected to the router is configured as a trunking port.,
+The switch port connected to the hosts are configured as access ports.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 347
+Không trả lời
+Đạt điểm 1,00
+
+A switch has been configured for three different VLANs: VLAN2, VLAN3, and VLAN4. A router has been added to provide communication
+between the VLANs. What type of interface is necessary on the router if only one connection is to be made between the router and the
+switch?
+a.
+b.
+c.
+d.
+
+1Gbps Ethernet
+10Mbps Ethernet
+100Mbps Ethernet
+56Kbps Serial
+
+The correct answer is:
+100Mbps Ethernet
+
+Câu hỏi 348
+Không trả lời
+Đạt điểm 1,00
+
+You want to improve network performance by increasing the bandwidth available to hosts and limit the size of the broadcast domains. Which
+of the following options will achieve this goal?
+a.
+
+Switches
+
+b. Bridges
+c.
+
+Switches configured with VLANs
+
+d. Managed hubs
+
+The correct answer is:
+Switches configured with VLANs
+
+Câu hỏi 349
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following protocols are used to configure trunking on a switch? (Choose two.)
+a.
+
+VLAN
+
+b. VLAN Trunk Protocol
+c.
+
+802.1Q
+
+d. ISL
+
+The correct answers are: 802.1Q, ISL
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 350
+Không trả lời
+Đạt điểm 1,00
+
+When a new trunk link is configured on an IOS-based switch, which VLANs are allowed over the link?
+a.
+
+Each single VLAN, or VLAN range, must be specified with the vtp domain command.
+
+b. Each single VLAN, or VLAN range, must be specified with the vlan database command.
+c.
+
+Each single VLAN, or VLAN range, must be specified with the switchport mode command.
+
+d. By default, all VLANs are allowed on the trunk.
+
+The correct answer is:
+By default, all VLANs are allowed on the trunk.
+
+Câu hỏi 351
+Không trả lời
+Đạt điểm 1,00
+
+Which switching technology reduces the size of a broadcast domain?
+a.
+b.
+c.
+d.
+
+STP
+VLANs
+ISL
+802.1Q
+
+The correct answer is:
+VLANs
+
+Câu hỏi 352
+Không trả lời
+Đạt điểm 1,00
+
+What VTP mode allows you to change VLAN information on the switch?
+a.
+
+Transparent
+
+b. Client
+c.
+
+STP
+
+d. Server
+
+The correct answer is: Server
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 353
+Không trả lời
+Đạt điểm 1,00
+
+VLAN membership information into Ethernet frames?
+a.
+
+b.
+c.
+d.
+e.
+
+f.
+
+Switch(config-if)#switchport trunk encapsulation isl
+
+Switch(config)#switchport trunk encapsulation isl
+Switch(config-if)#switchport trunk encapsulation dot1q
+Switch(config)#switchport trunk encapsulation dot1q
+Switch(config-if)#switchport trunk encapsulation ietf
+
+Switch(config)#switchport trunk encapsulation ietf
+
+The correct answer is:
+Switch(config-if)#switchport trunk encapsulation dot1q
+
+Câu hỏi 354
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following is true regarding VTP?
+a.
+b.
+c.
+d.
+
+VTP is on by default with a domain name of Cisco on all Cisco switches.
+All switches are VTP transparent by default.
+All switches are VTP servers by default.
+All switches are VTP clients by default.
+
+The correct answer is:
+All switches are VTP servers by default.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 355
+Không trả lời
+Đạt điểm 1,00
+
+Which protocol reduces administrative overhead in a switched network by allowing the configuration of a new VLAN to be distributed to all
+the switches in a domain?
+a.
+
+VTP
+
+b. DHCP
+c.
+
+STP
+
+d. ISL
+
+The correct answer is:
+VTP
+
+Câu hỏi 356
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following commands sets a trunk port on a 2950 switch?
+a.
+
+trunk on
+
+b. trunk all
+c.
+d.
+
+switchport mode trunk
+switchport trunk on
+
+The correct answer is:
+switchport mode trunk
+
+Câu hỏi 357
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following is an IEEE standard for frame VLAN tagging?
+a.
+
+802.1Q
+
+b. 802.3Z
+c.
+
+ISL
+
+d. 802.3U
+
+The correct answer is: 802.1Q
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 358
+Không trả lời
+Đạt điểm 1,00
+
+You connect a host to a switch port, but the new host cannot log into the server that is plugged into the same switch. What could the
+problem be? (Choose the most likely answer.)
+a.
+
+The router is not configured for the new host.
+
+b. The host has an invalid MAC address.
+c.
+
+The VTP configuration on the switch is not updated for the new host.
+
+d. The switch port the host is connected to is not configured to the correct VLAN membership.
+
+The correct answer is:
+
+The switch port the host is connected to is not configured to the correct VLAN membership.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 359
+Không trả lời
+Đạt điểm 1,00
+
+According to the graphic, which three commands can be used to establish a link with the router’s Fast Ethernet interface using the IEEE
+version of frame tagging?
+
+a.
+
+b.
+c.
+
+Switch(config-if)#switchport access vlan 1
+
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport mode trunk
+
+d. Switch(config)#interface fastethernet 0/1
+e.
+
+Switch(config-if)#switchport trunk encapsulation isl
+
+f.
+
+Switch(config-if)#switchport trunk encapsulation dot1q
+
+The correct answers are:
+Switch(config)#interface fastethernet 0/1,
+Switch(config-if)#switchport mode trunk,
+Switch(config-if)#switchport trunk encapsulation dot1q
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 360
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following provide inter-switch VLAN communication? (Choose two.)
+a.
+
+VTP
+
+b. 802.3Z
+c.
+
+ISL
+
+d. 802.1Q
+
+The correct answers are:
+ISL,
+802.1Q
+
+Câu hỏi 361
+Không trả lời
+Đạt điểm 1,00
+
+To configure the VLAN trunking protocol to communicate VLAN information between two switches, what two requirements must be met?
+a.
+
+All ports on both the switches must be set as access ports.
+
+b. One of the two switches must be configured as a VTP server.
+c.
+
+Each end of the trunk link must be set to the IEEE 802.1e encapsulation.
+
+d. A router must be used to forward VTP traffic between VLANs.
+
+e.
+
+f.
+
+A rollover cable is required to connect the two switches together.
+
+The VTP management domain name of both switches must be set the same.
+
+The correct answers are:
+The VTP management domain name of both switches must be set the same.,
+One of the two switches must be configured as a VTP server.
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 362
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following are benefits of VLANs? (Choose three.)
+a.
+
+They allow logical grouping of users by function.
+
+b. They can enhance network security.
+c.
+
+They increase the number of broadcast domains while decreasing the size of the broadcast domains.
+
+d. They increase the size of broadcast domains while decreasing the number of collision domains.
+
+e.
+
+f.
+
+They simplify switch administration.
+
+They increase the size of collision domains.
+
+The correct answers are:
+They allow logical grouping of users by function.,
+They can enhance network security.,
+They increase the number of broadcast domains while decreasing the size of the broadcast domains.
+
+Câu hỏi 363
+Không trả lời
+Đạt điểm 1,00
+
+Which of the following modes are valid when a switch port is used as a VLAN trunk? (Choose three.)
+a.
+
+Blocking
+
+b. Transparent
+
+c.
+
+Desirable
+
+d. On
+e.
+
+Auto
+
+f.
+
+Learning
+
+The correct answers are:
+Auto,
+Desirable,
+On
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 364
+Không trả lời
+Đạt điểm 1,00
+
+Which type of record in DNS Server relating to mail service?
+a.
+
+MX
+
+b. CNAME
+c.
+
+AAA
+
+d. A
+e.
+
+PTR
+
+The correct answer is:
+MX
+
+Câu hỏi 365
+Không trả lời
+Đạt điểm 1,00
+
+Which type of record in DNS Server relating to an authoritative name server?
+a.
+
+CNAME
+
+b. AAAA
+c.
+
+A
+
+d. PTR
+e.
+
+NS
+
+The correct answer is:
+NS
+
+Câu hỏi 366
+Không trả lời
+Đạt điểm 1,00
+
+The HTTP GET message is used ....
+a.
+
+to request an HTML page from a web server
+
+b. to upload content to a web server from a web client
+c.
+
+to send error information from a web server to a web client
+
+d. to retrieve client email from an email server using TCP port 110
+
+The correct answer is:
+
+to request an HTML page from a web server
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 367
+Không trả lời
+Đạt điểm 1,00
+
+Which two type of methods in HTTP?
+a.
+
+PUSH
+
+b. POST
+c.
+
+EXIT
+
+d. PUT
+e.
+
+INPUT
+
+The correct answers are: POST,
+PUT
+
+Câu hỏi 368
+Không trả lời
+Đạt điểm 1,00
+
+DNS MX record is used to contain information of.....
+a.
+
+an authoritative name server
+
+b. the domain name mapped to mail exchange servers
+c.
+
+the IP address for an FQDN entry
+
+d. the IP address of an authoritative name server
+
+The correct answer is:
+
+the domain name mapped to mail exchange servers
+
+Câu hỏi 369
+Không trả lời
+Đạt điểm 1,00
+
+Which type of protocol use to secure access web content hosted by a web server.
+a.
+
+HTTP
+
+b. TCP
+c.
+
+SSL
+
+d. WEBSITE
+e.
+
+HTTPS
+
+The correct answer is:
+HTTPS
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 370
+Không trả lời
+Đạt điểm 1,00
+
+A client want to securely access web content hosted by a web server. What number will be used as the destination port number in the
+sending packet?
+a.
+
+8080
+
+b. 443
+c.
+
+25
+
+d. 80
+e.
+
+110
+
+The correct answer is:
+443
+
+Câu hỏi 371
+Không trả lời
+Đạt điểm 1,00
+
+Kích thước của Ipv6 header là?
+a.
+
+20-40bytes
+
+b. 32bytes
+c.
+
+40bytes
+
+d. 60bytes
+e.
+
+20bytes
+
+The correct answer is:
+40bytes
+
+Câu hỏi 372
+Không trả lời
+Đạt điểm 1,00
+
+Kích thước của địa chỉ Ipv6 là?
+a.
+
+64bits
+
+b. 32bits
+c.
+
+28bits
+
+d. 128bits
+
+The correct answer is:
+128bits
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 373
+Không trả lời
+Đạt điểm 1,00
+
+Kích thước của địa chỉ Ipv4 là?
+a.
+
+32bits
+
+b. 28bits
+c.
+
+128bits
+
+d. 64bits
+
+The correct answer is:
+32bits
+
+Câu hỏi 374
+Không trả lời
+Đạt điểm 1,00
+
+Thư mục C:\DATA có quyền NTFS là read & execute được copy sang D:\SAVE - có quyền NTFS là write. Hỏi thư mục DATA có quyền NTFS gì
+sau khi copy xong?
+a.
+
+read & execute
+
+b. full controll
+c.
+
+read, write, và execute
+
+d. wirte
+
+The correct answer is:
+wirte
+
+Câu hỏi 375
+Không trả lời
+Đạt điểm 1,00
+
+Thư mục D:\DATA có quyền NTFS là read & execute được di chuyển sang D:\SAVE - có quyền NTFS là write. Hỏi thư mục DATA có quyền
+
+NTFS gì sau khi di chuyển xong?
+a.
+
+wirte
+
+b. read & execute
+c.
+
+read, write, và execute
+
+d. full controll
+
+The correct answer is:
+read & execute
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 376
+Không trả lời
+Đạt điểm 1,00
+
+Kích thước của Ipv6 header là?
+a.
+
+48 bytes
+
+b. 60 bytes
+c.
+
+20-60 bytes
+
+d. 20 bytes
+e.
+
+40 bytes
+
+The correct answer is: 40 bytes
+
+Câu hỏi 377
+Không trả lời
+Đạt điểm 1,00
+
+Một miền quảng bá (broadcast domain) tương ứng với những khái niệm nào sau đây?
+a.
+
+Collision Domain
+
+b. AD
+c.
+
+Logical network/subnet
+
+d. VTP domain
+e.
+
+VLAN
+
+The correct answers are: VLAN, Logical network/subnet
+
+Câu hỏi 378
+Không trả lời
+Đạt điểm 1,00
+
+Kỹ thuật three-way handshake được sử dụng để làm gì?
+a.
+
+Thiết lập kênh truyền trong các ứng dụng sử dụng giao thức UDP ở tầng Transport
+
+b. Thiết lập kết nối với Firewall
+c.
+
+Thiết lập kênh truyền trong các ứng dụng sử dụng giao thức IP ở tầng Network
+
+d. Thiết lập kênh truyền trong các ứng dụng sử dụng giao thức TCP ở tầng Transport
+
+The correct answer is: Thiết lập kênh truyền trong các ứng dụng sử dụng giao thức TCP ở tầng Transport
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 379
+Không trả lời
+Đạt điểm 1,00
+
+Cho một máy tính có IP là 192.168.100.175 và Subnet Mask = 255.255.255.192. Xác định địa chỉ mạng của IP trên?
+a.
+
+192.168.100.0/24
+
+b. 192.168.100.0/26
+c.
+
+192.168.100.128/26
+
+d. 192.168.100.192/26
+
+The correct answer is: 192.168.100.128/26
+
+Câu hỏi 380
+Không trả lời
+Đạt điểm 1,00
+
+Xác định dãy địa chỉ IP cùng mạng với máy tính có IP là 172.16.31.240/23?
+a.
+
+172.16.31.0/23 – 172.16.31.255/23
+
+b. 172.16.30.0/23 – 172.16.31.255/23
+c.
+
+172.16.30.1/23 – 172.16.31.254/23
+
+d. 172.16.31.1/23 – 172.16.31.254/23
+
+The correct answer is: 172.16.30.1/23 – 172.16.31.254/23
+
+Câu hỏi 381
+Không trả lời
+Đạt điểm 1,00
+
+Những địa chỉ IP nào sau đây cùng mạng với máy tính có IP là 10.10.38.213/27?
+a.
+
+10.10.38.222/27
+
+b. 10.10.38.193/27
+c.
+
+10.10.38.223/27
+
+d. 10.10.38.240/27
+e.
+
+10.10.38.192/27
+
+f.
+
+10.10.38.199/27
+
+The correct answers are: 10.10.38.193/27, 10.10.38.199/27, 10.10.38.222/27
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 382
+Không trả lời
+Đạt điểm 1,00
+
+Địa chỉ IP nào sau đây không dùng để đặt được cho máy tính?
+a.
+
+10.0.0.0/8
+
+b. 192.168.200.10/24
+c.
+
+10.10.10.0/16
+
+d. 172.16.10.0/16
+
+The correct answer is: 10.0.0.0/8
+
+Câu hỏi 383
+Không trả lời
+Đạt điểm 1,00
+
+Các địa chỉ IP nào sau đây là IP public?
+a.
+
+11.1.1.1
+
+b. 192.168.254.250
+c.
+
+193.168.1.1
+
+d. 10.10.10.10
+e.
+
+172.31.3.4
+
+f.
+
+172.32.5.8
+
+The correct answers are: 11.1.1.1, 172.32.5.8, 193.168.1.1
+
+Câu hỏi 384
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào sau đây được dùng để đóng gói trên đường trunk?
+a.
+
+802.1X
+
+b. 802.11ax
+c.
+
+802.11D
+
+d. 802.1Q
+
+The correct answer is: 802.1Q
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 385
+Không trả lời
+Đạt điểm 1,00
+
+Giao thức nào dùng để chống lặp vòng (switching loop) trên Switch?
+a.
+
+NTP
+
+b. STP
+c.
+
+VLAN
+
+d. VTP
+
+The correct answer is: STP
+
+Câu hỏi 386
+Không trả lời
+Đạt điểm 1,00
+
+Trong giao thức STP, Switch bầu chọn Root Switch (Root Bridge) dựa vào các tham số nào?
+a.
+
+VLAN
+
+b. Speed
+c.
+
+Priority
+
+d. Path cost
+e.
+
+MAC
+
+The correct answers are: Priority, MAC
+
+Câu hỏi 387
+Không trả lời
+Đạt điểm 1,00
+
+Đặc điểm nào sau đây là của giao thức định tuyến loại Distance vector?
+a.
+
+Router định thời gửi toàn bộ bảng định tuyến của nó trao đổi với router láng giềng
+
+b. Router chạy thuật toán tìm đường đi ngắn nhất để tìm đến các mạng đích
+c.
+
+Router chỉ cập nhật định tuyến khi có sự thay đổi trong mạng xảy ra
+
+d. Router tran đổi RSA với các router láng giềng
+
+The correct answer is: Router định thời gửi toàn bộ bảng định tuyến của nó trao đổi với router láng giềng
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 388
+Không trả lời
+Đạt điểm 1,00
+
+Trong một giao thức định tuyến, khi có nhiều đường đi đến một mạng đích, router sẽ quyết định chọn đường đi như thế nào?
+a.
+
+Đường đi có giá trị AD lớn nhất
+
+b. Đường đi có giá trị metric nhỏ nhất
+c.
+
+Đường đi có giá trị metric lớn nhất
+
+d. Đường đi có giá trị AD nhỏ nhất
+
+The correct answer is: Đường đi có giá trị metric nhỏ nhất
+
+Câu hỏi 389
+Không trả lời
+Đạt điểm 1,00
+
+Loại đường đi nào mặc định có mặt trên router khi chưa cấu hình định tuyến?
+a.
+
+Directly connected
+
+b. Static route
+c.
+
+Dynamic route
+
+d. Default route
+
+The correct answer is: Directly connected
+
+Câu hỏi 390
+Không trả lời
+Đạt điểm 1,00
+
+Giá trị AD theo mặc định của giao thức nào sau đây là nhỏ nhất?
+a.
+
+EIGRP
+
+b. RIPv2
+c.
+
+OSPF
+
+d. Static route
+e.
+
+Connected
+
+The correct answer is: Connected
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 391
+Không trả lời
+Đạt điểm 1,00
+
+Thứ tự các gói tin khi DHCP client trao đổi với DHCP server là?
+a.
+
+DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK
+
+b. DHCPREQUEST, DHCPOFFER, DHCPDISCOVER, DHCPACK
+c.
+
+DHCPREQUEST, DHCPDISCOVER, DHCPOFFER, DHCPACK
+
+d. DHCPDISCOVER, DHCPACK, DHCPOFFER, DHCPREQUEST
+
+The correct answer is: DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK
+
+Câu hỏi 392
+Không trả lời
+Đạt điểm 1,00
+
+Những địa chỉ nào sau đây có thể đặt được cho máy tính thuộc mạng 192.168.20.19/28?
+a.
+
+192.168.20.16
+
+b. 192.168.20.29
+c.
+
+192.168.20.17
+
+d. 192.168.20.31
+e.
+
+192.168.20.0
+
+The correct answers are: 192.168.20.29, 192.168.20.16
+
+Câu hỏi 393
+Không trả lời
+Đạt điểm 1,00
+
+Cho sơ đồ mạng. Xác định các địa chỉ đích (MAC, IP) mà Host A sử dụng để gửi dữ liệu đến Host C?
+a.
+
+the MAC address of Switch 1
+
+b. the MAC address of the router's E0 interface
+c.
+
+the IP address of Host C
+
+d. the IP address of the router's E0 interface
+e.
+
+the MAC address of Host C
+
+f.
+
+the IP address of Switch 1
+
+The correct answers are: the IP address of Host C, the MAC address of the router's E0 interface
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 394
+Không trả lời
+Đạt điểm 1,00
+
+Cho sơ đồ mạng. Có bao nhiêu broadcast domain tồn tại trong sơ đồ trên?
+
+a.
+
+6
+
+b. 4
+c.
+
+2
+
+d. 3
+e.
+
+1
+
+f.
+
+5
+
+The correct answer is: 3
+
+Câu hỏi 395
+Không trả lời
+Đạt điểm 1,00
+
+Người quản trị muốn gán địa chỉ IP tĩnh cho một Server trên mạng. Với thông tin như sau: địa chỉ mạng được dùng là 172.16.20.24/29, router
+được gán địa chỉ đầu tiên của mạng, Sale Server được gán địa chỉ IP cuối cùng. Các thông số nào sau đây sẽ được cài đặt vào máy Sale
+Server?
+a.
+
+IP address: 172.16.20.30 Subnet Mask: 255.255.255.248 Default Gateway: 172.16.20.25
+
+b. IP address: 172.16.20.254 Subnet Mask: 255.255.255.0 4 Default Gateway: 172.16.20.1
+c.
+
+IP address: 172.16.20.14 Subnet Mask: 255.255.255.248 Default Gateway: 172.16.20.9
+
+d. IP address: 172.16.20.30 Subnet Mask: 255.255.255.240 Default Gateway: 172.16.20.17
+e.
+
+IP address: 172.16.20.30 Subnet Mask: 255.255.255.240 Default Gateway: 172.16.20.25
+
+The correct answer is: IP address: 172.16.20.30 Subnet Mask: 255.255.255.248 Default Gateway: 172.16.20.25
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+lOMoARcPSD|39944441
+
+Câu hỏi 396
+Không trả lời
+Đạt điểm 1,00
+
+Cho địa chỉ Ipv6 fd15:0db8:0000:0000:0700:0003:400F:572B Các câu nào sau đây là cách rút gọn đúng cho địa chỉ trên?
+a.
+
+fd15:db8::700:3:400F:572B
+
+b. fd15:db8:0::700:3:4F:527B
+c.
+
+fd15:0db8::7:3:4F:527B
+
+d. fd15::db8::700:3:400F:527B
+e.
+
+fd15:db8:0:0:700:3:400F:527B
+
+The correct answers are: fd15:db8:0:0:700:3:400F:527B, fd15:db8::700:3:400F:572B
+
+◄ Các thông báo
+Chuyển tới...
+
+
+Downloaded by nhan thai (thaibaonhan113@gmail.com)
+
+
